@@ -15,7 +15,7 @@ C:/Users/User/OneDrive/Desktop/SAP/Unity/warehouse-simulator
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63010
+57183
 Successfully changed project path to: C:/Users/User/OneDrive/Desktop/SAP/Unity/warehouse-simulator
 C:/Users/User/OneDrive/Desktop/SAP/Unity/warehouse-simulator
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/User/OneDrive/Desktop/SAP/Unity/warehouse-simulator
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8340] Host "[IP] 192.168.124.1 [Port] 0 [Flags] 2 [Guid] 3582780049 [EditorId] 3582780049 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-626PU1I1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [48116] Host "[IP] 192.168.124.1 [Port] 0 [Flags] 2 [Guid] 2946473578 [EditorId] 2946473578 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-626PU1I1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8340] Host "[IP] 192.168.124.1 [Port] 0 [Flags] 2 [Guid] 3582780049 [EditorId] 3582780049 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-626PU1I1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [48116] Host "[IP] 192.168.124.1 [Port] 0 [Flags] 2 [Guid] 2946473578 [EditorId] 2946473578 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-626PU1I1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 41.97 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 28.67 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.2.15f1 (30d813e1a2a9)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/Resources/UnitySubsystems
@@ -67,44 +67,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56104
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56788
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.068012 seconds.
-- Loaded All Assemblies, in  2.238 seconds
+Registered in 0.042320 seconds.
+- Loaded All Assemblies, in  1.459 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 3423 ms
+Android Extension - Scanning For ADB Devices 1648 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  5.766 seconds
+- Finished resetting the current domain, in  2.768 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1178ms)
-		BeginReloadAssembly (641ms)
+	ReloadAssembly (874ms)
+		BeginReloadAssembly (516ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (2ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
-			LoadAssemblies (635ms)
+			LoadAssemblies (509ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1024ms)
-				TypeCache.Initialize (1020ms)
-					TypeCache.ScanAssembly (1015ms)
+			SetupTypeCache (559ms)
+				TypeCache.Initialize (555ms)
+					TypeCache.ScanAssembly (551ms)
 				ResolveRequiredComponents (2ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (5443ms)
+			SetupLoadedEditorAssemblies (2538ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4498ms)
-				SetLoadedEditorAssemblies (16ms)
+				InitializePlatformSupportModulesInManaged (2014ms)
+				SetLoadedEditorAssemblies (9ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (4ms)
-				ProcessInitializeOnLoadAttributes (619ms)
-				ProcessInitializeOnLoadMethodAttributes (306ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (346ms)
+				ProcessInitializeOnLoadMethodAttributes (165ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -114,346 +114,50 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\User\OneDrive\Desktop\SAP\Unity\warehouse-simulator\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\User\OneDrive\Desktop\SAP\Unity\warehouse-simulator\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  7.180 seconds
-Refreshing native plugins compatible for Editor in 41.78 ms, found 3 plugins.
+- Loaded All Assemblies, in  2.755 seconds
+Refreshing native plugins compatible for Editor in 15.34 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.230 seconds
+- Finished resetting the current domain, in  2.317 seconds
 Domain Reload Profiling:
-	ReloadAssembly (984ms)
-		BeginReloadAssembly (530ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (27ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (78ms)
-		LoadAllAssembliesAndSetupDomain (6185ms)
-			LoadAssemblies (1697ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (4705ms)
-				TypeCache.Initialize (4420ms)
-					TypeCache.ScanAssembly (4384ms)
-				ResolveRequiredComponents (63ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (2200ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (109ms)
-				SetLoadedEditorAssemblies (13ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (228ms)
-				ProcessInitializeOnLoadAttributes (1764ms)
-				ProcessInitializeOnLoadMethodAttributes (65ms)
-				AfterProcessingInitializeOnLoad (21ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (23ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.20 seconds
-Refreshing native plugins compatible for Editor in 43.66 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3118 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (66.3 KB). Loaded Objects now: 3585.
-Memory consumption went from 113.0 MB to 112.9 MB.
-Total: 29.518400 ms (FindLiveObjects: 1.421500 ms CreateObjectMapping: 1.157300 ms MarkObjects: 26.253900 ms  DeleteObjects: 0.677000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 11487.427658 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0179f928fb5ca2370affa6dcd41a3079') in 0.003026 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 4.287786 seconds.
-  path: Assets/Fonts/Smithsonian-9YKvK.ttf
-  artifactKey: Guid(b9ab829c9400ae4408d2f5369778fe92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/Smithsonian-9YKvK.ttf using Guid(b9ab829c9400ae4408d2f5369778fe92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25d51a2881df3b1dc3efe0d4c3814c34') in 0.551021 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 2.200388 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4fe85251aa2e89732c359432baa2c3') in 0.000362 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 12.974410 seconds.
-  path: Assets/Test
-  artifactKey: Guid(f54fc37454cee3848b68a48c8530aa9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Test using Guid(f54fc37454cee3848b68a48c8530aa9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83c89c3884066b0d418cc481e64dbdde') in 0.001110 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\OneDrive\Desktop\SAP\Unity\warehouse-simulator\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\OneDrive\Desktop\SAP\Unity\warehouse-simulator\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  8.918 seconds
-Refreshing native plugins compatible for Editor in 49.56 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in 71.545 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2965ms)
-		BeginReloadAssembly (1891ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (80ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (393ms)
-		LoadAllAssembliesAndSetupDomain (5921ms)
-			LoadAssemblies (3141ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (3732ms)
-				TypeCache.Initialize (3662ms)
-					TypeCache.ScanAssembly (3618ms)
-				ResolveRequiredComponents (68ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (3284ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (212ms)
-				SetLoadedEditorAssemblies (13ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (313ms)
-				ProcessInitializeOnLoadAttributes (2573ms)
-				ProcessInitializeOnLoadMethodAttributes (120ms)
-				AfterProcessingInitializeOnLoad (52ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (47ms)
-Refreshing native plugins compatible for Editor in 30.50 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3097 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3633.
-Memory consumption went from 113.7 MB to 113.7 MB.
-Total: 12.810100 ms (FindLiveObjects: 0.618300 ms CreateObjectMapping: 0.388900 ms MarkObjects: 11.448100 ms  DeleteObjects: 0.350100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\OneDrive\Desktop\SAP\Unity\warehouse-simulator\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\OneDrive\Desktop\SAP\Unity\warehouse-simulator\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  7.397 seconds
-Refreshing native plugins compatible for Editor in 51.35 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  8.895 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2555ms)
-		BeginReloadAssembly (1758ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (57ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (318ms)
-		LoadAllAssembliesAndSetupDomain (4811ms)
-			LoadAssemblies (2893ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (3061ms)
-				TypeCache.Initialize (3012ms)
-					TypeCache.ScanAssembly (2967ms)
-				ResolveRequiredComponents (48ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (3939ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (181ms)
-				SetLoadedEditorAssemblies (27ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (809ms)
-				ProcessInitializeOnLoadAttributes (2771ms)
-				ProcessInitializeOnLoadMethodAttributes (109ms)
-				AfterProcessingInitializeOnLoad (42ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (46ms)
-Refreshing native plugins compatible for Editor in 17.11 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3098 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (37.9 KB). Loaded Objects now: 3636.
-Memory consumption went from 114.0 MB to 114.0 MB.
-Total: 10.506500 ms (FindLiveObjects: 0.565000 ms CreateObjectMapping: 0.245500 ms MarkObjects: 9.563100 ms  DeleteObjects: 0.130100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1102.261058 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(6c130d91fcbfc2644b17621a9196c536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(6c130d91fcbfc2644b17621a9196c536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '989fdff2dd7aa4decb0df692eda17c2d') in 0.012793 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 2.530300 seconds.
-  path: Assets/Images/18761.jpg
-  artifactKey: Guid(8ff138810e9f7fb43992d87305c85793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/18761.jpg using Guid(8ff138810e9f7fb43992d87305c85793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '150d9bd510a3636460294c22382e6441') in 0.664318 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\OneDrive\Desktop\SAP\Unity\warehouse-simulator\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\OneDrive\Desktop\SAP\Unity\warehouse-simulator\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.975 seconds
-Refreshing native plugins compatible for Editor in 6.29 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  4.465 seconds
-Domain Reload Profiling:
-	ReloadAssembly (639ms)
-		BeginReloadAssembly (410ms)
+	ReloadAssembly (892ms)
+		BeginReloadAssembly (554ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (19ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (114ms)
-		LoadAllAssembliesAndSetupDomain (1329ms)
-			LoadAssemblies (721ms)
+			CreateAndSetChildDomain (62ms)
+		LoadAllAssembliesAndSetupDomain (1822ms)
+			LoadAssemblies (1058ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (786ms)
-				TypeCache.Initialize (775ms)
-					TypeCache.ScanAssembly (764ms)
-				ResolveRequiredComponents (7ms)
+			SetupTypeCache (1090ms)
+				TypeCache.Initialize (997ms)
+					TypeCache.ScanAssembly (985ms)
+				ResolveRequiredComponents (14ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (2940ms)
+			SetupLoadedEditorAssemblies (1830ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (64ms)
-				SetLoadedEditorAssemblies (11ms)
+				InitializePlatformSupportModulesInManaged (101ms)
+				SetLoadedEditorAssemblies (12ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (203ms)
-				ProcessInitializeOnLoadAttributes (2464ms)
-				ProcessInitializeOnLoadMethodAttributes (145ms)
-				AfterProcessingInitializeOnLoad (53ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (40ms)
-Refreshing native plugins compatible for Editor in 111.65 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3097 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3641.
-Memory consumption went from 113.7 MB to 113.7 MB.
-Total: 322.578500 ms (FindLiveObjects: 85.876100 ms CreateObjectMapping: 2.116500 ms MarkObjects: 221.182300 ms  DeleteObjects: 13.394500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 499.113030 seconds.
-  path: Assets/Scripts/GameStart.cs
-  artifactKey: Guid(9f77bad7e2cdb05428e84a423383007d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GameStart.cs using Guid(9f77bad7e2cdb05428e84a423383007d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '358666043a67eeca7c10b1c5e07808ed') in 0.027478 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\OneDrive\Desktop\SAP\Unity\warehouse-simulator\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\OneDrive\Desktop\SAP\Unity\warehouse-simulator\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  2.061 seconds
-Refreshing native plugins compatible for Editor in 10.66 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.209 seconds
-Domain Reload Profiling:
-	ReloadAssembly (616ms)
-		BeginReloadAssembly (396ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (15ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (93ms)
-		LoadAllAssembliesAndSetupDomain (1435ms)
-			LoadAssemblies (828ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (813ms)
-				TypeCache.Initialize (790ms)
-					TypeCache.ScanAssembly (773ms)
-				ResolveRequiredComponents (16ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (1849ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (73ms)
-				SetLoadedEditorAssemblies (11ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (240ms)
-				ProcessInitializeOnLoadAttributes (1444ms)
-				ProcessInitializeOnLoadMethodAttributes (57ms)
-				AfterProcessingInitializeOnLoad (23ms)
+				BeforeProcessingInitializeOnLoad (200ms)
+				ProcessInitializeOnLoadAttributes (1404ms)
+				ProcessInitializeOnLoadMethodAttributes (89ms)
+				AfterProcessingInitializeOnLoad (24ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (18ms)
-Refreshing native plugins compatible for Editor in 14.02 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.25 seconds
+Refreshing native plugins compatible for Editor in 61.21 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3098 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3645.
-Memory consumption went from 113.8 MB to 113.7 MB.
-Total: 11.864700 ms (FindLiveObjects: 0.466300 ms CreateObjectMapping: 0.214300 ms MarkObjects: 11.050100 ms  DeleteObjects: 0.131800 ms)
+Unloading 3119 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (66.5 KB). Loaded Objects now: 3586.
+Memory consumption went from 112.9 MB to 112.8 MB.
+Total: 31.852700 ms (FindLiveObjects: 1.351200 ms CreateObjectMapping: 0.950600 ms MarkObjects: 28.887900 ms  DeleteObjects: 0.655200 ms)
 
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -467,9 +171,2024 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 339.046771 seconds.
-  path: Assets/Scripts/Test.cs
-  artifactKey: Guid(33b91409ef16f32459693e9431c680ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Test.cs using Guid(33b91409ef16f32459693e9431c680ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f6c9da1ece33de432710020082a639d') in 0.006497 seconds
+  Time since last request: 532509.961855 seconds.
+  path: Assets/Scenes/Dexter.unity
+  artifactKey: Guid(a41146b71eaf43043a2399a568c03e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Dexter.unity using Guid(a41146b71eaf43043a2399a568c03e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd8492203d9047cecd60c3132b432d78') in 0.003760 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1987.547626 seconds.
+  path: Assets/Fonts/info.txt
+  artifactKey: Guid(7c6d5f9d734776040bcfa7685647bddf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fonts/info.txt using Guid(7c6d5f9d734776040bcfa7685647bddf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '09cecf9e2443b3b137f075b394263df9') in 0.746697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000651 seconds.
+  path: Assets/Images/License free.txt
+  artifactKey: Guid(3ef4d9a4b823bdf4eb2cd1076e45bb6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Images/License free.txt using Guid(3ef4d9a4b823bdf4eb2cd1076e45bb6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '80e842894603dc62686c6f4bb5809cc6') in 0.094970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001088 seconds.
+  path: Assets/Images/License premium.txt
+  artifactKey: Guid(7fd4b61a380792f47a3f516e97c0d2b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Images/License premium.txt using Guid(7fd4b61a380792f47a3f516e97c0d2b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'acf7da6269abda59bdb17b7e22939a8b') in 0.082414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+  artifactKey: Guid(d82c1b31c7e74239bff1220585707d2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt using Guid(d82c1b31c7e74239bff1220585707d2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ee3786bdd3f361689f88619cb52f4c65') in 0.079870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
+  artifactKey: Guid(128e987d567d4e2c824d754223b3f3b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader using Guid(128e987d567d4e2c824d754223b3f3b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a1d2237583fafb0ade237cc70b3f0be6') in 0.257223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2d940ae20482a84d689e73172df9c0b6') in 0.382012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000924 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc
+  artifactKey: Guid(c334973cef89a9840b0b0c507e0377ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc using Guid(c334973cef89a9840b0b0c507e0377ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '75aa59abef3349ad63cdf055c71af766') in 0.115671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000682 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.json
+  artifactKey: Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.json using Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f5bed6d9194fe3790a15a5105059c679') in 0.096077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+  artifactKey: Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader using Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6728ba7b3c23a5fd31e5733d6a4e723a') in 0.177639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro.cginc
+  artifactKey: Guid(407bc68d299748449bbf7f48ee690f8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMPro.cginc using Guid(407bc68d299748449bbf7f48ee690f8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '960ad450251af0ea756cb04e60ca9019') in 0.091457 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
+  artifactKey: Guid(c8d12adcee749c344b8117cf7c7eb912) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader using Guid(c8d12adcee749c344b8117cf7c7eb912) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c716873e2bd363da45435b34b07ec9f7') in 0.200637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+  artifactKey: Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader using Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3f0c11d5bd733d516b6ac6764feacc49') in 0.088819 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 53.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 3586.
+Memory consumption went from 60.6 MB to 60.6 MB.
+Total: 25.126000 ms (FindLiveObjects: 1.425100 ms CreateObjectMapping: 2.428000 ms MarkObjects: 21.198900 ms  DeleteObjects: 0.069400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 7.756146 seconds.
+  path: Assets/Images/18761.jpg
+  artifactKey: Guid(8ff138810e9f7fb43992d87305c85793) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Images/18761.jpg using Guid(8ff138810e9f7fb43992d87305c85793) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7e2cad3ffc08d59ad3119dcbc4fdd228') in 0.449400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c120674a2e7b14c5c2f1e660903f469f') in 0.313941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
+  artifactKey: Guid(48bb5f55d8670e349b6e614913f9d910) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader using Guid(48bb5f55d8670e349b6e614913f9d910) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0bc4c97793a20b9c94499c05387a49b6') in 0.167412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Scripts/GameQuit.cs
+  artifactKey: Guid(48c1762dc39a735468805bbc247fec28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/GameQuit.cs using Guid(48c1762dc39a735468805bbc247fec28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c0dcbca5052751a9e2b4c9e968d9556e') in 0.087786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Scripts/GameStart.cs
+  artifactKey: Guid(9f77bad7e2cdb05428e84a423383007d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/GameStart.cs using Guid(9f77bad7e2cdb05428e84a423383007d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '36a36556f5f3832afd66d7bd2260c9d8') in 0.095238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+  artifactKey: Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset using Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '636c51e6f6f4e270be790ff736979572') in 0.209091 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+  artifactKey: Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader using Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e8cfe573eda6f5f6ab7ba2e8b6d1aff5') in 0.172839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+  artifactKey: Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt using Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '40861e8a33cfc0c26ef776e4f10e5f27') in 0.097910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002783 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Sprite.shader
+  artifactKey: Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Sprite.shader using Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6a2507c8b2676eb25b03493459eec353') in 0.074000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+  artifactKey: Guid(381dcb09d5029d14897e55f98031fca5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt using Guid(381dcb09d5029d14897e55f98031fca5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8d78fdf5ba044eff507543e806321f43') in 0.073037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+  artifactKey: Guid(bc1ede39bf3643ee8e493720e4259791) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader using Guid(bc1ede39bf3643ee8e493720e4259791) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c350ba0c4f1b27ed67b5199b7d949e79') in 0.114755 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+  artifactKey: Guid(d930090c0cd643c7b55f19a38538c162) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc using Guid(d930090c0cd643c7b55f19a38538c162) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0c7304177f721d1af8f522edea69ae7c') in 0.077407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ca83eb6df91fb2a805f6530d6bca43b9') in 0.183730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 777.169927 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Wall_03_10m_Prefab_01.prefab
+  artifactKey: Guid(c14538a346131214d9ae3a596d3ce3e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Wall_03_10m_Prefab_01.prefab using Guid(c14538a346131214d9ae3a596d3ce3e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aedda8310d987d6efc48bc644a471f08') in 0.245623 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs
+  artifactKey: Guid(75138d62e583fa640a68132ac1c69cd9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs using Guid(75138d62e583fa640a68132ac1c69cd9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd785b4b2d72b9a30a70ab7149cbcfe11') in 0.066606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Decals/Decal_Stripe_03_20m_Prefab_01.prefab
+  artifactKey: Guid(167d29010360de04997336185ca9ae7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Decals/Decal_Stripe_03_20m_Prefab_01.prefab using Guid(167d29010360de04997336185ca9ae7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '69ef0f30f226342c91e811e3d06fa48c') in 0.110123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Cabletray_01_Corner_01_1m.fbx
+  artifactKey: Guid(9d396db4366e1174cb05abfa1d7c7e01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Cabletray_01_Corner_01_1m.fbx using Guid(9d396db4366e1174cb05abfa1d7c7e01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7e18f22116d271b5fb94bbba5c8291aa') in 0.488731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.003838 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Holder_01.fbx
+  artifactKey: Guid(07346d0349c6c1c45af3a631d8ba592e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Holder_01.fbx using Guid(07346d0349c6c1c45af3a631d8ba592e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bc71fcb0c71c2ffbd2accd7cb803d1f6') in 0.149143 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Decals
+  artifactKey: Guid(c7810685c5cb04649b64314c60218732) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Decals using Guid(c7810685c5cb04649b64314c60218732) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4f7fcfb0f4920d8a1cda47809519d70c') in 0.073816 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Wall_03_10m.fbx
+  artifactKey: Guid(e89a06d58dc012f4bb6dcd8a24fc2b29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Wall_03_10m.fbx using Guid(e89a06d58dc012f4bb6dcd8a24fc2b29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'db80ce07c5e06ab63116158482167193') in 0.164923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Scenes/Factory_Interior/Lightmap-0_comp_light.exr
+  artifactKey: Guid(1ad51f9d41d489c419c6177458ad075d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Scenes/Factory_Interior/Lightmap-0_comp_light.exr using Guid(1ad51f9d41d489c419c6177458ad075d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '00bcc44136b788f2092d1b154efc5723') in 0.138868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Textures/Metal_Corrugated_01/Metal_Corrugated_01_MS.png
+  artifactKey: Guid(35d55d9a5bd22664eb813e9318394948) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Textures/Metal_Corrugated_01/Metal_Corrugated_01_MS.png using Guid(35d55d9a5bd22664eb813e9318394948) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e9a2983899d69283a0c1d6dce7e9bfac') in 0.209301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Decals/Decal_Access_Prefab_01.prefab
+  artifactKey: Guid(f9814374d3103c44ea8f5cb83d007b95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Decals/Decal_Access_Prefab_01.prefab using Guid(f9814374d3103c44ea8f5cb83d007b95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f557e5b043e11de7ab09bb3d12bf0815') in 0.106237 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Decal_Stripe_03_10m.fbx
+  artifactKey: Guid(d46357b3587debe42914d3232df81680) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Decal_Stripe_03_10m.fbx using Guid(d46357b3587debe42914d3232df81680) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '78d1c904579eb945a22983f774b3ce95') in 0.133107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Textures/Beam_02/Beam_02_N.png
+  artifactKey: Guid(9ab5547049153804e946ef70489b2d70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Textures/Beam_02/Beam_02_N.png using Guid(9ab5547049153804e946ef70489b2d70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '607a744503cdf8f7ac959fc3c743fd14') in 0.159983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Textures/Air_Duct_01
+  artifactKey: Guid(f2c79848f6d83ef49aeb029fa4f494c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Textures/Air_Duct_01 using Guid(f2c79848f6d83ef49aeb029fa4f494c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bda7cf5595001402df00450c4073a6a5') in 0.087141 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Decals/Decal_3_Prefab_01.prefab
+  artifactKey: Guid(ad029f71820b7184d82411632b2497ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Decals/Decal_3_Prefab_01.prefab using Guid(ad029f71820b7184d82411632b2497ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e80e3e39b7ffbb52e41820ef8276c5c9') in 0.111481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Textures/Wall_Divider_01/Wall_Divider_01_C.png
+  artifactKey: Guid(f6d1a06b57f63c14881f77b0e3cdb3a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Textures/Wall_Divider_01/Wall_Divider_01_C.png using Guid(f6d1a06b57f63c14881f77b0e3cdb3a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '639c396edc4dd548dfffb9c92ba6a4e5') in 0.161837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000681 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Holder_02_Prefab_01.prefab
+  artifactKey: Guid(e7c05507694aa98408f8d243f0ec180b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Holder_02_Prefab_01.prefab using Guid(e7c05507694aa98408f8d243f0ec180b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2054c728d4ce6797b9fcf20baebb803b') in 0.155706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.002177 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Textures/Lamp_Beam_01/Lamp_Beam_01_AO.png
+  artifactKey: Guid(3c246cae4a1726542a7ca0c735295a4b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Textures/Lamp_Beam_01/Lamp_Beam_01_AO.png using Guid(3c246cae4a1726542a7ca0c735295a4b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '714d5e5d572f4865fa9ddbdc4ff89dea') in 0.196750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Fire_Extinguisher_01_Prefab_01.prefab
+  artifactKey: Guid(cf81d94c328b77a4494785a27f7166bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Fire_Extinguisher_01_Prefab_01.prefab using Guid(cf81d94c328b77a4494785a27f7166bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7c06fb39dfdde01aee05ee11e865adb8') in 0.187933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Textures/Door_01
+  artifactKey: Guid(cab271bdc4d33be48879496168964ab5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Textures/Door_01 using Guid(cab271bdc4d33be48879496168964ab5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5f0d7b92acf4acb19d875c081bf5d67a') in 0.072689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Decal_Fire_03.fbx
+  artifactKey: Guid(baf2f94e1195c2d419d5584a44d28a78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Decal_Fire_03.fbx using Guid(baf2f94e1195c2d419d5584a44d28a78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5cafa13c2f165ebe8b91a73cb34d719c') in 0.148424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Wall_Frame_01.fbx
+  artifactKey: Guid(1acb4b2b135d8d94aa8ba62e881b4acd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Wall_Frame_01.fbx using Guid(1acb4b2b135d8d94aa8ba62e881b4acd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '782075c63aa1d46c22e4f74d5231a62b') in 0.224514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.002094 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Decal_Stripe_02_Corner.fbx
+  artifactKey: Guid(c2c2c3084f9d5f24c9c55b35af2f7b27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Decal_Stripe_02_Corner.fbx using Guid(c2c2c3084f9d5f24c9c55b35af2f7b27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '22afd67e0c15fac923737087391379b3') in 0.154376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Colliders/Wall_01_Door_01_Collider.fbx
+  artifactKey: Guid(20cc3e9c7225dcb4aa2573ba54320ce8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Colliders/Wall_01_Door_01_Collider.fbx using Guid(20cc3e9c7225dcb4aa2573ba54320ce8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4d11814012b073b229f16bdb41e124c5') in 0.199900 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Textures/Wall_03/Wall_03_MS.png
+  artifactKey: Guid(12600858d6ddaeb47904648cb3499463) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Textures/Wall_03/Wall_03_MS.png using Guid(12600858d6ddaeb47904648cb3499463) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6d0d52a90c0d02c6e1b8141c2e3a5457') in 0.160535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Materials/Decals_01.mat
+  artifactKey: Guid(5245169da3ca2cf43b220ef33b061b2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Materials/Decals_01.mat using Guid(5245169da3ca2cf43b220ef33b061b2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd290eb313caa7c64080cfa75cb838f79') in 0.596445 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Decals/Decal_4_Prefab_01.prefab
+  artifactKey: Guid(af5398c451de74544b8b16ae846f351a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Decals/Decal_4_Prefab_01.prefab using Guid(af5398c451de74544b8b16ae846f351a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c1f1ddd894d8af0f7efcea783ba81fe0') in 0.110324 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Textures/Beam_01/Beam_01_AO.png
+  artifactKey: Guid(3297c09efd6f9854dae7a4ab13db0f64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Textures/Beam_01/Beam_01_AO.png using Guid(3297c09efd6f9854dae7a4ab13db0f64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9a70ae7b30bf56718835cd3882d11d13') in 0.163692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Textures/Fire_Alarm_01
+  artifactKey: Guid(0c2284c9f49d3c04cb19ea6ec6a9c6d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Textures/Fire_Alarm_01 using Guid(0c2284c9f49d3c04cb19ea6ec6a9c6d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '516a88e1c3434fe77d0af7d89781ed70') in 0.082782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Ceiling_01_10m.fbx
+  artifactKey: Guid(d70453a9e2365d048a701ee93b8d85ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Ceiling_01_10m.fbx using Guid(d70453a9e2365d048a701ee93b8d85ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '43033e5d0a1fe5cf53b3101aa2911396') in 0.154464 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Textures/Wall_Frame_01/Wall_Frame_01_C.png
+  artifactKey: Guid(d01cd55bf097a7f478d62abbf30c9898) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Textures/Wall_Frame_01/Wall_Frame_01_C.png using Guid(d01cd55bf097a7f478d62abbf30c9898) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd43f7e01d21f64b7080f25960be9d03e') in 0.173415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Textures/Wall_Divider_01
+  artifactKey: Guid(110f9048e2104714ba27674f3c0625ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Textures/Wall_Divider_01 using Guid(110f9048e2104714ba27674f3c0625ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '01eb03414cdede54b3ab8eecc160fb99') in 0.069426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Textures/Lamp_Beam_01/Lamp_Beam_01_MS.png
+  artifactKey: Guid(4b671dc57dbd5e045bfd87eafd3eecc1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Textures/Lamp_Beam_01/Lamp_Beam_01_MS.png using Guid(4b671dc57dbd5e045bfd87eafd3eecc1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c47a52955f9a52208aca79c0314cf4b9') in 0.159446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Holder_01_Prefab_01.prefab
+  artifactKey: Guid(db2d086fe2ffee04dbb1f233c83f567a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Holder_01_Prefab_01.prefab using Guid(db2d086fe2ffee04dbb1f233c83f567a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd7a65a44bd4fed58ce4d328c51b6897d') in 0.142225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Materials/Metal_Corrugated_01.mat
+  artifactKey: Guid(e22a27fc6537f144cb1ed77c72b4e62c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Materials/Metal_Corrugated_01.mat using Guid(e22a27fc6537f144cb1ed77c72b4e62c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9b17128f5239f8c46ec1c4d6ca6d1f0d') in 0.321250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Materials/Wall_Frame_01.mat
+  artifactKey: Guid(7ff3b8e0009514148be48fd1363da23c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Materials/Wall_Frame_01.mat using Guid(7ff3b8e0009514148be48fd1363da23c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ca3d399f258c58282c81d16d622dd242') in 0.126784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Decal_Stripe_01_20m.fbx
+  artifactKey: Guid(7a18c5994d926c9498dd77105444dba5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Decal_Stripe_01_20m.fbx using Guid(7a18c5994d926c9498dd77105444dba5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fb18d399d594c5d22e8b9cbc6768d6a2') in 0.190319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Textures/Wall_Frame_01/Wall_Frame_01_AO.png
+  artifactKey: Guid(937b692e476abb144911be7737917033) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Textures/Wall_Frame_01/Wall_Frame_01_AO.png using Guid(937b692e476abb144911be7737917033) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '718b18515da0ed5e3c19bdb62528178c') in 0.163010 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Textures/Door_Large_01/Door_Large_01_C.png
+  artifactKey: Guid(9b9eec28e7db3804a88813437eabac06) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Textures/Door_Large_01/Door_Large_01_C.png using Guid(9b9eec28e7db3804a88813437eabac06) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd3a9642e1b6fe4034b22b633c4ce145f') in 0.157849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Textures/Wall_Frame_01/Wall_Frame_01_N.png
+  artifactKey: Guid(07143fea0bc4c6b43a9e90f1c52ea3a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Textures/Wall_Frame_01/Wall_Frame_01_N.png using Guid(07143fea0bc4c6b43a9e90f1c52ea3a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '31a7edd716f3e635683d53a69d264661') in 0.180891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Cabletray_01_Corner_01_2m.fbx
+  artifactKey: Guid(99eacb8606f254e4f9316aa85c86b336) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Cabletray_01_Corner_01_2m.fbx using Guid(99eacb8606f254e4f9316aa85c86b336) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '50145016e308da75860dcda15c204b56') in 0.199929 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Decals/Decal_Smoking_Prefab_01.prefab
+  artifactKey: Guid(496998a8c445f0a40929e51175dee836) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Decals/Decal_Smoking_Prefab_01.prefab using Guid(496998a8c445f0a40929e51175dee836) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '00cb0ee9c067bd055ad4aaf8208f36a3') in 0.117934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Materials/Wall_02.mat
+  artifactKey: Guid(c9990f1992033f640a51a654ed76ced5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Materials/Wall_02.mat using Guid(c9990f1992033f640a51a654ed76ced5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0eee6a40fa26c07a512499cc111a9e99') in 0.218544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Textures/Wall_03
+  artifactKey: Guid(ec9d745a7a8531547b8518daf9568bf2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Textures/Wall_03 using Guid(ec9d745a7a8531547b8518daf9568bf2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '707d18c4cdbd1e63fa8687c53b746977') in 0.097596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Decals/Decal_Fire_02_Prefab_01.prefab
+  artifactKey: Guid(23e15a2a77e2b9a4daf2ba2719c0727f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Decals/Decal_Fire_02_Prefab_01.prefab using Guid(23e15a2a77e2b9a4daf2ba2719c0727f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '837654deaa78e198d7bd023b01309253') in 0.131239 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Textures/Medkit_01
+  artifactKey: Guid(28cd256d5f78a7b49962fc26696ce444) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Textures/Medkit_01 using Guid(28cd256d5f78a7b49962fc26696ce444) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c22ed5310f2e419598f921067815c62a') in 0.079319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Textures/Door_Large_01/Door_Large_01_MS.png
+  artifactKey: Guid(0227f17d06eb2f646b66b3911ea86ad2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Textures/Door_Large_01/Door_Large_01_MS.png using Guid(0227f17d06eb2f646b66b3911ea86ad2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bc93a7dbb83dc2df3e59d254adf25d91') in 0.219381 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Fire_Closet_01.fbx
+  artifactKey: Guid(f424a4c1d499fa0439af0e943dc77228) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Fire_Closet_01.fbx using Guid(f424a4c1d499fa0439af0e943dc77228) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e0ba06f6b0b2a743493fa9a352bf7805') in 0.368059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Textures/Door_01/Door_01_AO.png
+  artifactKey: Guid(87764fa32bd531f44a38d955f201931f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Textures/Door_01/Door_01_AO.png using Guid(87764fa32bd531f44a38d955f201931f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4928bee32a7a5a08dbefd200b63f41a7') in 0.233942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Beam_02_5m.fbx
+  artifactKey: Guid(859c7902bec0bd8439eb1d6e37118c98) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Beam_02_5m.fbx using Guid(859c7902bec0bd8439eb1d6e37118c98) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '14f41a20db2767f12cffbda0658dc15a') in 0.210006 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Fire_Extinguisher_01.fbx
+  artifactKey: Guid(5acf220da47e69c44872905f7c610b3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Fire_Extinguisher_01.fbx using Guid(5acf220da47e69c44872905f7c610b3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'edff4a3996896bed4ae1e42e5abd6748') in 0.608920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Textures/Lamp_Beam_01/Lamp_Beam_01_N.png
+  artifactKey: Guid(4488c0ceb0d1aae4385ed1b63065f88f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Textures/Lamp_Beam_01/Lamp_Beam_01_N.png using Guid(4488c0ceb0d1aae4385ed1b63065f88f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9e545b54196585f3a28e562188d40fab') in 0.213437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Decals/Decal_Stripe_01_5m_Prefab_01.prefab
+  artifactKey: Guid(375e63af80f359440b260274d154124f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Decals/Decal_Stripe_01_5m_Prefab_01.prefab using Guid(375e63af80f359440b260274d154124f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '946601ab75e27ba0f5ab0f0eae027e6a') in 0.143149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Wall_01_5m_Prefab_01.prefab
+  artifactKey: Guid(16a510f2404be4742add808ba8c9b0d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Wall_01_5m_Prefab_01.prefab using Guid(16a510f2404be4742add808ba8c9b0d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1bec5d3e5a49d2ec932e24e492c7512e') in 0.123333 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Materials/Skybox.mat
+  artifactKey: Guid(a9ebdbab8901fed42ba7c2b693655eb3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Materials/Skybox.mat using Guid(a9ebdbab8901fed42ba7c2b693655eb3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c34d7e92609a451203991d380e0b8e1b') in 0.126112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Pipe_01a_20m.fbx
+  artifactKey: Guid(01c3357b1a0fd084ea93690ab66817fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Pipe_01a_20m.fbx using Guid(01c3357b1a0fd084ea93690ab66817fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c631c973d0490bd89393297cfec068e0') in 0.232376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Colliders/Air_Duct_01_Corner_02_Collider.fbx
+  artifactKey: Guid(87fc0c5faa2e656479cbec5c138d6d86) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Colliders/Air_Duct_01_Corner_02_Collider.fbx using Guid(87fc0c5faa2e656479cbec5c138d6d86) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '98e4b2c306cd64c7e7a30a9541596efd') in 0.130018 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Air_Duct_01_Corner_01_Prefab_01.prefab
+  artifactKey: Guid(48d1bb5c795ae1848925fdef96a30bca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Air_Duct_01_Corner_01_Prefab_01.prefab using Guid(48d1bb5c795ae1848925fdef96a30bca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b309209ed4215bf032206b4f105da662') in 0.182820 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Textures/Metal_Corrugated_01/Metal_Corrugated_01_N.png
+  artifactKey: Guid(5147eb53e8b9b194bb323f96595f2e16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Textures/Metal_Corrugated_01/Metal_Corrugated_01_N.png using Guid(5147eb53e8b9b194bb323f96595f2e16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4170165e390060208f318c599ef3456c') in 0.194383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Render_Pipeline_Support
+  artifactKey: Guid(2fff01806d3c4b546bf453a5e611ba31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Render_Pipeline_Support using Guid(2fff01806d3c4b546bf453a5e611ba31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bed01387e8be5680c96c24e3c570dd5e') in 0.090814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Decals/Decal_Stripe_02_Corner_Prefab_01.prefab
+  artifactKey: Guid(ec558ae7b235c734d8b40fd18dcfbdc7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Decals/Decal_Stripe_02_Corner_Prefab_01.prefab using Guid(ec558ae7b235c734d8b40fd18dcfbdc7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '05da37956a4c4a3a3dd3779839c2c4fd') in 0.106599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Decal_Stripe_03_20m.fbx
+  artifactKey: Guid(9002df5463ac3a349840cd878a5bc167) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Decal_Stripe_03_20m.fbx using Guid(9002df5463ac3a349840cd878a5bc167) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9fcccc415b2935023f1ebc330a25f273') in 0.218570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Textures/Wall_02
+  artifactKey: Guid(6f828d585599a2d4ea4ba9501ccb6d3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Textures/Wall_02 using Guid(6f828d585599a2d4ea4ba9501ccb6d3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '88f4f47ecf5ed9435eb3deaadc60ea84') in 0.060766 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Lamp_Beam_01_5m_Prefab_01.prefab
+  artifactKey: Guid(1d44ec050e3ee874581d91a6dc6d4ecd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Lamp_Beam_01_5m_Prefab_01.prefab using Guid(1d44ec050e3ee874581d91a6dc6d4ecd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '74fa92435afd5703fe7e9de1fc21164a') in 0.105071 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Textures/Door_Large_01/Door_Large_02_C.png
+  artifactKey: Guid(f9bf2b262ecd99b48906c61823d41330) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Textures/Door_Large_01/Door_Large_02_C.png using Guid(f9bf2b262ecd99b48906c61823d41330) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cbd4ab3dd3b8a3c74e328a56fd29004b') in 0.190232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Door_01.fbx
+  artifactKey: Guid(b0028c86224fd784c9cd35f489b96094) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Door_01.fbx using Guid(b0028c86224fd784c9cd35f489b96094) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e0a69cb7a5877bfe2f0abfd6f5cf046c') in 0.187466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.002747 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Wall_Frame_01_Prefab_01.prefab
+  artifactKey: Guid(495ad3e16c44152428474279a474fe55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Wall_Frame_01_Prefab_01.prefab using Guid(495ad3e16c44152428474279a474fe55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cb3ff54644de593bb8fcdf96bf2f4170') in 0.141916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Pipe_03_5m.fbx
+  artifactKey: Guid(64ef069bdf22f094a9715d6a9d2bf047) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Pipe_03_5m.fbx using Guid(64ef069bdf22f094a9715d6a9d2bf047) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3b34d5350900abb3e4b3c94d2b202cfa') in 0.163974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Pipe_01a_10m_Prefab_01.prefab
+  artifactKey: Guid(c4a6b10a2b20deb49aa495d88d2aa8d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Pipe_01a_10m_Prefab_01.prefab using Guid(c4a6b10a2b20deb49aa495d88d2aa8d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '279c0181a940397ecb2ef8c6980904e1') in 0.084054 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Textures/Pole_01/Pole_01_N.png
+  artifactKey: Guid(93de4019568077949b6d97383285fdd4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Textures/Pole_01/Pole_01_N.png using Guid(93de4019568077949b6d97383285fdd4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ad5369b881a8ae9f08c539c3b61577bc') in 0.260202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Textures/Metal_Corrugated_01
+  artifactKey: Guid(be39374de5a158e458c73c46a62d1c4b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Textures/Metal_Corrugated_01 using Guid(be39374de5a158e458c73c46a62d1c4b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '21a8df20304bd027d49ee81dafb79c35') in 0.080325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000634 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Textures/Fire_Alarm_01/Fire_Alarm_01_MS.png
+  artifactKey: Guid(eacabc6d6092d2445a407d7a0cc2b9df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Textures/Fire_Alarm_01/Fire_Alarm_01_MS.png using Guid(eacabc6d6092d2445a407d7a0cc2b9df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '74554348b5b319d84ea8b80081c49a94') in 0.133648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Textures/Pipe_Duct_01
+  artifactKey: Guid(59c6b9bdd29f27c4d8c0125a2f4d7bfb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Textures/Pipe_Duct_01 using Guid(59c6b9bdd29f27c4d8c0125a2f4d7bfb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cffb56790b679f9ca2b804685cf02b35') in 0.088685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Scenes/Factory_Interior/LightingData.asset
+  artifactKey: Guid(1f2dbb9190ac029489e9f7e2ab55e2da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Scenes/Factory_Interior/LightingData.asset using Guid(1f2dbb9190ac029489e9f7e2ab55e2da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aba007994469fbb08e43848bcd5d8845') in 0.118643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Colliders/Cabletray_01_Corner_02_Collider.fbx
+  artifactKey: Guid(cb327a156bb948245b4c4450118152cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Colliders/Cabletray_01_Corner_02_Collider.fbx using Guid(cb327a156bb948245b4c4450118152cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aed4cd6c4c3e36bfa525273ae8a796ee') in 0.211979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000918 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Textures/Pipes_01/Pipes_01_C.png
+  artifactKey: Guid(25457bea87ccbac46b0cb338851f4043) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Textures/Pipes_01/Pipes_01_C.png using Guid(25457bea87ccbac46b0cb338851f4043) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c28226439f89f75f6c62f2d91a51df9b') in 0.176173 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Lamp_Beam_01_5m.fbx
+  artifactKey: Guid(7e57c4ac06ae2c04ea009ed99c07259a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Lamp_Beam_01_5m.fbx using Guid(7e57c4ac06ae2c04ea009ed99c07259a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8f8adedac5bb4d769ffaa5ab3c9f0517') in 0.186785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Decals/Decal_Warning_03_Prefab_01.prefab
+  artifactKey: Guid(05a5605739335404dbd243c92a522109) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Decals/Decal_Warning_03_Prefab_01.prefab using Guid(05a5605739335404dbd243c92a522109) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2371271ddd68b7cbe4f18ebfd5b071d1') in 0.122504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Textures/Pipe_Duct_01/Pipe_Duct_01_MS.png
+  artifactKey: Guid(dbaf3c17227785f4ea1d71376a37f10a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Textures/Pipe_Duct_01/Pipe_Duct_01_MS.png using Guid(dbaf3c17227785f4ea1d71376a37f10a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '263f56b2463efee88705d4f46aa241ba') in 0.296855 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Fire_Alarm_01_Prefab_01.prefab
+  artifactKey: Guid(7e3611a56e78fc247994c090f8795cb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Fire_Alarm_01_Prefab_01.prefab using Guid(7e3611a56e78fc247994c090f8795cb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f22ed2493640a47a972adaefa74588b7') in 0.103641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Decal_Aid.fbx
+  artifactKey: Guid(28f85054da984ac47b0f31450e83aa0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Decal_Aid.fbx using Guid(28f85054da984ac47b0f31450e83aa0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a687b13bcfb80f9e26942a0de6a8d967') in 0.156142 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Decal_1.fbx
+  artifactKey: Guid(8436f3db6c9d16c409843fe6042bb24a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Decal_1.fbx using Guid(8436f3db6c9d16c409843fe6042bb24a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e90d109fadb375e8e3ea695bfecc70d5') in 0.210212 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Decals/Decal_Stripe_03_Corner_Prefab_01.prefab
+  artifactKey: Guid(d6d6e636a456c4d4bb9739b319c4a8fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Decals/Decal_Stripe_03_Corner_Prefab_01.prefab using Guid(d6d6e636a456c4d4bb9739b319c4a8fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '281062f96f58d1a21504cd1824f5a167') in 0.150879 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Cabletray_01_Corner_03.fbx
+  artifactKey: Guid(0a733531535001b4dba0a2e348840a02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Cabletray_01_Corner_03.fbx using Guid(0a733531535001b4dba0a2e348840a02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1985438b16e2c2efe3e2f4707adf0b84') in 0.198227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Textures/Medkit_01/Medkit_01_AO.png
+  artifactKey: Guid(7e62d716968fa5946bc4009c921e17c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Textures/Medkit_01/Medkit_01_AO.png using Guid(7e62d716968fa5946bc4009c921e17c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '77c22ace2c18b5e50f1875de4502f02b') in 0.180777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Colliders/Wall_Divider_01_5m_Collider.fbx
+  artifactKey: Guid(c153e9c11b4cb01439fbb10289757770) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Colliders/Wall_Divider_01_5m_Collider.fbx using Guid(c153e9c11b4cb01439fbb10289757770) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c9fa524fd75a3c0acd22a5d3c224acb9') in 0.191639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Textures/Wall_01/Wall_01_C.png
+  artifactKey: Guid(37de1bcaf9ef3cf4083cf49f41c850c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Textures/Wall_01/Wall_01_C.png using Guid(37de1bcaf9ef3cf4083cf49f41c850c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a349d027fde26a2e885e7d189a22b5c6') in 0.192322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Wall_01_10m_Prefab_01.prefab
+  artifactKey: Guid(215a6d2e6fa9d114aa1429de9360a06c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Wall_01_10m_Prefab_01.prefab using Guid(215a6d2e6fa9d114aa1429de9360a06c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '38f6fddb7905b4bcdeb7150553151583') in 0.138306 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Scenes/Factory_Interior/Lightmap-1_comp_light.exr
+  artifactKey: Guid(986af709aa1a73d44a92333014f82c30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Scenes/Factory_Interior/Lightmap-1_comp_light.exr using Guid(986af709aa1a73d44a92333014f82c30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '576c2b34f42223ba0e1c087e9eed5add') in 0.166192 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Pipe_01_5m_Prefab_01.prefab
+  artifactKey: Guid(a0e41f5b169bae14289ac06b8ccadbbc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Pipe_01_5m_Prefab_01.prefab using Guid(a0e41f5b169bae14289ac06b8ccadbbc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '591573586d7d1f777d3a8e6121cb5f24') in 0.125300 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Textures/Beam_01
+  artifactKey: Guid(0add5e71cfa6a1e49aca7d09c8d62fcb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Textures/Beam_01 using Guid(0add5e71cfa6a1e49aca7d09c8d62fcb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0e566d8b88a2359e258fb26efb6496f7') in 0.283657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Beam_01_10m.fbx
+  artifactKey: Guid(346a642ae5a155d4e9f7125ad1f9c2b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Beam_01_10m.fbx using Guid(346a642ae5a155d4e9f7125ad1f9c2b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'da6363890c313e56532eb3ae085b5b7f') in 0.237726 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Decals/Decal_Stripe_01_20m_Prefab_01.prefab
+  artifactKey: Guid(aef48c88cb6ff5842ac07071b86c3de8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Decals/Decal_Stripe_01_20m_Prefab_01.prefab using Guid(aef48c88cb6ff5842ac07071b86c3de8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '23f9283d5e4350595404cbc132e87295') in 0.123647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Decals/Decal_Warning_01_Prefab_01.prefab
+  artifactKey: Guid(7f7c2147b6636154b9c7baa1ecc75d07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Decals/Decal_Warning_01_Prefab_01.prefab using Guid(7f7c2147b6636154b9c7baa1ecc75d07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '999326c3defa72411be53eadb5305dd3') in 0.200108 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Decal_Bar.fbx
+  artifactKey: Guid(d5eaaa86fb78ea24daaa91ec193d71f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Decal_Bar.fbx using Guid(d5eaaa86fb78ea24daaa91ec193d71f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c3e61467a1f4c51328261e8bd635e50a') in 0.192579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.015519 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Ceiling_01_10m_Prefab_01.prefab
+  artifactKey: Guid(00dd62b22991bb34083ab42efdfdb2b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Ceiling_01_10m_Prefab_01.prefab using Guid(00dd62b22991bb34083ab42efdfdb2b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '49548933ce9ba85ec65b06d2f92f0e55') in 0.141303 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Scenes/Assets.unity
+  artifactKey: Guid(2002cdfa993ca254ea0eed9b9c230bd4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Scenes/Assets.unity using Guid(2002cdfa993ca254ea0eed9b9c230bd4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd2f51c98b92e6c77aeb6b4b0a47bbad7') in 0.067998 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001295 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Wall_01_Door_Large_01.fbx
+  artifactKey: Guid(cafa6185c6f6a7a4dbd2f25b87d65504) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Wall_01_Door_Large_01.fbx using Guid(cafa6185c6f6a7a4dbd2f25b87d65504) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '22a700185d5ed68703e93cc7a7ef0116') in 0.140639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Colliders/Lamp_01_Collider.fbx
+  artifactKey: Guid(f055cabbd98da55489e33fb47621ded3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Colliders/Lamp_01_Collider.fbx using Guid(f055cabbd98da55489e33fb47621ded3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0ebf7ff79ff3202f313dd7ea4cd0e49a') in 0.122645 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Cabletray_01_10m.fbx
+  artifactKey: Guid(5720286696c48e44891d5cad8928c9d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Cabletray_01_10m.fbx using Guid(5720286696c48e44891d5cad8928c9d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f13eb40327fe044593c6a40b9d676309') in 0.164135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Wall_02_10m_Prefab_01.prefab
+  artifactKey: Guid(3523257d25258b545861ef5d8edbb59d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Wall_02_10m_Prefab_01.prefab using Guid(3523257d25258b545861ef5d8edbb59d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c590ccf1f9add7ff6c4516a57d6197e9') in 0.087703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Decal_7.fbx
+  artifactKey: Guid(58b40b2b29d935b4b8117762c50ddf2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Decal_7.fbx using Guid(58b40b2b29d935b4b8117762c50ddf2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0de61448e3d5a311155aa56316f558bf') in 0.158314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Textures/Lamp_01/Lamp_01_E.png
+  artifactKey: Guid(0fe616dec3507964c8124ddef0a8a6b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Textures/Lamp_01/Lamp_01_E.png using Guid(0fe616dec3507964c8124ddef0a8a6b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9ff7ef14804f06a749debaf652347c4d') in 0.195778 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Decals/Decal_7_Prefab_01.prefab
+  artifactKey: Guid(8e67e345c08126d428af7a8b4fe44484) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Decals/Decal_7_Prefab_01.prefab using Guid(8e67e345c08126d428af7a8b4fe44484) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '04955070d854d440c444ef53f7bb538a') in 0.095544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Decals/Decal_1_Prefab_01.prefab
+  artifactKey: Guid(c25afe2f482c1114896c9864d34ed7e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Decals/Decal_1_Prefab_01.prefab using Guid(c25afe2f482c1114896c9864d34ed7e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cfcb05fc08063d05651fe33594353f17') in 0.100225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Fire_Closet_01_Prefab_01.prefab
+  artifactKey: Guid(3c1c1cf2af570864bb4d9ee692c4989b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Fire_Closet_01_Prefab_01.prefab using Guid(3c1c1cf2af570864bb4d9ee692c4989b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '82769c7bac394f50e8f1af6ab4b11d70') in 0.118675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000588 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Door_01_Prefab_01.prefab
+  artifactKey: Guid(c5a8c280a38e5f44fa40dbb19068142e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Door_01_Prefab_01.prefab using Guid(c5a8c280a38e5f44fa40dbb19068142e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cfffecc48c7a0494a5cae881db311e91') in 0.094286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.002287 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Textures/Wall_Divider_01/Wall_Divider_01_N.png
+  artifactKey: Guid(63638798fa509ed458708db0d2647187) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Textures/Wall_Divider_01/Wall_Divider_01_N.png using Guid(63638798fa509ed458708db0d2647187) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '31a8055d542fc1c4bb20d816b31da8f2') in 0.154183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Decals/Decal_6_Prefab_01.prefab
+  artifactKey: Guid(406d7bd0fcc4a0941910bab3a4dea63d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Decals/Decal_6_Prefab_01.prefab using Guid(406d7bd0fcc4a0941910bab3a4dea63d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5a8e6e5e9a6a9aaa6b1d5ec9a17c281e') in 0.123099 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Walls_Merged.fbx
+  artifactKey: Guid(2a7a5cff079135246888e681ee7e0a0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Walls_Merged.fbx using Guid(2a7a5cff079135246888e681ee7e0a0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7a61285fdef4d913aa0bd3cb9a2b24f2') in 0.198418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.001650 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Textures/Cabletray_01/Cabletray_01_CO.png
+  artifactKey: Guid(304befee8a44cb1479f92d65e31b9a5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Textures/Cabletray_01/Cabletray_01_CO.png using Guid(304befee8a44cb1479f92d65e31b9a5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cf5ae61fca89e4faf1b2b69da1d617b7') in 0.174968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Textures/Wall_03/Wall_03_AO.png
+  artifactKey: Guid(28a2857dce2a001419d510dee78e8bbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Textures/Wall_03/Wall_03_AO.png using Guid(28a2857dce2a001419d510dee78e8bbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9ade1e4cb7912ea00774e07197b0d317') in 0.277931 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Textures/Fire_Closet_01/Fire_Closet_01_C.png
+  artifactKey: Guid(942f37eb5f07662409573dff8eee69b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Textures/Fire_Closet_01/Fire_Closet_01_C.png using Guid(942f37eb5f07662409573dff8eee69b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8e298cc188e88d0c94bdeeb1049c9eb4') in 0.159323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Air_Duct_01_Corner_02_Prefab_01.prefab
+  artifactKey: Guid(531634be2d8a84442b4e63ba4e8f9b27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Air_Duct_01_Corner_02_Prefab_01.prefab using Guid(531634be2d8a84442b4e63ba4e8f9b27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5ffca703918b49cc6f7a966acbd7f1ca') in 0.101349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Wall_Divider_01_5m_Prefab_01.prefab
+  artifactKey: Guid(2c798e8185ac0474e829cdcea8c655f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Wall_Divider_01_5m_Prefab_01.prefab using Guid(2c798e8185ac0474e829cdcea8c655f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5e6d88cca896957303deff00c63027e1') in 0.103008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Decal_8.fbx
+  artifactKey: Guid(7abbc958b40c7cf4297e949f1aa851b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Decal_8.fbx using Guid(7abbc958b40c7cf4297e949f1aa851b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '570eac5295562cd4d36beae161f6807e') in 0.178629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Cybernetic Walrus
+  artifactKey: Guid(1d54286ce4b35d4459d2231eff89b188) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus using Guid(1d54286ce4b35d4459d2231eff89b188) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e0579e76593ab5365f6b1004a2536b18') in 0.068326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Decal_6.fbx
+  artifactKey: Guid(47fd6a2635c493348abd4cf4fc1e7968) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Decal_6.fbx using Guid(47fd6a2635c493348abd4cf4fc1e7968) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9cdba0eb1fd027bc516aba04af0613e3') in 0.250797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Textures/Door_Large_01
+  artifactKey: Guid(85c23001a08a02843941dcf55ddcf1c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Textures/Door_Large_01 using Guid(85c23001a08a02843941dcf55ddcf1c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8b73ad14a4aec0b87f317bea5dc406b8') in 0.081259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Textures/Lamp_01/Lamp_01_AO.png
+  artifactKey: Guid(40bcc2dfe844181418397908d69421e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Textures/Lamp_01/Lamp_01_AO.png using Guid(40bcc2dfe844181418397908d69421e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b7c4480c787b2ecac6791b084ed13cda') in 0.203430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Door_Large_01.fbx
+  artifactKey: Guid(7e4b2378edbb28f4091c0bd55d7f8efe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Door_Large_01.fbx using Guid(7e4b2378edbb28f4091c0bd55d7f8efe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b6cc8e9be728e289f540618dd39cd649') in 0.284884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Materials/Concrete_Polished_01.mat
+  artifactKey: Guid(711d8d33c8052854681ae7835fc64024) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Materials/Concrete_Polished_01.mat using Guid(711d8d33c8052854681ae7835fc64024) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b1ce06e0068b9f0845c3a758cb857f0b') in 0.175150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Textures/Lamp_01
+  artifactKey: Guid(a193fd294b25aad43903616bc1006d41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Textures/Lamp_01 using Guid(a193fd294b25aad43903616bc1006d41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f885229d0734ba3ea8b5fabe74c4d497') in 0.095709 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Textures/Beam_01/Beam_01_N.png
+  artifactKey: Guid(a50cd1a4bfc8c134b851a82a9f4fb40b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Textures/Beam_01/Beam_01_N.png using Guid(a50cd1a4bfc8c134b851a82a9f4fb40b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '686906ebe2f98dc0d07a26857f3efcfa') in 0.156709 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Textures/Medkit_01/Medkit_01_N.png
+  artifactKey: Guid(3471f28ccd5291d4fa915395b36b5c57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Textures/Medkit_01/Medkit_01_N.png using Guid(3471f28ccd5291d4fa915395b36b5c57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '46ca115100555042afc2f4834b9e9c65') in 0.157646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Materials/Medkit_01.mat
+  artifactKey: Guid(9c417b09ab3ec1342b98fe510c3ade36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Materials/Medkit_01.mat using Guid(9c417b09ab3ec1342b98fe510c3ade36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '351eda2b861d72effc319fca3a692512') in 0.125051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Cabletray_01_5m.fbx
+  artifactKey: Guid(991cc17a4d33fd541b392401908fb4a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Cabletray_01_5m.fbx using Guid(991cc17a4d33fd541b392401908fb4a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0031a95f1ddd373f7ee1cac1fcbf876f') in 0.225614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Textures/Lamp_01/Lamp_01_MS.png
+  artifactKey: Guid(746fe39492756404abbc4e9446027961) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Textures/Lamp_01/Lamp_01_MS.png using Guid(746fe39492756404abbc4e9446027961) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7863b150166eece33809086f1542ed18') in 0.169320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Wall_01_Door_01.fbx
+  artifactKey: Guid(c8f2c3ca4878e964b99774c6cfb5bb84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Wall_01_Door_01.fbx using Guid(c8f2c3ca4878e964b99774c6cfb5bb84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '72c53ac1f4bed0517eb50fce9a2ea0d7') in 0.192670 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Textures/Metal_Corrugated_01/Metal_Corrugated_01_C.png
+  artifactKey: Guid(bfa05f137f7f7204881dc5b09103d4b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Textures/Metal_Corrugated_01/Metal_Corrugated_01_C.png using Guid(bfa05f137f7f7204881dc5b09103d4b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e0630cdecd92af4e3dafc000cc3896d8') in 0.248552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Decals/Decal_Voltage_Prefab_01.prefab
+  artifactKey: Guid(bd0d7d75a7176934eb7073891eb5fe28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Decals/Decal_Voltage_Prefab_01.prefab using Guid(bd0d7d75a7176934eb7073891eb5fe28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '53b801294c19a0bbbfa3c7ff98e45617') in 0.087892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Textures/Lamp_01/Lamp_01_N.png
+  artifactKey: Guid(a39db8aa124ab4a48a656dd66fe52513) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Textures/Lamp_01/Lamp_01_N.png using Guid(a39db8aa124ab4a48a656dd66fe52513) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '933ac9b846ce8416a70bc63becad1b17') in 0.129589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Decals/Decal_Exit_02_Prefab_01.prefab
+  artifactKey: Guid(a869d39ca432a484d88d0014bc8d0d8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Decals/Decal_Exit_02_Prefab_01.prefab using Guid(a869d39ca432a484d88d0014bc8d0d8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e44c32f0ce17abe849846392e9f06993') in 0.084593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Textures/Fire_Closet_01
+  artifactKey: Guid(e7878dfcf326be24881f4b0d235702ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Textures/Fire_Closet_01 using Guid(e7878dfcf326be24881f4b0d235702ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '422c30a3c5c4ec15674882374492b011') in 0.068786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Materials/Pipes_01.mat
+  artifactKey: Guid(09d7dafd5ab65d44b8bf2a39f8aaf090) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Materials/Pipes_01.mat using Guid(09d7dafd5ab65d44b8bf2a39f8aaf090) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd1bece3879d7ed341c75663a110142d3') in 0.136150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Cabletray_01_Corner_03_Prefab_01.prefab
+  artifactKey: Guid(04e2e84adfe5ce6408a6777431fcb927) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Cabletray_01_Corner_03_Prefab_01.prefab using Guid(04e2e84adfe5ce6408a6777431fcb927) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '14bf4412683f41be2ab5b48f2d5b53d2') in 0.089850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Decal_4.fbx
+  artifactKey: Guid(ba35f269e5632eb4194050dfae82eec0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Decal_4.fbx using Guid(ba35f269e5632eb4194050dfae82eec0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f9a3364f71aea542bdfd3fd0214f4e72') in 0.123586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Air_Duct_01_Corner_01.fbx
+  artifactKey: Guid(be0c465f8f352f04fb5904cb0f9c643a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Air_Duct_01_Corner_01.fbx using Guid(be0c465f8f352f04fb5904cb0f9c643a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1f05bcc9cd91bd74e6aedce610569048') in 0.205553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Decal_Stripe_03_5m.fbx
+  artifactKey: Guid(f0e46d56965a8114aaa06c0dd64c1d44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Decal_Stripe_03_5m.fbx using Guid(f0e46d56965a8114aaa06c0dd64c1d44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4aa3a70d4ffe8da34512c84f44a31e44') in 0.177195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Materials
+  artifactKey: Guid(4f09712328ac1e945a8220e7aba0d9b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Materials using Guid(4f09712328ac1e945a8220e7aba0d9b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd95440563eea46878f4c41d527137791') in 0.070169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Cabletray_01_Corner_02_Prefab_01.prefab
+  artifactKey: Guid(194fc48267c4a8546b1cd3cf81b72c0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Cabletray_01_Corner_02_Prefab_01.prefab using Guid(194fc48267c4a8546b1cd3cf81b72c0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '21bf424ad4ce2b7a0e73567e17ee9cc7') in 0.106595 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Materials/Air_Duct_01.mat
+  artifactKey: Guid(1233aa1c4c093764b846c1c999b525d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Materials/Air_Duct_01.mat using Guid(1233aa1c4c093764b846c1c999b525d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '868a95b2dbeb42fd2d56affcc3dfc884') in 0.159318 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models
+  artifactKey: Guid(e71ef6aab0e482c4082123ed6b467ead) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models using Guid(e71ef6aab0e482c4082123ed6b467ead) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a16d9fb6f1c1bd607626032479f831b9') in 0.078697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Textures/Air_Duct_01/Air_Duct_01_AO.png
+  artifactKey: Guid(83c40f542e0877e4a9e72d91b322d4a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Textures/Air_Duct_01/Air_Duct_01_AO.png using Guid(83c40f542e0877e4a9e72d91b322d4a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a515488ec5f456f047ecb69d18c74048') in 0.198949 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Decal_Access.fbx
+  artifactKey: Guid(69ffcea3acfb20549a1536b3cea9657e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Decal_Access.fbx using Guid(69ffcea3acfb20549a1536b3cea9657e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9a25d0c634c1947493d80fbd01121411') in 0.157632 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Decals/Decal_Hardhat_Prefab_01.prefab
+  artifactKey: Guid(4ae69a9f3c7d5f64683b031b0ab8c8b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Decals/Decal_Hardhat_Prefab_01.prefab using Guid(4ae69a9f3c7d5f64683b031b0ab8c8b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '62e71ff0fe557345b57ea89f4d45a9ee') in 0.109340 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Decals/Decal_Bar_Prefab_01.prefab
+  artifactKey: Guid(ddffcb7025e5c1e4ebb240d3da0e4604) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Decals/Decal_Bar_Prefab_01.prefab using Guid(ddffcb7025e5c1e4ebb240d3da0e4604) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2f6e1715e129a78c86a3c3ff651562d7') in 0.087191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Textures/Medkit_01/Medkit_01_C.png
+  artifactKey: Guid(d092defe7ca829440b952785817b1d29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Textures/Medkit_01/Medkit_01_C.png using Guid(d092defe7ca829440b952785817b1d29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aca24b74521c107c1a5e83dcd192d96d') in 0.229208 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Decal_Fire_01.fbx
+  artifactKey: Guid(76f7bd475b873f241b39121a112263c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Decal_Fire_01.fbx using Guid(76f7bd475b873f241b39121a112263c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '409190b78c1002de282dac77360b5e1c') in 0.179763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Decal_Stripe_01_5m.fbx
+  artifactKey: Guid(77a4f2cdef8c3dc4db81f5a3803db45b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Decal_Stripe_01_5m.fbx using Guid(77a4f2cdef8c3dc4db81f5a3803db45b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '862f3d99cdddbc925347df7d4d30b0e6') in 0.154840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Cabletray_01_2m.fbx
+  artifactKey: Guid(107d237ba9941ff448a8234aa9a414a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Cabletray_01_2m.fbx using Guid(107d237ba9941ff448a8234aa9a414a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7d63ee79f50f6231fa4e360af14a69ed') in 0.165285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Textures/Door_Large_01/Door_Large_01_N.png
+  artifactKey: Guid(ef605fa500fa0a045b339e73a39918bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Textures/Door_Large_01/Door_Large_01_N.png using Guid(ef605fa500fa0a045b339e73a39918bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e242266a0b0e42a02a7956947263804f') in 0.154408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Decals/Decal_Stripe_03_10m_Prefab_01.prefab
+  artifactKey: Guid(14446459fda11e94fa92224389216c4d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Decals/Decal_Stripe_03_10m_Prefab_01.prefab using Guid(14446459fda11e94fa92224389216c4d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e2751d3671dd051990a5d265c7e6b62d') in 0.089792 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Decal_Stripe_02_20m.fbx
+  artifactKey: Guid(320138dbf8585214d86a7fcc62ea9c34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Decal_Stripe_02_20m.fbx using Guid(320138dbf8585214d86a7fcc62ea9c34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9ad3ceab9b7cb95f8f7d9edaad1b8c4d') in 0.143987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Pipe_03_10m.fbx
+  artifactKey: Guid(49cd7035e10c1a342a24ba2528c89954) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Pipe_03_10m.fbx using Guid(49cd7035e10c1a342a24ba2528c89954) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '687d69af7d0cb2ca8c790b32c1270ec2') in 0.173102 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Colliders/Air_Duct_01_Corner_01_Collider.fbx
+  artifactKey: Guid(376d62be479578645a172d2930a7c677) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Colliders/Air_Duct_01_Corner_01_Collider.fbx using Guid(376d62be479578645a172d2930a7c677) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c0eb2b77459ddadb9198729b3f6c031d') in 0.144016 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Decals/Decal_9_Prefab_01.prefab
+  artifactKey: Guid(4ff0188f6238061428cde11d28e9b353) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Decals/Decal_9_Prefab_01.prefab using Guid(4ff0188f6238061428cde11d28e9b353) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '717b1f776f3f2ab76495c4f963912ef1') in 0.130165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Decals/Decal_Fire_01_Prefab_01.prefab
+  artifactKey: Guid(ac68d5b9c8340cc47a33132ce6b6dd9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Decals/Decal_Fire_01_Prefab_01.prefab using Guid(ac68d5b9c8340cc47a33132ce6b6dd9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cbda6776d9b19ad80ec31450a62420b8') in 0.125238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Textures/Fire_Alarm_01/Fire_Alarm_01_C.png
+  artifactKey: Guid(798865763e4f52749a94a4c74203e3b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Textures/Fire_Alarm_01/Fire_Alarm_01_C.png using Guid(798865763e4f52749a94a4c74203e3b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '160a9d58186822145c3b52e4bea8cfa9') in 0.197412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Holder_02.fbx
+  artifactKey: Guid(f789d4a0db08e5c4f8ed99dcb1116358) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Holder_02.fbx using Guid(f789d4a0db08e5c4f8ed99dcb1116358) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f903e1a851e69ed85a9ce0dbf450c074') in 0.170544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Decals/Decal_Door_Prefab_01.prefab
+  artifactKey: Guid(7eef77140bb2d6648aee3540e4dc3df9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Decals/Decal_Door_Prefab_01.prefab using Guid(7eef77140bb2d6648aee3540e4dc3df9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f292a9bf702f1654f0049e79f62558fc') in 0.102674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Pipe_01b_20m.fbx
+  artifactKey: Guid(773d3c79891880d4aaa8fdf761f41970) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Pipe_01b_20m.fbx using Guid(773d3c79891880d4aaa8fdf761f41970) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7418e7dfb7bddf693d4a1f4ea6785043') in 0.134219 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Textures/Beam_01/Beam_01_C.png
+  artifactKey: Guid(bfeab686ddf13264d89ba47c640a68ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Textures/Beam_01/Beam_01_C.png using Guid(bfeab686ddf13264d89ba47c640a68ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c1e6a203ff0f781a2888378ee4f4f3aa') in 0.218108 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Textures/Decals_01/Decals_01_MS.png
+  artifactKey: Guid(d8da671d646ae08479bf7225377378d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Textures/Decals_01/Decals_01_MS.png using Guid(d8da671d646ae08479bf7225377378d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0374749634393112d15720f690a3837d') in 0.227602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Colliders/Lamp_Beam_01_20m_Collider.fbx
+  artifactKey: Guid(caa7330e3c68c5b44a53d072168e748a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Colliders/Lamp_Beam_01_20m_Collider.fbx using Guid(caa7330e3c68c5b44a53d072168e748a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9244d12594a8e96988e4811b4da59305') in 0.192263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Pipe_03_20m_Prefab_01.prefab
+  artifactKey: Guid(19f19b649e487124195384d8890a9b27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Pipe_03_20m_Prefab_01.prefab using Guid(19f19b649e487124195384d8890a9b27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '33eb2f87693ae08450686098e6d821d8') in 0.093969 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Decal_Exit_02.fbx
+  artifactKey: Guid(a1192e55b5ec86a4a879e619c07a7956) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Decal_Exit_02.fbx using Guid(a1192e55b5ec86a4a879e619c07a7956) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a75867bd95278457d244a7bc8bd17f21') in 0.160796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Textures/Wall_02/Wall_02_MS.png
+  artifactKey: Guid(0854e067526108c4bb8dd9549c3843d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Textures/Wall_02/Wall_02_MS.png using Guid(0854e067526108c4bb8dd9549c3843d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8e6ef228b67b90e24bf71581cff9a0bc') in 0.244184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Decal_Shoes.fbx
+  artifactKey: Guid(2c32e3fc501ce084c8775d9d5a78e16b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Decal_Shoes.fbx using Guid(2c32e3fc501ce084c8775d9d5a78e16b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '24c5b978d71be674803f6dd66b0745f6') in 0.210096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Materials/Pole_01.mat
+  artifactKey: Guid(a34155384c2e3f74cbee57d35e327671) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Materials/Pole_01.mat using Guid(a34155384c2e3f74cbee57d35e327671) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aa629e70de710e35292d877ed81e6567') in 0.219321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Decal_Exit_01.fbx
+  artifactKey: Guid(e1fded0710306e44a93c6482a30d7b8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Decal_Exit_01.fbx using Guid(e1fded0710306e44a93c6482a30d7b8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4fc2669a053fd6a5ac0632b0f041e1da') in 0.185780 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000626 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Textures
+  artifactKey: Guid(5ac1e1a72c33f2b468fcc01cb3e60601) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Textures using Guid(5ac1e1a72c33f2b468fcc01cb3e60601) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9e77777708611886174de58aa719350b') in 0.081354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Textures/Cabletray_01/Cabletray_01_AO.png
+  artifactKey: Guid(fa05f6cfd79880b4e955c94e55c8cdc7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Textures/Cabletray_01/Cabletray_01_AO.png using Guid(fa05f6cfd79880b4e955c94e55c8cdc7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '50296e44f71c5a19eadcf3a8562e633f') in 0.220309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Decal_3.fbx
+  artifactKey: Guid(d99ad3decb93ca941a256f576bb0315a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Decal_3.fbx using Guid(d99ad3decb93ca941a256f576bb0315a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '017a353770614f349df9e42aae9191f3') in 0.192064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Decal_5.fbx
+  artifactKey: Guid(7d955a0d1c7e56543aa643bb7747eaa1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Decal_5.fbx using Guid(7d955a0d1c7e56543aa643bb7747eaa1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5fdfee3fd7c91091cefd33f45ce5634c') in 0.172365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Materials/Door_Large_02.mat
+  artifactKey: Guid(21a0598cf84f8874c97ac9002287a1dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Materials/Door_Large_02.mat using Guid(21a0598cf84f8874c97ac9002287a1dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '959ce8e31b4d31a9bc5e7c24017abab6') in 0.136259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Scenes
+  artifactKey: Guid(9ef1539c407f0004eba50cc84c56f90f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Scenes using Guid(9ef1539c407f0004eba50cc84c56f90f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8f275a6ec120f57fa015da543be71ff1') in 0.062540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Door_Large_01_Prefab_01.prefab
+  artifactKey: Guid(622d27435be179a46a71f3838c62a961) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Door_Large_01_Prefab_01.prefab using Guid(622d27435be179a46a71f3838c62a961) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a8003358636d68e0ce1f1625f7d4487b') in 0.119670 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Materials/Lamp_01.mat
+  artifactKey: Guid(1666da9887fb897488d52e11731cd4c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Materials/Lamp_01.mat using Guid(1666da9887fb897488d52e11731cd4c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ac7a3aba03f470507e2786a5db951bad') in 0.100671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Colliders/Pole_01_Collider.fbx
+  artifactKey: Guid(123e42fbfaa15734a96180a59b8df34a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Colliders/Pole_01_Collider.fbx using Guid(123e42fbfaa15734a96180a59b8df34a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '62c1d523b6710e9da949adb0bd37255c') in 0.156715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Textures/Beam_02/Beam_02_AO.png
+  artifactKey: Guid(0042d81ea6f3e454ea5c276f03e50ad4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Textures/Beam_02/Beam_02_AO.png using Guid(0042d81ea6f3e454ea5c276f03e50ad4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8b6ea35333908b1a7613383b277d7b2c') in 0.144035 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Decals/Decal_Stripe_02_20m_Prefab_01.prefab
+  artifactKey: Guid(c1d27dd2a4b22174fa0df02099193b97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Decals/Decal_Stripe_02_20m_Prefab_01.prefab using Guid(c1d27dd2a4b22174fa0df02099193b97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b2d22bd75ac89a22d65f23beeb28ca85') in 0.104475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Decal_0.fbx
+  artifactKey: Guid(783bfa16b057c9b459235163bfdcbcf6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Decal_0.fbx using Guid(783bfa16b057c9b459235163bfdcbcf6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f21dbcc084d8790c46b984214add1690') in 0.163547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Textures/Wall_Divider_01/Wall_Divider_01_AO.png
+  artifactKey: Guid(68cb630c0ffbb5d43a4388d1728b1c5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Textures/Wall_Divider_01/Wall_Divider_01_AO.png using Guid(68cb630c0ffbb5d43a4388d1728b1c5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6a50a0c49f386b58157d59e61f2a96b9') in 0.143664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Pole_01.fbx
+  artifactKey: Guid(f21f8558f403e66458580c46e8acec05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Pole_01.fbx using Guid(f21f8558f403e66458580c46e8acec05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0e9307146a5313d35a1adb9c57fdf44d') in 0.155640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Textures/Pipes_01/Pipes_01_N.png
+  artifactKey: Guid(cd258b701d634cb468a39546d6debb67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Textures/Pipes_01/Pipes_01_N.png using Guid(cd258b701d634cb468a39546d6debb67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd74e5e92219122e62caa3a23befaafd4') in 0.130747 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Floor_01_10m.fbx
+  artifactKey: Guid(7eaeda99da5916841b0e89581f111ca8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Floor_01_10m.fbx using Guid(7eaeda99da5916841b0e89581f111ca8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a7527657ce71a92c5ac699478c7881a2') in 0.167759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Decal_Door.fbx
+  artifactKey: Guid(9fbc0e8073416d94191ae8bf586c4932) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Decal_Door.fbx using Guid(9fbc0e8073416d94191ae8bf586c4932) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a4a2fb6abe6460ae972306998fefe4dd') in 0.137219 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 22.212704 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior
+  artifactKey: Guid(91435353e8bb707469a8d4db292adec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cybernetic Walrus/Factory Interior using Guid(91435353e8bb707469a8d4db292adec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db4de724f8e958e5c09e333e92e6c7ef') in 0.001568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.480408 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Scenes
+  artifactKey: Guid(9ef1539c407f0004eba50cc84c56f90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Scenes using Guid(9ef1539c407f0004eba50cc84c56f90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23c57aa1460708145e2c00adb0e8653e') in 0.000645 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.350253 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Render_Pipeline_Support
+  artifactKey: Guid(2fff01806d3c4b546bf453a5e611ba31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Render_Pipeline_Support using Guid(2fff01806d3c4b546bf453a5e611ba31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7270870b9c0b9e6c4c34645c2e03eeb') in 0.000529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.767511 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Render_Pipeline_Support/Factory_Interior_URP_Support.unitypackage
+  artifactKey: Guid(300f952795537be4ba52e20fb4bd0737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Render_Pipeline_Support/Factory_Interior_URP_Support.unitypackage using Guid(300f952795537be4ba52e20fb4bd0737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2db9564a2898e18bbe650c9899b6dbb3') in 0.040475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.469491 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Render_Pipeline_Support/Factory_Interior_HDRP_Support.unitypackage
+  artifactKey: Guid(92e9d9293aadc1e4e9c5928c0f4ae495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Render_Pipeline_Support/Factory_Interior_HDRP_Support.unitypackage using Guid(92e9d9293aadc1e4e9c5928c0f4ae495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ef93b4ef337a35a6ebabaa6ec7d24e8') in 0.001213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 4.207344 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Scenes/Assets.unity
+  artifactKey: Guid(2002cdfa993ca254ea0eed9b9c230bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Scenes/Assets.unity using Guid(2002cdfa993ca254ea0eed9b9c230bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c93fa3d44b908679092d7a549c3fedc') in 0.000616 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.470758 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Scenes/Factory_Interior
+  artifactKey: Guid(05669e7ea196c7040ae1e01e88017746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Scenes/Factory_Interior using Guid(05669e7ea196c7040ae1e01e88017746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3324dc7e83cd1977465013323cde29e1') in 0.000652 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.914340 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Scenes/Factory_Interior.unity
+  artifactKey: Guid(eda0b8fb7e8c03642a26d0c819eb1630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Scenes/Factory_Interior.unity using Guid(eda0b8fb7e8c03642a26d0c819eb1630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4db7c7ffce415b0b33fe9b9bc3c40956') in 0.001352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.642490 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Scenes/Factory_Interior/Factory_Interior_Volume.asset
+  artifactKey: Guid(9b3b2dce7a21d034480413d0c5315aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Scenes/Factory_Interior/Factory_Interior_Volume.asset using Guid(9b3b2dce7a21d034480413d0c5315aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01243af3ada5b169c56be9dab826a1fe') in 0.003229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001136 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Scenes/Factory_Interior/LightingData.asset
+  artifactKey: Guid(1f2dbb9190ac029489e9f7e2ab55e2da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Scenes/Factory_Interior/LightingData.asset using Guid(1f2dbb9190ac029489e9f7e2ab55e2da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '058fbf3b87f43e5c2e66ed5f1ace90fc') in 0.002292 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
