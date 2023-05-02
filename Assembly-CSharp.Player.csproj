@@ -88,6 +88,7 @@
     <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerModalWindow.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Demo\DemoElementSwayParent.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Icon\AnimatedIconHandler.cs" />
+    <Compile Include="Assets\Scripts\HMDInfoManager.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Horizontal Selector\HorizontalSelector.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Modal Window\ModalWindowManager.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Demo\InputSystemChecker.cs" />
@@ -734,6 +735,10 @@
     <ProjectReference Include="Unity.XR.Management.Player.csproj">
       <Project>{F8D333BC-FFD9-566E-849C-A59DA2AEB61D}</Project>
       <Name>Unity.XR.Management.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.MockHMD.Player.csproj">
+      <Project>{9712ED37-56DA-3CF9-D81F-49C84D447DC5}</Project>
+      <Name>Unity.XR.MockHMD.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.AI.Navigation.Player.csproj">
       <Project>{3F6D238E-5598-5D01-1836-C17796B60236}</Project>
