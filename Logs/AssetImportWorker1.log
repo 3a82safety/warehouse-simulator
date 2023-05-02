@@ -15,7 +15,7 @@ D:/IT Course/Immersive/Unity Project/warehouse-simulator
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-51950
+53803
 Successfully changed project path to: D:/IT Course/Immersive/Unity Project/warehouse-simulator
 D:/IT Course/Immersive/Unity Project/warehouse-simulator
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ D:/IT Course/Immersive/Unity Project/warehouse-simulator
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [23544] Host "[IP] 172.22.74.48 [Port] 0 [Flags] 2 [Guid] 114348625 [EditorId] 114348625 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-MOS4EU6H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [22524] Host "[IP] 172.22.74.48 [Port] 0 [Flags] 2 [Guid] 528053897 [EditorId] 528053897 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-MOS4EU6H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [23544] Host "[IP] 172.22.74.48 [Port] 0 [Flags] 2 [Guid] 114348625 [EditorId] 114348625 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-MOS4EU6H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [22524] Host "[IP] 172.22.74.48 [Port] 0 [Flags] 2 [Guid] 528053897 [EditorId] 528053897 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-MOS4EU6H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 10.88 ms, found 7 plugins.
-Preloading 1 native plugins for Editor in 0.56 ms.
+Refreshing native plugins compatible for Editor in 11.18 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.51 ms.
 Initialize engine version: 2022.2.15f1 (30d813e1a2a9)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/IT Course/Immersive/Unity Project/warehouse-simulator/Assets
@@ -67,44 +67,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56172
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56436
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.011074 seconds.
-- Loaded All Assemblies, in  0.457 seconds
+Registered in 0.009255 seconds.
+- Loaded All Assemblies, in  0.417 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 334 ms
+Android Extension - Scanning For ADB Devices 350 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.691 seconds
+- Finished resetting the current domain, in  0.706 seconds
 Domain Reload Profiling:
-	ReloadAssembly (272ms)
-		BeginReloadAssembly (132ms)
+	ReloadAssembly (228ms)
+		BeginReloadAssembly (106ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
-			LoadAssemblies (130ms)
+			LoadAssemblies (102ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (176ms)
-				TypeCache.Initialize (175ms)
-					TypeCache.ScanAssembly (173ms)
+			SetupTypeCache (180ms)
+				TypeCache.Initialize (180ms)
+					TypeCache.ScanAssembly (178ms)
 				ResolveRequiredComponents (0ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (616ms)
+			SetupLoadedEditorAssemblies (640ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (439ms)
-				SetLoadedEditorAssemblies (5ms)
+				InitializePlatformSupportModulesInManaged (449ms)
+				SetLoadedEditorAssemblies (4ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (117ms)
-				ProcessInitializeOnLoadMethodAttributes (53ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (122ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -114,8 +114,8 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\IT Course\Immersive\Unity Project\warehouse-simulator\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\IT Course\Immersive\Unity Project\warehouse-simulator\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.960 seconds
-Refreshing native plugins compatible for Editor in 5.54 ms, found 7 plugins.
+- Loaded All Assemblies, in  1.403 seconds
+Refreshing native plugins compatible for Editor in 8.92 ms, found 7 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Package Manager log level set to [2]
@@ -144,44 +144,44 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.777 seconds
+- Finished resetting the current domain, in  0.774 seconds
 Domain Reload Profiling:
-	ReloadAssembly (274ms)
-		BeginReloadAssembly (155ms)
+	ReloadAssembly (269ms)
+		BeginReloadAssembly (162ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		LoadAllAssembliesAndSetupDomain (682ms)
-			LoadAssemblies (341ms)
+			CreateAndSetChildDomain (27ms)
+		LoadAllAssembliesAndSetupDomain (1132ms)
+			LoadAssemblies (776ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (411ms)
-				TypeCache.Initialize (381ms)
-					TypeCache.ScanAssembly (376ms)
-				ResolveRequiredComponents (7ms)
+			SetupTypeCache (435ms)
+				TypeCache.Initialize (399ms)
+					TypeCache.ScanAssembly (394ms)
+				ResolveRequiredComponents (12ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (567ms)
+			SetupLoadedEditorAssemblies (560ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (24ms)
+				InitializePlatformSupportModulesInManaged (27ms)
 				SetLoadedEditorAssemblies (6ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (108ms)
-				ProcessInitializeOnLoadAttributes (384ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (393ms)
 				ProcessInitializeOnLoadMethodAttributes (37ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 7.48 ms, found 7 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+			AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 6.31 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
 Unloading 4041 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 44 unused Assets / (67.5 KB). Loaded Objects now: 4508.
-Memory consumption went from 135.2 MB to 135.2 MB.
-Total: 6.291100 ms (FindLiveObjects: 0.315200 ms CreateObjectMapping: 0.271800 ms MarkObjects: 5.569900 ms  DeleteObjects: 0.132900 ms)
+Unloading 44 unused Assets / (67.6 KB). Loaded Objects now: 4509.
+Memory consumption went from 135.3 MB to 135.2 MB.
+Total: 4.089600 ms (FindLiveObjects: 0.324800 ms CreateObjectMapping: 0.365800 ms MarkObjects: 3.285200 ms  DeleteObjects: 0.112700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -197,78 +197,9 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 6732.214447 seconds.
-  path: Assets/UnityDefaultRuntimeTheme.tss
-  artifactKey: Guid(9005cd0b1699d1b4aa265861dcba1234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityDefaultRuntimeTheme.tss using Guid(9005cd0b1699d1b4aa265861dcba1234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9e0e76a3fa7784cfbcc6737f77a6af2') in 0.223305 seconds
+  Time since last request: 13493.330419 seconds.
+  path: Assets/Fbx Zen/character.fbx
+  artifactKey: Guid(fcd4490adfc20464e836cd5ee91c3037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fbx Zen/character.fbx using Guid(fcd4490adfc20464e836cd5ee91c3037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32f566d69254bf2d24dfe442a76a580a') in 0.749821 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 24
-========================================================================
-Received Import Request.
-  Time since last request: 263.157489 seconds.
-  path: Assets/Modern UI Pack/Fonts/OpenSans-Bold SDF.asset
-  artifactKey: Guid(fa328c1ae3ffb6b4583cf371153b0be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modern UI Pack/Fonts/OpenSans-Bold SDF.asset using Guid(fa328c1ae3ffb6b4583cf371153b0be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5ee828e18063d9634f8b84d2a44c0c9') in 0.068737 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Modern UI Pack/Fonts/OpenSans-Italic SDF.asset
-  artifactKey: Guid(ff92caddbdea54743a04dda78cc41035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modern UI Pack/Fonts/OpenSans-Italic SDF.asset using Guid(ff92caddbdea54743a04dda78cc41035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '651558516db29f908005be519b7e4925') in 0.048376 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Modern UI Pack/Fonts/OpenSans-ExtraBold SDF.asset
-  artifactKey: Guid(ca60657c190bc8c4e89dfb3e23d76209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modern UI Pack/Fonts/OpenSans-ExtraBold SDF.asset using Guid(ca60657c190bc8c4e89dfb3e23d76209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a4be4e78c99d727386e88858c15a694') in 0.027218 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.812718 seconds.
-  path: Assets/Modern UI Pack/Fonts/OpenSans-LightItalic.ttf
-  artifactKey: Guid(9985919b04d78b04ba8451808f2bc34d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modern UI Pack/Fonts/OpenSans-LightItalic.ttf using Guid(9985919b04d78b04ba8451808f2bc34d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f0a7220c0e591cc584e2770c8f44434') in 0.010859 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.395363 seconds.
-  path: Assets/Modern UI Pack/Fonts/OpenSans-Regular.ttf
-  artifactKey: Guid(5997fe0be3eb5fd40810e50d6cabb652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modern UI Pack/Fonts/OpenSans-Regular.ttf using Guid(5997fe0be3eb5fd40810e50d6cabb652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78585b2f462687715cce198978b007ad') in 0.012838 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.014606 seconds.
-  path: Assets/Modern UI Pack/Fonts/OpenSans-Regular SDF.asset
-  artifactKey: Guid(4bd810f1cbcb0f446a8f5a31453e243f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modern UI Pack/Fonts/OpenSans-Regular SDF.asset using Guid(4bd810f1cbcb0f446a8f5a31453e243f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64781866ffe7a1c2e325008a689cc70a') in 0.061321 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 19
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Modern UI Pack/Fonts/OpenSans-SemiboldItalic.ttf
-  artifactKey: Guid(26f09da095a9bbe4ab817d57dea6dbea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modern UI Pack/Fonts/OpenSans-SemiboldItalic.ttf using Guid(26f09da095a9bbe4ab817d57dea6dbea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '701eda85b7b3346879b98abe0a4ea422') in 0.010156 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.097082 seconds.
-  path: Assets/Modern UI Pack/Fonts/Roboto-Regular.ttf
-  artifactKey: Guid(24f52a8f823a19b4fb681e93eb6dee3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modern UI Pack/Fonts/Roboto-Regular.ttf using Guid(24f52a8f823a19b4fb681e93eb6dee3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bac8ff1af23869f61b4a4b41f26549f') in 0.009610 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Number of asset objects unloaded after import = 172
