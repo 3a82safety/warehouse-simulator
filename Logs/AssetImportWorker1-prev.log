@@ -15,7 +15,7 @@ C:/Users/hodex/Desktop/School/SAP/warehouse-simulator
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-65471
+65029
 Successfully changed project path to: C:/Users/hodex/Desktop/School/SAP/warehouse-simulator
 C:/Users/hodex/Desktop/School/SAP/warehouse-simulator
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ C:/Users/hodex/Desktop/School/SAP/warehouse-simulator
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [28540] Host "[IP] 172.22.44.118 [Port] 0 [Flags] 2 [Guid] 1073124650 [EditorId] 1073124650 [Version] 1048832 [Id] WindowsEditor(7,Dexter-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [17524] Host "[IP] 172.22.46.34 [Port] 0 [Flags] 2 [Guid] 3387263183 [EditorId] 3387263183 [Version] 1048832 [Id] WindowsEditor(7,Dexter-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [28540] Host "[IP] 172.22.44.118 [Port] 0 [Flags] 2 [Guid] 1073124650 [EditorId] 1073124650 [Version] 1048832 [Id] WindowsEditor(7,Dexter-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [17524] Host "[IP] 172.22.46.34 [Port] 0 [Flags] 2 [Guid] 3387263183 [EditorId] 3387263183 [Version] 1048832 [Id] WindowsEditor(7,Dexter-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 56.55 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 2.57 ms.
+Refreshing native plugins compatible for Editor in 142.55 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 8.63 ms.
 Initialize engine version: 2022.2.15f1 (30d813e1a2a9)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2020.3.20f1/Editor/2022.2.15f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/hodex/Desktop/School/SAP/warehouse-simulator/Assets
@@ -67,41 +67,41 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2020.3.20f1/Editor/2022.2.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2020.3.20f1/Editor/2022.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2020.3.20f1/Editor/2022.2.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56296
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56484
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2020.3.20f1/Editor/2022.2.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.017919 seconds.
-- Loaded All Assemblies, in  0.533 seconds
+Registered in 0.029213 seconds.
+- Loaded All Assemblies, in  0.856 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.358 seconds
+- Finished resetting the current domain, in  0.582 seconds
 Domain Reload Profiling:
-	ReloadAssembly (342ms)
-		BeginReloadAssembly (181ms)
+	ReloadAssembly (563ms)
+		BeginReloadAssembly (274ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
+			CreateAndSetChildDomain (2ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
-			LoadAssemblies (177ms)
+			LoadAssemblies (266ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (178ms)
-				TypeCache.Initialize (176ms)
-					TypeCache.ScanAssembly (173ms)
+			SetupTypeCache (263ms)
+				TypeCache.Initialize (261ms)
+					TypeCache.ScanAssembly (259ms)
 				ResolveRequiredComponents (1ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (283ms)
+			SetupLoadedEditorAssemblies (461ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (10ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (15ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (186ms)
-				ProcessInitializeOnLoadMethodAttributes (75ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (303ms)
+				ProcessInitializeOnLoadMethodAttributes (117ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -111,8 +111,8 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\hodex\Desktop\School\SAP\warehouse-simulator\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\hodex\Desktop\School\SAP\warehouse-simulator\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.594 seconds
-Refreshing native plugins compatible for Editor in 27.55 ms, found 13 plugins.
+- Loaded All Assemblies, in  2.412 seconds
+Refreshing native plugins compatible for Editor in 54.57 ms, found 13 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
@@ -140,44 +140,44 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.161 seconds
+- Finished resetting the current domain, in  2.090 seconds
 Domain Reload Profiling:
-	ReloadAssembly (381ms)
-		BeginReloadAssembly (245ms)
+	ReloadAssembly (581ms)
+		BeginReloadAssembly (346ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (16ms)
 			BackupInstance (0ms)
-			ReleaseScriptingObjects (1ms)
-			CreateAndSetChildDomain (46ms)
-		LoadAllAssembliesAndSetupDomain (1207ms)
-			LoadAssemblies (784ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		LoadAllAssembliesAndSetupDomain (1813ms)
+			LoadAssemblies (1150ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (541ms)
-				TypeCache.Initialize (498ms)
-					TypeCache.ScanAssembly (485ms)
-				ResolveRequiredComponents (8ms)
+			SetupTypeCache (826ms)
+				TypeCache.Initialize (752ms)
+					TypeCache.ScanAssembly (738ms)
+				ResolveRequiredComponents (18ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (918ms)
+			SetupLoadedEditorAssemblies (1700ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (19ms)
 				SetLoadedEditorAssemblies (7ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (128ms)
-				ProcessInitializeOnLoadAttributes (684ms)
-				ProcessInitializeOnLoadMethodAttributes (73ms)
-				AfterProcessingInitializeOnLoad (15ms)
-				EditorAssembliesLoaded (0ms)
+				BeforeProcessingInitializeOnLoad (211ms)
+				ProcessInitializeOnLoadAttributes (1217ms)
+				ProcessInitializeOnLoadMethodAttributes (210ms)
+				AfterProcessingInitializeOnLoad (35ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 25.43 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-Unloading 4461 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 71 unused Assets / (80.4 KB). Loaded Objects now: 4926.
-Memory consumption went from 143.4 MB to 143.3 MB.
-Total: 10.263800 ms (FindLiveObjects: 0.959700 ms CreateObjectMapping: 0.245100 ms MarkObjects: 8.525600 ms  DeleteObjects: 0.530200 ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
+Refreshing native plugins compatible for Editor in 60.27 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.21 ms.
+Unloading 4570 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 71 unused Assets / (80.3 KB). Loaded Objects now: 5035.
+Memory consumption went from 147.8 MB to 147.7 MB.
+Total: 12.350800 ms (FindLiveObjects: 1.202600 ms CreateObjectMapping: 0.344900 ms MarkObjects: 10.394100 ms  DeleteObjects: 0.406000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -193,9 +193,153 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 191332.864514 seconds.
-  path: Assets/UnityDefaultRuntimeTheme.tss
-  artifactKey: Guid(9005cd0b1699d1b4aa265861dcba1234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityDefaultRuntimeTheme.tss using Guid(9005cd0b1699d1b4aa265861dcba1234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f2b89d062b3e0facb5fb6f3e21975b9') in 0.309878 seconds
+  Time since last request: 538514.216974 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Button/Basic - Only Icon/Brown.prefab
+  artifactKey: Guid(299f823bc54274d41873a97a6fd12e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Prefabs/Button/Basic - Only Icon/Brown.prefab using Guid(299f823bc54274d41873a97a6fd12e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49c9e4e4adc2fc18c1a0f993a27d5df6') in 0.067252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Cabletray_01_2m_Prefab_01.prefab
+  artifactKey: Guid(a13648f2077e4e343a1cd80d845363ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Cabletray_01_2m_Prefab_01.prefab using Guid(a13648f2077e4e343a1cd80d845363ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff659f6ecbeb72a4abd6c7aeb40db969') in 0.586937 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Air_Duct_01_2m_Prefab_01.prefab
+  artifactKey: Guid(9f0beeaea1b73af4095c93b67341a366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Air_Duct_01_2m_Prefab_01.prefab using Guid(9f0beeaea1b73af4095c93b67341a366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4daed79a3078f43713f667f951192058') in 0.439556 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.3.1/Starter Assets/Prefabs/UI_2D/Box Option 1.prefab
+  artifactKey: Guid(858b4b1cadcc41a439e62b4e989aff4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.3.1/Starter Assets/Prefabs/UI_2D/Box Option 1.prefab using Guid(858b4b1cadcc41a439e62b4e989aff4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e9857580252232e0e2389c2a9b09ae') in 0.020269 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Button/Basic - With Icon/Blue.prefab
+  artifactKey: Guid(f63e7af37cc635a48a0de550afaf79c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Prefabs/Button/Basic - With Icon/Blue.prefab using Guid(f63e7af37cc635a48a0de550afaf79c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ddc11a62e2036b991ee2d489bba0b58') in 0.121887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Scenes/Dexter.unity
+  artifactKey: Guid(a41146b71eaf43043a2399a568c03e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Dexter.unity using Guid(a41146b71eaf43043a2399a568c03e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85a667c048f614d14b133a6093d15035') in 0.001989 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Button/Rounded - Gradient/Brown.prefab
+  artifactKey: Guid(cfedd60fd4413fe40a4ee91b342a7105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Prefabs/Button/Rounded - Gradient/Brown.prefab using Guid(cfedd60fd4413fe40a4ee91b342a7105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88588048401500a74445a94fb138d863') in 0.087108 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Button/Basic - Outline With Icon/Blue.prefab
+  artifactKey: Guid(def12f27a97a60a43a7467901ebc5dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Prefabs/Button/Basic - Outline With Icon/Blue.prefab using Guid(def12f27a97a60a43a7467901ebc5dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b256ebeebc4531dc4da3dc82430b81de') in 0.077510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 66
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Button/Basic - Outline With Icon/Brown.prefab
+  artifactKey: Guid(e92d621dbe0fb184b837cb9a9f2acc25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Prefabs/Button/Basic - Outline With Icon/Brown.prefab using Guid(e92d621dbe0fb184b837cb9a9f2acc25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '231f80010064de33ca708f37c467b526') in 0.074226 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 66
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Button/Basic/Brown.prefab
+  artifactKey: Guid(d4220af058685be4cbeb9e5b6eca4f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Prefabs/Button/Basic/Brown.prefab using Guid(d4220af058685be4cbeb9e5b6eca4f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '201dd93d2714333323e1b999b0d59fa2') in 0.077365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/XRI_Examples/Physics/Prefabs/Cabinet.prefab
+  artifactKey: Guid(2967c4c1619c42c45abe25baea2b56d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/Physics/Prefabs/Cabinet.prefab using Guid(2967c4c1619c42c45abe25baea2b56d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1db8e9f0ec7cce0be6fb0b4ca14dfd51') in 0.093121 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 118
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Button/Basic - With Icon/Brown.prefab
+  artifactKey: Guid(dced34414aae1a043982f460aca943e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Prefabs/Button/Basic - With Icon/Brown.prefab using Guid(dced34414aae1a043982f460aca943e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63ba275d7f92f07234b309f98af3aa57') in 0.078410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Button/Radial - Outline Only Icon/Blue.prefab
+  artifactKey: Guid(be94f42f578668e4eae16f9204baf5fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Prefabs/Button/Radial - Outline Only Icon/Blue.prefab using Guid(be94f42f578668e4eae16f9204baf5fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08026c56c365c73e8b0df3f3cc5d281f') in 0.011310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Button/Basic - Outline Gradient/Blue.prefab
+  artifactKey: Guid(c83b828b4cbce32478ca503b50614a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Prefabs/Button/Basic - Outline Gradient/Blue.prefab using Guid(c83b828b4cbce32478ca503b50614a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91d50a71efeec84529f03d4bccad97cc') in 0.068738 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 59
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/XRI_Examples/SocketInteractors/Prefabs/Battery.prefab
+  artifactKey: Guid(b1b1dbeb4f4711945b5b2d72116081bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/SocketInteractors/Prefabs/Battery.prefab using Guid(b1b1dbeb4f4711945b5b2d72116081bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f6c6154be828368d1de2714b6da43ae') in 0.038081 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 51
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Beam_01_10m_Prefab_01.prefab
+  artifactKey: Guid(d14be1a56b99bf544873c5036097bd21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Beam_01_10m_Prefab_01.prefab using Guid(d14be1a56b99bf544873c5036097bd21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c320f8128bfe6177db1e2ecff34e051f') in 0.036828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Button/Radial - Outline Only Icon/Brown.prefab
+  artifactKey: Guid(ade681caad6cc41419e8469676ab5968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Prefabs/Button/Radial - Outline Only Icon/Brown.prefab using Guid(ade681caad6cc41419e8469676ab5968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2872402c1d221daca32689d6a632b639') in 0.009834 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/XRI_Examples/ActivateInteractables/Prefabs/ActivateInteractableWithTrigger.prefab
+  artifactKey: Guid(f49dc5cd64a1e004c988509fc919b348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/ActivateInteractables/Prefabs/ActivateInteractableWithTrigger.prefab using Guid(f49dc5cd64a1e004c988509fc919b348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62936c1e9079bfe109b550e58a30b7c8') in 0.006957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Button/Rounded - Gradient/Blue.prefab
+  artifactKey: Guid(db06c671dece811459b090289c22cb65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Prefabs/Button/Rounded - Gradient/Blue.prefab using Guid(db06c671dece811459b090289c22cb65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3042f03ab9b1b8cd8fd87369185a2e9c') in 0.075345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38

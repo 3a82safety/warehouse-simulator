@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2022.2/staging' branch; Version is '2022.2.15f1 (30d813e1a2a9) revision 3201043'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 16062 MB
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'en' Physical Memory: 15776 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2022.2.15f1\Editor\Unity.exe
+C:\Program Files\Unity 2020.3.20f1\Editor\2022.2.15f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/User/OneDrive/Desktop/SAP/Unity/warehouse-simulator
+C:/Users/hodex/Desktop/School/SAP/warehouse-simulator
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60388
-Successfully changed project path to: C:/Users/User/OneDrive/Desktop/SAP/Unity/warehouse-simulator
-C:/Users/User/OneDrive/Desktop/SAP/Unity/warehouse-simulator
+49193
+Successfully changed project path to: C:/Users/hodex/Desktop/School/SAP/warehouse-simulator
+C:/Users/hodex/Desktop/School/SAP/warehouse-simulator
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,77 +47,73 @@ C:/Users/User/OneDrive/Desktop/SAP/Unity/warehouse-simulator
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [1484] Host "[IP] 169.254.205.38 [Port] 0 [Flags] 2 [Guid] 1141901283 [EditorId] 1141901283 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-626PU1I1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [27432] Host "[IP] 172.22.46.34 [Port] 0 [Flags] 2 [Guid] 3567271575 [EditorId] 3567271575 [Version] 1048832 [Id] WindowsEditor(7,Dexter-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [1484] Host "[IP] 169.254.205.38 [Port] 0 [Flags] 2 [Guid] 1141901283 [EditorId] 1141901283 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-626PU1I1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [27432] Host "[IP] 172.22.46.34 [Port] 0 [Flags] 2 [Guid] 3567271575 [EditorId] 3567271575 [Version] 1048832 [Id] WindowsEditor(7,Dexter-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 61.66 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 2.73 ms.
+Refreshing native plugins compatible for Editor in 85.64 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 5.51 ms.
 Initialize engine version: 2022.2.15f1 (30d813e1a2a9)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/User/OneDrive/Desktop/SAP/Unity/warehouse-simulator/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2020.3.20f1/Editor/2022.2.15f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/hodex/Desktop/School/SAP/warehouse-simulator/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce MX350 (ID=0x1c94)
-    Vendor:   NVIDIA
-    VRAM:     1979 MB
-    Driver:   30.0.15.1169
+    Renderer: AMD Radeon(TM) Graphics (ID=0x1638)
+    Vendor:   ATI
+    VRAM:     7888 MB
+    Driver:   30.0.13002.1001
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56636
+Mono path[0] = 'C:/Program Files/Unity 2020.3.20f1/Editor/2022.2.15f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2020.3.20f1/Editor/2022.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2020.3.20f1/Editor/2022.2.15f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56156
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.022576 seconds.
-- Loaded All Assemblies, in  2.693 seconds
+Register platform support module: C:/Program Files/Unity 2020.3.20f1/Editor/2022.2.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.028458 seconds.
+- Loaded All Assemblies, in  0.811 seconds
 Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 1787 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.280 seconds
+- Finished resetting the current domain, in  0.571 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1015ms)
-		BeginReloadAssembly (726ms)
+	ReloadAssembly (560ms)
+		BeginReloadAssembly (234ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (4ms)
+			CreateAndSetChildDomain (1ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
-			LoadAssemblies (714ms)
+			LoadAssemblies (224ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1644ms)
-				TypeCache.Initialize (1639ms)
-					TypeCache.ScanAssembly (1635ms)
-				ResolveRequiredComponents (3ms)
+			SetupTypeCache (225ms)
+				TypeCache.Initialize (223ms)
+					TypeCache.ScanAssembly (221ms)
+				ResolveRequiredComponents (1ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (2881ms)
+			SetupLoadedEditorAssemblies (446ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (2307ms)
-				SetLoadedEditorAssemblies (21ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (20ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (3ms)
-				ProcessInitializeOnLoadAttributes (384ms)
-				ProcessInitializeOnLoadMethodAttributes (166ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (288ms)
+				ProcessInitializeOnLoadMethodAttributes (114ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\OneDrive\Desktop\SAP\Unity\warehouse-simulator\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\OneDrive\Desktop\SAP\Unity\warehouse-simulator\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  3.456 seconds
-Refreshing native plugins compatible for Editor in 59.64 ms, found 13 plugins.
+Symbol file LoadedFromMemory doesn't match image C:\Users\hodex\Desktop\School\SAP\warehouse-simulator\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\hodex\Desktop\School\SAP\warehouse-simulator\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.048 seconds
+Refreshing native plugins compatible for Editor in 54.23 ms, found 13 plugins.
 Native extension for WindowsStandalone target not found
-Native extension for Android target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
@@ -144,47 +140,231 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  2.846 seconds
+- Finished resetting the current domain, in  1.856 seconds
 Domain Reload Profiling:
-	ReloadAssembly (922ms)
-		BeginReloadAssembly (575ms)
+	ReloadAssembly (622ms)
+		BeginReloadAssembly (374ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (17ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		LoadAllAssembliesAndSetupDomain (1402ms)
+			LoadAssemblies (852ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (757ms)
+				TypeCache.Initialize (695ms)
+					TypeCache.ScanAssembly (686ms)
+				ResolveRequiredComponents (18ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (1496ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (8ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (214ms)
+				ProcessInitializeOnLoadAttributes (1123ms)
+				ProcessInitializeOnLoadMethodAttributes (110ms)
+				AfterProcessingInitializeOnLoad (24ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 54.96 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.26 ms.
+Unloading 4462 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 71 unused Assets / (80.4 KB). Loaded Objects now: 4928.
+Memory consumption went from 143.4 MB to 143.3 MB.
+Total: 7.456000 ms (FindLiveObjects: 0.841600 ms CreateObjectMapping: 0.381200 ms MarkObjects: 5.922300 ms  DeleteObjects: 0.309400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/WindowManagerEditor.cs:  -> a746e4603c9efb083537ef513a32b8d0
+  custom:scripting/monoscript/fileName/DropdownMultiSelect.cs:  -> 9a0b5f7ad1f8c0edc27347ac141a1dce
+  custom:scripting/monoscript/fileName/NotificationManagerEditor.cs:  -> b792e53e736771cc538f851e1ee4dce6
+  custom:scripting/monoscript/fileName/RadialLayoutGroupEditor.cs:  -> beff96574041e10000a986bb640b2518
+  custom:scripting/monoscript/fileName/ListViewEditor.cs:  -> 4cc272b9e00bda8676deb9ad78c4256c
+  custom:scripting/monoscript/fileName/UIManagerAnimatedIcon.cs:  -> a84a3f0263cc00053c544a4f199ee62e
+  custom:scripting/monoscript/fileName/ContextMenuManagerEditor.cs:  -> ddb297ee5d2e650d27a9312a2e60d468
+  custom:scripting/monoscript/fileName/ButtonManagerBasicWithIcon.cs:  -> c7f974db26c8b782d0e1d507461dffe8
+  custom:scripting/monoscript/fileName/UIManagerSlider.cs:  -> 1fb5ff98b6b481e2a4ef1ad15718e7d9
+  custom:scripting/monoscript/fileName/UIManagerHSelector.cs:  -> aeb9eb97fd0f4e4a6400ffb81c36e202
+  custom:scripting/monoscript/fileName/UIManagerPieChart.cs:  -> 0c4fae07becbc2a9ecb7985dd380a192
+  custom:scripting/monoscript/fileName/Ripple.cs:  -> 7b2d43e6d0d5e1c269d2e5dbd8403866
+  custom:scripting/monoscript/fileName/SliderManagerEditor.cs:  -> 61e564a764eec921bd42c64e290ac71e
+  custom:scripting/monoscript/fileName/ButtonManagerBasicIconEditor.cs:  -> 40e5edb262b4ddc1ff839a2a29be12ab
+  custom:scripting/monoscript/fileName/WindowManagerButton.cs:  -> 1fe292020fea81920333eba446b9086e
+  custom:scripting/monoscript/fileName/ListViewItem.cs:  -> c5b993f3d84a354b770dab6338556dc0
+  custom:scripting/monoscript/fileName/ButtonManagerBasicEditor.cs:  -> 75ea846084accd9fc1b979c9d6327db1
+  custom:scripting/monoscript/fileName/DemoElementSway.cs:  -> 79f8f7464a36676f7c40e96e25d19122
+  custom:scripting/monoscript/fileName/ButtonManagerBasicIcon.cs:  -> 3765009613dd0c8180bebaa99b33e778
+  custom:scripting/monoscript/fileName/PieChart.cs:  -> 435fc5a9feef1b9b3bf2cea0e70be8e6
+  custom:scripting/monoscript/fileName/ProgressBar.cs:  -> 40279c32a570b0fb2977982ddb636430
+  custom:scripting/monoscript/fileName/ButtonManagerEditor.cs:  -> 6c682703115ac00d167241564b56df28
+  custom:scripting/monoscript/fileName/InputSystemChecker.cs:  -> 9cada7689957ee79d74dc69866967cc4
+  custom:scripting/monoscript/fileName/UIManagerNotification.cs:  -> ffb525e708e7535f503f3197bd1aed54
+  custom:scripting/monoscript/fileName/ButtonManagerBasic.cs:  -> b0f181de891e8300978442ed4a42a8a3
+  custom:scripting/monoscript/fileName/UIManagerProgressBar.cs:  -> 29aef0acbb7a8544aa61c811bc87dd69
+  custom:scripting/monoscript/fileName/DemoListShadow.cs:  -> 08410e7bd5d23f8273d027e4bbdbc1c8
+  custom:scripting/monoscript/fileName/UIManager.cs:  -> 88f234de7cf798b1eed4c19defe6d8ff
+  custom:scripting/monoscript/fileName/ProgressBarEditor.cs:  -> e62370cbafd154f5339ed2ab5dbd67cb
+  custom:scripting/monoscript/fileName/ContextMenuSubMenu.cs:  -> cbc9c50e1ebe27577cd4ae85c68e041e
+  custom:scripting/monoscript/fileName/IconLibraryEditor.cs:  -> 70691bae809cf3f94e71cec257af772e
+  custom:scripting/monoscript/fileName/RangeMinSlider.cs:  -> 10897a8f144d0097a90a7ea6148051fb
+  custom:scripting/monoscript/fileName/UIManagerToggle.cs:  -> c553cf7557b91ac8a7fde3e67b771e89
+  custom:scripting/monoscript/fileName/UIGradient.cs:  -> 4b2fb7885b2c37d1c68043e52125992c
+  custom:scripting/monoscript/fileName/ButtonManagerIconEditor.cs:  -> 40071b8dd2d94b2692a29b2d4ac40ea2
+  custom:scripting/monoscript/fileName/IconLibrary.cs:  -> 71cc638df66a4d7683c28742ab3c64ca
+  custom:scripting/monoscript/fileName/ContextMenuContentEditor.cs:  -> b1f36138a63239c597448fbccea3bc5b
+  custom:scripting/monoscript/fileName/NotificationStacking.cs:  -> a10a33b240bf01d498e4b38ecb629977
+  custom:scripting/monoscript/fileName/IconManagerEditor.cs:  -> 0728b4dbc54ec0bf40141ee052b11a3a
+  custom:scripting/monoscript/fileName/AnimatedIconHandler.cs:  -> 18e2d92ffab9e71fc67aa87d19eae369
+  custom:scripting/monoscript/fileName/WindowManager.cs:  -> f62af1fbba19f12706bfa5f0224f83d7
+  custom:scripting/monoscript/fileName/LaunchURL.cs:  -> 5de580de8ee60e52346a747f36c115a1
+  custom:scripting/monoscript/fileName/UIManagerSwitch.cs:  -> 000941517e97821f033784a6181ee1bf
+  custom:scripting/monoscript/fileName/ModalWindowManager.cs:  -> 8d51b5cfe6fbbc811d3e9b0f9cb01110
+  custom:scripting/monoscript/fileName/DemoElementSwayParent.cs:  -> 5bb69138a182b78ac14dbb0d04ea7e41
+  custom:scripting/monoscript/fileName/UIManagerWindowManager.cs:  -> 1e2b1c68ca2e9be6c81ab937dbdb5c62
+  custom:scripting/monoscript/fileName/ListViewRow.cs:  -> 22af9b10452a9dde25ae02dfbc7cf6dd
+  custom:scripting/monoscript/fileName/CustomInputField.cs:  -> 9a05deb31119afe2f185fddf65163b0b
+  custom:scripting/monoscript/fileName/IconManager.cs:  -> 595fe0a3dafe2df5f94088c9a5d2ee28
+  custom:scripting/monoscript/fileName/UIManagerTooltip.cs:  -> 06518b2b87b7bdb0d363d5826d401cbd
+  custom:scripting/monoscript/fileName/RadialLayoutGroup.cs:  -> 316d37c646cc95870bfba5a3119155d2
+  custom:scripting/monoscript/fileName/UIManagerSliderEditor.cs:  -> d32ac97091a8fc064a1207b4de8fc405
+  custom:scripting/monoscript/fileName/RangeMaxSlider.cs:  -> 72a793fe43130a20f9a8f186ea5ce278
+  custom:scripting/monoscript/fileName/RangeSlider.cs:  -> eba300a92860d133d9adb75ff922ed3f
+  custom:scripting/monoscript/fileName/UIManagerContextMenu.cs:  -> 980978a9df12c7edf7bcd846463b37b0
+  custom:scripting/monoscript/fileName/WindowDragger.cs:  -> aac5c262f60ffa285b6acdd3fb53e93e
+  custom:scripting/monoscript/fileName/CustomToggle.cs:  -> cf6a27da66e83a59fe8315b1e7b63da6
+  custom:scripting/monoscript/fileName/UIManagerEditor.cs:  -> d1b79d18b962c456d66aff233400f62e
+  custom:scripting/monoscript/fileName/UIManagerProgressBarLoopEditor.cs:  -> 3a95dc1bb3c9b8ec2efd7a77893b893b
+  custom:scripting/monoscript/fileName/UIManagerButton.cs:  -> 5a8a5bf94cf37e77b98f22f849502c41
+  custom:scripting/monoscript/fileName/GameStart.cs:  -> 10e6d8215782f17f61bc40c7eade4996
+  custom:scripting/monoscript/fileName/NotificationManager.cs:  -> 2cfd19917c163dee861f6314d0eaf8ea
+  custom:scripting/monoscript/fileName/ListView.cs:  -> 52c593b22a924463770c1567c5e8c863
+  custom:scripting/monoscript/fileName/ContextMenuManager.cs:  -> 13a87f40625d28e994b1b6ac741c3398
+  custom:scripting/monoscript/fileName/ButtonManager.cs:  -> 037666f875f6bf785cb25bf9e7c6197e
+  custom:scripting/monoscript/fileName/RadialSliderEditor.cs:  -> eb1134359954c2c0fbcaef35c8d8801c
+  custom:scripting/monoscript/fileName/ButtonManagerBasicWithIconEditor.cs:  -> 8addf2c94ef4b65c6d7ed49abc4d0eb9
+  custom:scripting/monoscript/fileName/UIManagerButtonEditor.cs:  -> 5f522983799d91dc0fb6b91798fbb712
+  custom:scripting/monoscript/fileName/ExtendedColorPicker.cs:  -> 5ce98ed983eed883b452131450104f6b
+  custom:scripting/monoscript/fileName/TooltipManagerEditor.cs:  -> e24d76cc5f78958e96a7f16a35163893
+  custom:scripting/monoscript/fileName/ButtonManagerIcon.cs:  -> ef8e0fbe648be003dc2d746aa8d835ea
+  custom:scripting/monoscript/fileName/CustomDropdown.cs:  -> bce257908f15dc4d5a922005ccbdab4b
+  custom:scripting/monoscript/fileName/TooltipManager.cs:  -> 3e6c0855e38a3ca6829629b0ede5bb42
+  custom:scripting/monoscript/fileName/UIManagerInputField.cs:  -> e3e71caf22eb5a71ac98d845f3f7fce3
+  custom:scripting/monoscript/fileName/RadialSlider.cs:  -> b4c8942e613a7e87accab042a7ee2c77
+  custom:scripting/monoscript/fileName/CustomDropdownEditor.cs:  -> bca197f6c0ac7201607a82a4654a4b2d
+  custom:scripting/monoscript/fileName/ButtonManagerWithIconEditor.cs:  -> 014256673a21c8f176976882bea75263
+  custom:scripting/monoscript/fileName/HorizontalSelector.cs:  -> c37ded6bb17003bc17aa1f7ef4d3b55f
+  custom:scripting/monoscript/fileName/MUIPEditorHandler.cs:  -> 1b08bd9fee23d22eb483b2c85d61bb5e
+  custom:scripting/monoscript/fileName/UIGradientEditor.cs:  -> 3babf95e836a8d78ed7606a839a20b4f
+  custom:scripting/monoscript/fileName/ButtonManagerWithIcon.cs:  -> 9a23fdc5fa76d3e2f57a1778b5959fff
+  custom:scripting/monoscript/fileName/TooltipContent.cs:  -> 55aa4b4b55685df0713e2e68e375f32f
+  custom:scripting/monoscript/fileName/UIManagerProgressBarLoop.cs:  -> 07791d988f7649af4121d63d8a4c447e
+  custom:scripting/monoscript/fileName/DropdownMultiSelectEditor.cs:  -> 1238d67183c7f37d333f415044849d3e
+  custom:scripting/monoscript/fileName/PBFilled.cs:  -> 60463de103a29972d5a43369d18904cd
+  custom:scripting/monoscript/fileName/GameQuit.cs:  -> 3e07be10f164701ba2b1c667a74a8cf0
+  custom:scripting/monoscript/fileName/ModalWindowManagerEditor.cs:  -> aa3b221a4e78c895ff6e5e028f377874
+  custom:scripting/monoscript/fileName/SliderManager.cs:  -> 6eb10393c0094c1c1517094abba91a3b
+  custom:scripting/monoscript/fileName/PieChartEditor.cs:  -> b928feef685ae5172a3a21873a3cae11
+  custom:scripting/monoscript/fileName/ContextMenuContent.cs:  -> c36e3195d4eb221b665ee818fd368e59
+  custom:scripting/monoscript/fileName/InitMUIP.cs:  -> 93f1a6f5264a5b9ba829fcb1f04e2e22
+  custom:scripting/monoscript/fileName/SwitchManager.cs:  -> 75a86d71df61f4b8082cdcc5f21ac72c
+  custom:scripting/monoscript/fileName/UIManagerModalWindow.cs:  -> 95c294888ba3693c7f01b79702b72ecc
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor:  -> a1a506e3edf652c198c8eebabbd06734
+  custom:scripting/monoscript/fileName/ContextMenuContentMobile.cs:  -> f5617a114c6cd5a6a94f40b5af68ddc1
+  custom:scripting/monoscript/fileName/UIManagerDropdown.cs:  -> 00cc851488f29be9adcbef5ac2f0711f
+  custom:scripting/monoscript/fileName/SwitchManagerEditor.cs:  -> 2146b5bf495cb337be0ba84047f76a30
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp:  -> 842c675eb4fb885f47f7496c78deac47
+  custom:scripting/monoscript/fileName/ContextMenu.cs:  -> 45659982c4d30cfc77154775f006dc31
+  custom:scripting/monoscript/fileName/UIManagerScrollbar.cs:  -> 87011421fc36737c4da96182061a481d
+  custom:scripting/monoscript/fileName/HorizontalSelectorEditor.cs:  -> 7858cbcfee7a8f7559142ea0baf9ed8b
+  custom:scripting/monoscript/fileName/HMDInfoManager.cs:  -> fd341013519a5b3cf2b9b718a6159730
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\hodex\Desktop\School\SAP\warehouse-simulator\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\hodex\Desktop\School\SAP\warehouse-simulator\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.702 seconds
+Refreshing native plugins compatible for Editor in 54.42 ms, found 13 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@3.3.0\Runtime\OculusLoader.cs:282 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in .\Library\PackageCache\com.unity.xr.oculus@3.3.0\Runtime\OculusLoader.cs:267 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <cbc72d4a9767498db39486e941a498e3>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <cbc72d4a9767498db39486e941a498e3>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <cbc72d4a9767498db39486e941a498e3>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <a034809d7c214f51bd2d2d89aa481461>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.927 seconds
+Domain Reload Profiling:
+	ReloadAssembly (564ms)
+		BeginReloadAssembly (342ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (74ms)
-		LoadAllAssembliesAndSetupDomain (2519ms)
-			LoadAssemblies (1236ms)
+		LoadAllAssembliesAndSetupDomain (1120ms)
+			LoadAssemblies (729ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1536ms)
-				TypeCache.Initialize (1429ms)
-					TypeCache.ScanAssembly (1417ms)
+			SetupTypeCache (554ms)
+				TypeCache.Initialize (532ms)
+					TypeCache.ScanAssembly (520ms)
 				ResolveRequiredComponents (22ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (2289ms)
+			SetupLoadedEditorAssemblies (1279ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (108ms)
-				SetLoadedEditorAssemblies (23ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (9ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (254ms)
-				ProcessInitializeOnLoadAttributes (1668ms)
-				ProcessInitializeOnLoadMethodAttributes (210ms)
-				AfterProcessingInitializeOnLoad (24ms)
+				BeforeProcessingInitializeOnLoad (191ms)
+				ProcessInitializeOnLoadAttributes (916ms)
+				ProcessInitializeOnLoadMethodAttributes (120ms)
+				AfterProcessingInitializeOnLoad (28ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (16ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.24 seconds
-Refreshing native plugins compatible for Editor in 124.57 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.58 ms.
-Unloading 4461 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 71 unused Assets / (80.3 KB). Loaded Objects now: 4929.
-Memory consumption went from 143.3 MB to 143.2 MB.
-Total: 10.967300 ms (FindLiveObjects: 0.780700 ms CreateObjectMapping: 0.634600 ms MarkObjects: 9.256800 ms  DeleteObjects: 0.292700 ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 56.89 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
+Unloading 4414 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (53.5 KB). Loaded Objects now: 4931.
+Memory consumption went from 137.8 MB to 137.8 MB.
+Total: 6.367900 ms (FindLiveObjects: 0.440200 ms CreateObjectMapping: 0.239300 ms MarkObjects: 5.540800 ms  DeleteObjects: 0.146000 ms)
 
+Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
@@ -195,10 +375,83 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 613353.102900 seconds.
-  path: Assets/UnityDefaultRuntimeTheme.tss
-  artifactKey: Guid(9005cd0b1699d1b4aa265861dcba1234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityDefaultRuntimeTheme.tss using Guid(9005cd0b1699d1b4aa265861dcba1234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9e0e76a3fa7784cfbcc6737f77a6af2') in 0.795873 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 24
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\hodex\Desktop\School\SAP\warehouse-simulator\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\hodex\Desktop\School\SAP\warehouse-simulator\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.711 seconds
+Refreshing native plugins compatible for Editor in 47.46 ms, found 13 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@3.3.0\Runtime\OculusLoader.cs:282 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in .\Library\PackageCache\com.unity.xr.oculus@3.3.0\Runtime\OculusLoader.cs:267 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <cbc72d4a9767498db39486e941a498e3>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <cbc72d4a9767498db39486e941a498e3>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <cbc72d4a9767498db39486e941a498e3>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <a034809d7c214f51bd2d2d89aa481461>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.883 seconds
+Domain Reload Profiling:
+	ReloadAssembly (526ms)
+		BeginReloadAssembly (332ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (75ms)
+		LoadAllAssembliesAndSetupDomain (1165ms)
+			LoadAssemblies (682ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (629ms)
+				TypeCache.Initialize (617ms)
+					TypeCache.ScanAssembly (608ms)
+				ResolveRequiredComponents (12ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (1307ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (213ms)
+				ProcessInitializeOnLoadAttributes (921ms)
+				ProcessInitializeOnLoadMethodAttributes (108ms)
+				AfterProcessingInitializeOnLoad (38ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Refreshing native plugins compatible for Editor in 70.03 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.19 ms.
+Unloading 4414 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 48 unused Assets / (50.8 KB). Loaded Objects now: 4935.
+Memory consumption went from 137.9 MB to 137.8 MB.
+Total: 6.672200 ms (FindLiveObjects: 0.514300 ms CreateObjectMapping: 0.276000 ms MarkObjects: 5.741800 ms  DeleteObjects: 0.138300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
