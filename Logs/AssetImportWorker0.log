@@ -15,7 +15,7 @@ C:/Users/hodex/Desktop/School/SAP/warehouse-simulator
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53878
+51678
 Successfully changed project path to: C:/Users/hodex/Desktop/School/SAP/warehouse-simulator
 C:/Users/hodex/Desktop/School/SAP/warehouse-simulator
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ C:/Users/hodex/Desktop/School/SAP/warehouse-simulator
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [916] Host "[IP] 172.22.46.34 [Port] 0 [Flags] 2 [Guid] 197110359 [EditorId] 197110359 [Version] 1048832 [Id] WindowsEditor(7,Dexter-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [26784] Host "[IP] 172.22.46.34 [Port] 0 [Flags] 2 [Guid] 193447445 [EditorId] 193447445 [Version] 1048832 [Id] WindowsEditor(7,Dexter-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [916] Host "[IP] 172.22.46.34 [Port] 0 [Flags] 2 [Guid] 197110359 [EditorId] 197110359 [Version] 1048832 [Id] WindowsEditor(7,Dexter-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [26784] Host "[IP] 172.22.46.34 [Port] 0 [Flags] 2 [Guid] 193447445 [EditorId] 193447445 [Version] 1048832 [Id] WindowsEditor(7,Dexter-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 29.55 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 2.76 ms.
+Refreshing native plugins compatible for Editor in 32.35 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 3.10 ms.
 Initialize engine version: 2022.2.15f1 (30d813e1a2a9)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2020.3.20f1/Editor/2022.2.15f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/hodex/Desktop/School/SAP/warehouse-simulator/Assets
@@ -67,41 +67,41 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2020.3.20f1/Editor/2022.2.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2020.3.20f1/Editor/2022.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2020.3.20f1/Editor/2022.2.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56936
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56708
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2020.3.20f1/Editor/2022.2.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.011640 seconds.
-- Loaded All Assemblies, in  0.440 seconds
+Registered in 0.012796 seconds.
+- Loaded All Assemblies, in  0.457 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.382 seconds
+- Finished resetting the current domain, in  0.301 seconds
 Domain Reload Profiling:
-	ReloadAssembly (255ms)
-		BeginReloadAssembly (122ms)
+	ReloadAssembly (287ms)
+		BeginReloadAssembly (144ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
-			LoadAssemblies (118ms)
+			LoadAssemblies (140ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (171ms)
-				TypeCache.Initialize (170ms)
-					TypeCache.ScanAssembly (166ms)
+			SetupTypeCache (157ms)
+				TypeCache.Initialize (156ms)
+					TypeCache.ScanAssembly (152ms)
 				ResolveRequiredComponents (1ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (289ms)
+			SetupLoadedEditorAssemblies (234ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (13ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (8ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (192ms)
-				ProcessInitializeOnLoadMethodAttributes (67ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (158ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -111,8 +111,8 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\hodex\Desktop\School\SAP\warehouse-simulator\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\hodex\Desktop\School\SAP\warehouse-simulator\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.324 seconds
-Refreshing native plugins compatible for Editor in 25.50 ms, found 13 plugins.
+- Loaded All Assemblies, in  1.207 seconds
+Refreshing native plugins compatible for Editor in 25.24 ms, found 13 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
@@ -140,44 +140,44 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.112 seconds
+- Finished resetting the current domain, in  0.971 seconds
 Domain Reload Profiling:
-	ReloadAssembly (344ms)
-		BeginReloadAssembly (211ms)
+	ReloadAssembly (304ms)
+		BeginReloadAssembly (186ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (48ms)
-		LoadAllAssembliesAndSetupDomain (973ms)
-			LoadAssemblies (601ms)
+			CreateAndSetChildDomain (40ms)
+		LoadAllAssembliesAndSetupDomain (896ms)
+			LoadAssemblies (519ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (466ms)
-				TypeCache.Initialize (429ms)
-					TypeCache.ScanAssembly (417ms)
-				ResolveRequiredComponents (7ms)
+			SetupTypeCache (458ms)
+				TypeCache.Initialize (424ms)
+					TypeCache.ScanAssembly (412ms)
+				ResolveRequiredComponents (5ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (879ms)
+			SetupLoadedEditorAssemblies (782ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (7ms)
+				SetLoadedEditorAssemblies (5ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (122ms)
-				ProcessInitializeOnLoadAttributes (651ms)
-				ProcessInitializeOnLoadMethodAttributes (77ms)
-				AfterProcessingInitializeOnLoad (14ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (588ms)
+				ProcessInitializeOnLoadMethodAttributes (69ms)
+				AfterProcessingInitializeOnLoad (12ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 22.85 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.13 ms.
+			AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 21.04 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
 Unloading 4462 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 86 unused Assets / (0.8 MB). Loaded Objects now: 4903.
-Memory consumption went from 143.5 MB to 142.7 MB.
-Total: 10.188900 ms (FindLiveObjects: 0.820700 ms CreateObjectMapping: 0.547800 ms MarkObjects: 7.759800 ms  DeleteObjects: 1.056200 ms)
+Unloading 71 unused Assets / (80.2 KB). Loaded Objects now: 4928.
+Memory consumption went from 143.3 MB to 143.2 MB.
+Total: 9.990700 ms (FindLiveObjects: 0.870400 ms CreateObjectMapping: 0.620000 ms MarkObjects: 7.968600 ms  DeleteObjects: 0.528600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -193,9 +193,9 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 513827.988432 seconds.
+  Time since last request: 508404.014502 seconds.
   path: Assets/Scenes/Dexter.unity
   artifactKey: Guid(a41146b71eaf43043a2399a568c03e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Dexter.unity using Guid(a41146b71eaf43043a2399a568c03e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99c361041762cd573a99731fad1d0e9a') in 0.003860 seconds
+Start importing Assets/Scenes/Dexter.unity using Guid(a41146b71eaf43043a2399a568c03e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c48e764a3663413d825de7de56c5ffe5') in 0.003401 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0

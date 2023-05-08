@@ -1,16 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ChoiceScript : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
+    public GameObject Textbox;
+    public GameObject Choice1;
+    public GameObject Choice2;
+    public GameObject Choice3;
+    public GameObject Choice4;\
+    public int ChoiceMade;
+
+    public void ChoiceOption1
+
     void Update()
     {
         
