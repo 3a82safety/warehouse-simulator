@@ -15,7 +15,7 @@ C:/Users/hodex/Desktop/School/SAP/warehouse-simulator
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-50563
+50903
 Successfully changed project path to: C:/Users/hodex/Desktop/School/SAP/warehouse-simulator
 C:/Users/hodex/Desktop/School/SAP/warehouse-simulator
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ C:/Users/hodex/Desktop/School/SAP/warehouse-simulator
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8340] Host "[IP] 172.22.46.34 [Port] 0 [Flags] 2 [Guid] 1661360960 [EditorId] 1661360960 [Version] 1048832 [Id] WindowsEditor(7,Dexter-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [3808] Host "[IP] 172.22.46.34 [Port] 0 [Flags] 2 [Guid] 2075205501 [EditorId] 2075205501 [Version] 1048832 [Id] WindowsEditor(7,Dexter-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8340] Host "[IP] 172.22.46.34 [Port] 0 [Flags] 2 [Guid] 1661360960 [EditorId] 1661360960 [Version] 1048832 [Id] WindowsEditor(7,Dexter-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [3808] Host "[IP] 172.22.46.34 [Port] 0 [Flags] 2 [Guid] 2075205501 [EditorId] 2075205501 [Version] 1048832 [Id] WindowsEditor(7,Dexter-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 54.06 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 4.53 ms.
+Refreshing native plugins compatible for Editor in 102.12 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 4.17 ms.
 Initialize engine version: 2022.2.15f1 (30d813e1a2a9)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2020.3.20f1/Editor/2022.2.15f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/hodex/Desktop/School/SAP/warehouse-simulator/Assets
@@ -67,41 +67,41 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2020.3.20f1/Editor/2022.2.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2020.3.20f1/Editor/2022.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2020.3.20f1/Editor/2022.2.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56188
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56436
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2020.3.20f1/Editor/2022.2.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.014235 seconds.
-- Loaded All Assemblies, in  0.433 seconds
+Registered in 0.021391 seconds.
+- Loaded All Assemblies, in  0.922 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.287 seconds
+- Finished resetting the current domain, in  0.609 seconds
 Domain Reload Profiling:
-	ReloadAssembly (269ms)
-		BeginReloadAssembly (132ms)
+	ReloadAssembly (552ms)
+		BeginReloadAssembly (306ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
+			CreateAndSetChildDomain (2ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
-			LoadAssemblies (128ms)
+			LoadAssemblies (297ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (137ms)
-				TypeCache.Initialize (136ms)
-					TypeCache.ScanAssembly (134ms)
-				ResolveRequiredComponents (1ms)
+			SetupTypeCache (350ms)
+				TypeCache.Initialize (347ms)
+					TypeCache.ScanAssembly (341ms)
+				ResolveRequiredComponents (2ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (225ms)
+			SetupLoadedEditorAssemblies (481ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (8ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (22ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (151ms)
-				ProcessInitializeOnLoadMethodAttributes (53ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (310ms)
+				ProcessInitializeOnLoadMethodAttributes (119ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -111,8 +111,8 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\hodex\Desktop\School\SAP\warehouse-simulator\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\hodex\Desktop\School\SAP\warehouse-simulator\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.011 seconds
-Refreshing native plugins compatible for Editor in 25.36 ms, found 13 plugins.
+- Loaded All Assemblies, in  2.018 seconds
+Refreshing native plugins compatible for Editor in 58.87 ms, found 13 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
@@ -140,44 +140,44 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.972 seconds
+- Finished resetting the current domain, in  2.177 seconds
 Domain Reload Profiling:
-	ReloadAssembly (255ms)
-		BeginReloadAssembly (156ms)
+	ReloadAssembly (475ms)
+		BeginReloadAssembly (251ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (22ms)
-		LoadAllAssembliesAndSetupDomain (748ms)
-			LoadAssemblies (401ms)
+			CreateAndSetChildDomain (48ms)
+		LoadAllAssembliesAndSetupDomain (1536ms)
+			LoadAssemblies (917ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (420ms)
-				TypeCache.Initialize (375ms)
-					TypeCache.ScanAssembly (370ms)
-				ResolveRequiredComponents (12ms)
+			SetupTypeCache (705ms)
+				TypeCache.Initialize (645ms)
+					TypeCache.ScanAssembly (627ms)
+				ResolveRequiredComponents (15ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (766ms)
+			SetupLoadedEditorAssemblies (1757ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (5ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (11ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (110ms)
-				ProcessInitializeOnLoadAttributes (575ms)
-				ProcessInitializeOnLoadMethodAttributes (52ms)
-				AfterProcessingInitializeOnLoad (15ms)
-				EditorAssembliesLoaded (0ms)
+				BeforeProcessingInitializeOnLoad (198ms)
+				ProcessInitializeOnLoadAttributes (1368ms)
+				ProcessInitializeOnLoadMethodAttributes (139ms)
+				AfterProcessingInitializeOnLoad (26ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 29.42 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.16 ms.
-Unloading 4568 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 71 unused Assets / (79.4 KB). Loaded Objects now: 5014.
+			AwakeInstancesAfterBackupRestoration (13ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 46.83 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.24 ms.
+Unloading 4569 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 71 unused Assets / (80.1 KB). Loaded Objects now: 5035.
 Memory consumption went from 148.1 MB to 148.0 MB.
-Total: 4.562000 ms (FindLiveObjects: 0.377700 ms CreateObjectMapping: 0.157800 ms MarkObjects: 3.844800 ms  DeleteObjects: 0.180700 ms)
+Total: 10.340600 ms (FindLiveObjects: 1.121100 ms CreateObjectMapping: 0.368200 ms MarkObjects: 8.427900 ms  DeleteObjects: 0.421500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -193,404 +193,614 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 173332.246656 seconds.
-  path: Assets/Assets_Ladders/models/ladder-3.FBX
-  artifactKey: Guid(4624469c68b6c64499e555fa2d427f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_Ladders/models/ladder-3.FBX using Guid(4624469c68b6c64499e555fa2d427f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea13d554f8d5b3045918b0db08d3aaa6') in 0.203001 seconds
+  Time since last request: 176143.059001 seconds.
+  path: Assets/XRI_Examples/Global/Prefabs/PostprocessVolume.prefab
+  artifactKey: Guid(ad7927123279f3049b38329cd8836f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/Global/Prefabs/PostprocessVolume.prefab using Guid(ad7927123279f3049b38329cd8836f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f043c8a568a0390bbf0346a7bfd1ef5') in 0.058430 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 24
+Number of asset objects unloaded after import = 5
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Cybernetic Walrus/Factory Interior/Models/Holder_02.fbx
-  artifactKey: Guid(f789d4a0db08e5c4f8ed99dcb1116358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Holder_02.fbx using Guid(f789d4a0db08e5c4f8ed99dcb1116358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e1a9fa0cd8ed634df4877085a21dbbe') in 0.018179 seconds
+  Time since last request: 0.000088 seconds.
+  path: Assets/XRI_Examples/GrabInteractables/Prefabs/InstantCube.prefab
+  artifactKey: Guid(c91b6479bcc5dc94f8290551ae3e6d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/GrabInteractables/Prefabs/InstantCube.prefab using Guid(c91b6479bcc5dc94f8290551ae3e6d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9760c9fcfc00f7566389927a02e64cce') in 0.247138 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
+Number of asset objects unloaded after import = 35
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Cybernetic Walrus/Factory Interior/Models/Lamp_Beam_01_20m.fbx
-  artifactKey: Guid(05449ab2365f2b64d9b60858fe48e74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Lamp_Beam_01_20m.fbx using Guid(05449ab2365f2b64d9b60858fe48e74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76005d5977c749e4374276983c887a88') in 0.036566 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Cybernetic Walrus/Factory Interior/Models/Colliders/Lamp_Beam_01_20m_Collider.fbx
-  artifactKey: Guid(caa7330e3c68c5b44a53d072168e748a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Colliders/Lamp_Beam_01_20m_Collider.fbx using Guid(caa7330e3c68c5b44a53d072168e748a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc33da2d34edd51efb660a9f74adef07') in 0.017864 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Assets_Ladders/models/ladder-2.FBX
-  artifactKey: Guid(947ffa1f138378c42ac19675f275f4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_Ladders/models/ladder-2.FBX using Guid(947ffa1f138378c42ac19675f275f4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '647b4f79b3ebfa97de82634023d1402e') in 0.043225 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 24
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Cybernetic Walrus/Factory Interior/Models/Lamp_01.fbx
-  artifactKey: Guid(c98d2c418a748d241bb35316ad1179a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Lamp_01.fbx using Guid(c98d2c418a748d241bb35316ad1179a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '958f835bb9be22e8265b549c2cfc5c32') in 0.036556 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Assets_Ladders/models/ladder-1_extended.FBX
-  artifactKey: Guid(ca2023307f4686641881eab184f014a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_Ladders/models/ladder-1_extended.FBX using Guid(ca2023307f4686641881eab184f014a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d67dc61e8e210b150f9adadf1b4fead') in 0.036620 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 24
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Cybernetic Walrus/Factory Interior/Models/Colliders/Lamp_01_Collider.fbx
-  artifactKey: Guid(f055cabbd98da55489e33fb47621ded3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Colliders/Lamp_01_Collider.fbx using Guid(f055cabbd98da55489e33fb47621ded3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '369a0226d8ee16a6b278db7f1217c619') in 0.013482 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Cybernetic Walrus/Factory Interior/Models/Colliders/Medkit_01_Collider.fbx
-  artifactKey: Guid(38b433a81bb68564c9088d7411cf7a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Colliders/Medkit_01_Collider.fbx using Guid(38b433a81bb68564c9088d7411cf7a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a9bd8b6846b8beed5d23b61f1fc6f13') in 0.019783 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/CyberneticWalrus/Factory_Props_Vol1/Models/Colliders/Forklift_01_Front_01_Collider.fbx
-  artifactKey: Guid(bbcb050b0c7ffd14a87be16532563d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CyberneticWalrus/Factory_Props_Vol1/Models/Colliders/Forklift_01_Front_01_Collider.fbx using Guid(bbcb050b0c7ffd14a87be16532563d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd48e426b744220ed7dee505554389dfc') in 0.014180 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/XRI_Examples/Props/Models/PiggyBank.fbx
-  artifactKey: Guid(90337c42faab5664ba10c4042cdf0969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XRI_Examples/Props/Models/PiggyBank.fbx using Guid(90337c42faab5664ba10c4042cdf0969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b76f6c568c472b89abea8dd8854a894b') in 0.037853 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Assets_Ladders/models/ladder-4_folded.FBX
-  artifactKey: Guid(5e9df1aecc7d27d49b6327224c320d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_Ladders/models/ladder-4_folded.FBX using Guid(5e9df1aecc7d27d49b6327224c320d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e660aa0afee7da8dba86008dcc05c17d') in 0.031157 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 19
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/CyberneticWalrus/Factory_Props_Vol1/Models/Pallet_01.fbx
-  artifactKey: Guid(2d96c9d669d2454419fe169b5daab49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CyberneticWalrus/Factory_Props_Vol1/Models/Pallet_01.fbx using Guid(2d96c9d669d2454419fe169b5daab49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68d5b55c13b62045843d2f14bf8486a1') in 0.036028 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Cybernetic Walrus/Factory Interior/Models/Holder_01.fbx
-  artifactKey: Guid(07346d0349c6c1c45af3a631d8ba592e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Holder_01.fbx using Guid(07346d0349c6c1c45af3a631d8ba592e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76305cf3cef4283e1c42eddeb40fc91e') in 0.016860 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Cybernetic Walrus/Factory Interior/Models/Pipe_01a_20m.fbx
-  artifactKey: Guid(01c3357b1a0fd084ea93690ab66817fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Pipe_01a_20m.fbx using Guid(01c3357b1a0fd084ea93690ab66817fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3cc08ae3cc7ab46a9c06de81f397f27') in 0.031871 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Cybernetic Walrus/Factory Interior/Models/Pipe_01b_10m.fbx
-  artifactKey: Guid(37406eb33b1fad04ba045eb12d9ff5d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Pipe_01b_10m.fbx using Guid(37406eb33b1fad04ba045eb12d9ff5d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '870b054f5c12b035675f72dc11a9f147') in 0.031607 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
-========================================================================
-Received Import Request.
-  Time since last request: 0.441991 seconds.
-  path: Assets/Cybernetic Walrus/Factory Interior/Models/Pipe_03_5m.fbx
-  artifactKey: Guid(64ef069bdf22f094a9715d6a9d2bf047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Pipe_03_5m.fbx using Guid(64ef069bdf22f094a9715d6a9d2bf047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efebed8f83c19041850480f2084ef4f2') in 0.066932 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Cybernetic Walrus/Factory Interior/Models/Colliders/Pipe_03_Corner_Collider.fbx
-  artifactKey: Guid(16e3ef4409aae7749bd41e88cbdb5d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Colliders/Pipe_03_Corner_Collider.fbx using Guid(16e3ef4409aae7749bd41e88cbdb5d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c03bdeb3299c93a2bf4cbc5bdb83192f') in 0.023984 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/Cybernetic Walrus/Factory Interior/Models/Colliders/Wall_01_Door_Large_01_Collider.fbx
-  artifactKey: Guid(37d6a340faeb5fc4689507d360837fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Colliders/Wall_01_Door_Large_01_Collider.fbx using Guid(37d6a340faeb5fc4689507d360837fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a38da6e6709142d2d2820f888537ee38') in 0.018575 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/CyberneticWalrus/Factory_Props_Vol1/Models/Stack_Box_02.fbx
-  artifactKey: Guid(8c9d680ad9bdc2949a6eb03d43e189d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CyberneticWalrus/Factory_Props_Vol1/Models/Stack_Box_02.fbx using Guid(8c9d680ad9bdc2949a6eb03d43e189d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a93ab6d42f2a44feac636f789d4577d7') in 0.035847 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Cybernetic Walrus/Factory Interior/Models/Colliders/Pole_01_Collider.fbx
-  artifactKey: Guid(123e42fbfaa15734a96180a59b8df34a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Colliders/Pole_01_Collider.fbx using Guid(123e42fbfaa15734a96180a59b8df34a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e517c8268969bada401c37c779b8398') in 0.013119 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Cybernetic Walrus/Factory Interior/Models/Wall_Divider_01_5m.fbx
-  artifactKey: Guid(cf1027ad583bb5c41b94acf288ae93ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Wall_Divider_01_5m.fbx using Guid(cf1027ad583bb5c41b94acf288ae93ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b6936d202ff6fabeabf2dbbbde33189') in 0.044315 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/CyberneticWalrus/Factory_Props_Vol1/Models/Stack_Box_01.fbx
-  artifactKey: Guid(5e8e0468739e8ff4ba2af7622bf977d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CyberneticWalrus/Factory_Props_Vol1/Models/Stack_Box_01.fbx using Guid(5e8e0468739e8ff4ba2af7622bf977d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9f812a6b4af026e51b739e587c50327') in 0.061830 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/XRI_Examples/Props/Models/TargetRing.fbx
-  artifactKey: Guid(9be78d4b4d369b94d9076a46fa4d0304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XRI_Examples/Props/Models/TargetRing.fbx using Guid(9be78d4b4d369b94d9076a46fa4d0304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aee4def72f306fc61729bf761acd6c4') in 0.047330 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 24
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Cybernetic Walrus/Factory Interior/Models/Wall_01_10m.fbx
-  artifactKey: Guid(c8e07e8a5f8c4854299f2de2be2b558e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Wall_01_10m.fbx using Guid(c8e07e8a5f8c4854299f2de2be2b558e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ca15ae1bfedc3176a4d3e634352849c') in 0.027872 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/CyberneticWalrus/Factory_Props_Vol1/Models/Colliders/Stack_Box_01_Collider.fbx
-  artifactKey: Guid(c56f799b9ff57634a892c99bf87455c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CyberneticWalrus/Factory_Props_Vol1/Models/Colliders/Stack_Box_01_Collider.fbx using Guid(c56f799b9ff57634a892c99bf87455c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b12c34f8d972dde4a0774f90fa9a4a9f') in 0.015298 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Cybernetic Walrus/Factory Interior/Models/Wall_01_Door_01.fbx
-  artifactKey: Guid(c8f2c3ca4878e964b99774c6cfb5bb84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Wall_01_Door_01.fbx using Guid(c8f2c3ca4878e964b99774c6cfb5bb84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7318da128d67a33c64501aa4719f9dd0') in 0.037513 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 46.181947 seconds.
-  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Beam_02_5m_Prefab_01.prefab
-  artifactKey: Guid(a845902fedb478d45b532c9e318713e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Beam_02_5m_Prefab_01.prefab using Guid(a845902fedb478d45b532c9e318713e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dd746c6f4b5c989766f907c4af3f87a') in 0.015882 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 22
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/2.3.1/Starter Assets/Prefabs/UI_2D/Box Option 1.prefab
-  artifactKey: Guid(858b4b1cadcc41a439e62b4e989aff4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/2.3.1/Starter Assets/Prefabs/UI_2D/Box Option 1.prefab using Guid(858b4b1cadcc41a439e62b4e989aff4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e9857580252232e0e2389c2a9b09ae') in 0.014443 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Modern UI Pack/Prefabs/Button/Basic - Gradient/Brown.prefab
-  artifactKey: Guid(0c865d3a9a1a18449b77fddeba3c0bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modern UI Pack/Prefabs/Button/Basic - Gradient/Brown.prefab using Guid(0c865d3a9a1a18449b77fddeba3c0bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7aec34431022b438b48832e3480a471') in 0.069433 seconds
+  Time since last request: 0.000052 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Button/Rounded - Gradient/Purple.prefab
+  artifactKey: Guid(17cd2e7bf116f2e43a5434c276aaa2a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Prefabs/Button/Rounded - Gradient/Purple.prefab using Guid(17cd2e7bf116f2e43a5434c276aaa2a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13e7eba8a391080e14f5a05f3b5f39db') in 0.104498 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 39
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Modern UI Pack/Prefabs/Button/Rounded - Outline Gradient/Blue.prefab
-  artifactKey: Guid(15e48ffd5275d004795c839d5dd08c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modern UI Pack/Prefabs/Button/Rounded - Outline Gradient/Blue.prefab using Guid(15e48ffd5275d004795c839d5dd08c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82eebdaf03c81c01aab564e7832ffd10') in 0.042568 seconds
+  Time since last request: 0.000060 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Button/Rounded - Outline Gradient/Red.prefab
+  artifactKey: Guid(5bb8184ff1265434b96d931239e59631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Prefabs/Button/Rounded - Outline Gradient/Red.prefab using Guid(5bb8184ff1265434b96d931239e59631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b1c07df6aa93ff82c88e234c1a1243e') in 0.064933 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 59
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Cabletray_01_Corner_02_Prefab_01.prefab
-  artifactKey: Guid(194fc48267c4a8546b1cd3cf81b72c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Cabletray_01_Corner_02_Prefab_01.prefab using Guid(194fc48267c4a8546b1cd3cf81b72c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84c185a38ad45a6f62f6ebcbaed1551d') in 0.020359 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 22
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Modern UI Pack/Prefabs/Button/Basic - Outline With Icon/Brown.prefab
-  artifactKey: Guid(e92d621dbe0fb184b837cb9a9f2acc25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modern UI Pack/Prefabs/Button/Basic - Outline With Icon/Brown.prefab using Guid(e92d621dbe0fb184b837cb9a9f2acc25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c819b01e289ec69a6afae50ab158291') in 0.041480 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 67
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Modern UI Pack/Prefabs/Button/Radial - Only Icon/Blue.prefab
-  artifactKey: Guid(75c8dbfd8dcd69a41b484d09956c5360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modern UI Pack/Prefabs/Button/Radial - Only Icon/Blue.prefab using Guid(75c8dbfd8dcd69a41b484d09956c5360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e45fd6223ceda9b6b17ff31e6eca6606') in 0.005802 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/2.3.1/Starter Assets/Prefabs/UI_2D/Box Option 4.prefab
-  artifactKey: Guid(1f2b472d3cc4e5e46ade0f300fb47680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/2.3.1/Starter Assets/Prefabs/UI_2D/Box Option 4.prefab using Guid(1f2b472d3cc4e5e46ade0f300fb47680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e60e22cf560bee51e47c42dcbf641d41') in 0.004752 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Cabletray_01_Corner_01_1m_Prefab_01.prefab
-  artifactKey: Guid(d25e6ff943432834c877c29af5e8ff40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Cabletray_01_Corner_01_1m_Prefab_01.prefab using Guid(d25e6ff943432834c877c29af5e8ff40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10f9607e23c7039c9deedcc8f4c11942') in 0.021254 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 22
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Modern UI Pack/Prefabs/Button/Rounded/Brown.prefab
-  artifactKey: Guid(e8e9fe43b467bcf46a644b9efa5c8fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modern UI Pack/Prefabs/Button/Rounded/Brown.prefab using Guid(e8e9fe43b467bcf46a644b9efa5c8fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31ccc0747bd4936a4917d9b4bf174f5e') in 0.035720 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Modern UI Pack/Prefabs/Button/Basic - Outline Only Icon/Blue.prefab
-  artifactKey: Guid(3d726bfa6e6285e448a8804e1c226337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modern UI Pack/Prefabs/Button/Basic - Outline Only Icon/Blue.prefab using Guid(3d726bfa6e6285e448a8804e1c226337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b584f09b4ea0c7f240f33f083d94a5c4') in 0.007497 seconds
+  Time since last request: 0.000054 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Button/Basic - Outline Only Icon/Purple.prefab
+  artifactKey: Guid(49361ac11eb9bd04aabe96bb0bbd3623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Prefabs/Button/Basic - Outline Only Icon/Purple.prefab using Guid(49361ac11eb9bd04aabe96bb0bbd3623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2246e782158d0a836f40e3a3b351b39f') in 0.015195 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 41
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Modern UI Pack/Prefabs/Button/Rounded - Outline/Brown.prefab
-  artifactKey: Guid(71f8d1a610ea33341b6082458febe739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modern UI Pack/Prefabs/Button/Rounded - Outline/Brown.prefab using Guid(71f8d1a610ea33341b6082458febe739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d0dfeb42f9a0d9dc5e9cf809e56a757') in 0.041336 seconds
+  Time since last request: 0.000042 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Button/Basic - With Icon/Red.prefab
+  artifactKey: Guid(88d48ce89a8ac2a42b8214c942581896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Prefabs/Button/Basic - With Icon/Red.prefab using Guid(88d48ce89a8ac2a42b8214c942581896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dfd532482c0723819408bd68e404281') in 0.099385 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 57
+Number of asset objects unloaded after import = 43
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Modern UI Pack/Prefabs/Button/Rounded/Blue.prefab
-  artifactKey: Guid(47c26c0ae6fda4a4396e496d4510e6a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modern UI Pack/Prefabs/Button/Rounded/Blue.prefab using Guid(47c26c0ae6fda4a4396e496d4510e6a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ffaeace4f8135a9ea22e1cdae6de657') in 0.040708 seconds
+  Time since last request: 0.000057 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Button/Basic - Only Icon/Red.prefab
+  artifactKey: Guid(25b31f93434b85e4287b3db966ad6dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Prefabs/Button/Basic - Only Icon/Red.prefab using Guid(25b31f93434b85e4287b3db966ad6dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ce11175dee0823613ab98b80ac1cbdf') in 0.018533 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
+Number of asset objects unloaded after import = 21
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Modern UI Pack/Prefabs/Button/Radial - Only Icon/Brown.prefab
-  artifactKey: Guid(f3fe7b97687e4924da6e4c6c7d83032c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modern UI Pack/Prefabs/Button/Radial - Only Icon/Brown.prefab using Guid(f3fe7b97687e4924da6e4c6c7d83032c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87ef6c2a676bc757f02340badbcfa5ec') in 0.004907 seconds
+  Time since last request: 0.000042 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Button/Radial - Only Icon/Pink.prefab
+  artifactKey: Guid(54bca491825a82b42ab835f76b956d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Prefabs/Button/Radial - Only Icon/Pink.prefab using Guid(54bca491825a82b42ab835f76b956d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '588be7555c456f3bee887b3935a26ac6') in 0.012278 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 20
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Modern UI Pack/Prefabs/Button/Basic - Gradient/Blue.prefab
-  artifactKey: Guid(fea3499422a914d40b0d94e01aae43f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modern UI Pack/Prefabs/Button/Basic - Gradient/Blue.prefab using Guid(fea3499422a914d40b0d94e01aae43f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5f97c985f2a2b8836c07cfd69636139') in 0.039093 seconds
+  Time since last request: 0.000042 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Input Field/Input Field - Standard (Middle).prefab
+  artifactKey: Guid(f6d82199af7ca3743b7a21cc4398ba50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Prefabs/Input Field/Input Field - Standard (Middle).prefab using Guid(f6d82199af7ca3743b7a21cc4398ba50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e027c67826688031c9bd9de0bfb435b') in 0.105157 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 39
+Number of asset objects unloaded after import = 60
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Pole_01_Prefab_01.prefab
+  artifactKey: Guid(4a3744e34338c53429c1b0e1fa714829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Pole_01_Prefab_01.prefab using Guid(4a3744e34338c53429c1b0e1fa714829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6421f2d14ec3c2d620741d8e373e691') in 0.133671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/XRI_Examples/SocketInteractors/Prefabs/PerlerMachineSetup.prefab
+  artifactKey: Guid(c3014b24b7f247b478b4058c9339acb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/SocketInteractors/Prefabs/PerlerMachineSetup.prefab using Guid(c3014b24b7f247b478b4058c9339acb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e89c235d8e59b40336e1f009c6cec634') in 0.118510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 354
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Notification/Sliding Notification.prefab
+  artifactKey: Guid(460c5f7def2d0894692d5afd37d6eb19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Prefabs/Notification/Sliding Notification.prefab using Guid(460c5f7def2d0894692d5afd37d6eb19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52055b4b2a855a9c2aa572b00c8f5ca3') in 0.078366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 72
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Button/Basic - Outline With Icon/Purple.prefab
+  artifactKey: Guid(172e1a3dd96994443bc5cc5f6ddd63ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Prefabs/Button/Basic - Outline With Icon/Purple.prefab using Guid(172e1a3dd96994443bc5cc5f6ddd63ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e25272f12d2f32a4537bb628087dd80') in 0.059731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 67
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Pipe_01b_10m_Prefab_01.prefab
+  artifactKey: Guid(8d44f5069e9b695419857a66aa0c72cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Pipe_01b_10m_Prefab_01.prefab using Guid(8d44f5069e9b695419857a66aa0c72cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7d0400567af89788c74794ebc306415') in 0.049704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Slider/Range/Slider - Range.prefab
+  artifactKey: Guid(dc93483266ec98147acf7fb76b5c0ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Prefabs/Slider/Range/Slider - Range.prefab using Guid(dc93483266ec98147acf7fb76b5c0ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68b9edcfde748892d108b2b0be8a6014') in 0.045797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 67
 ========================================================================
 Received Import Request.
   Time since last request: 0.000034 seconds.
-  path: Assets/Modern UI Pack/Prefabs/Button/Basic - Outline/Blue.prefab
-  artifactKey: Guid(e0494221100a5794e937462c0989b3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modern UI Pack/Prefabs/Button/Basic - Outline/Blue.prefab using Guid(e0494221100a5794e937462c0989b3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd28f8c7b79730f5d69e472131acaafb4') in 0.038478 seconds
+  path: Assets/XRI_Examples/UI_2D/Prefabs/MainMenu/PanelOutline.prefab
+  artifactKey: Guid(d00799943706bef479e427c494829f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/UI_2D/Prefabs/MainMenu/PanelOutline.prefab using Guid(d00799943706bef479e427c494829f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a54facbd0df138f4b5848478f0554369') in 0.007720 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 58
+Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/2.3.1/Starter Assets/Prefabs/UI_2D/Box Option 3.prefab
-  artifactKey: Guid(5cbc6c8c409ae57459ae709dab318484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/2.3.1/Starter Assets/Prefabs/UI_2D/Box Option 3.prefab using Guid(5cbc6c8c409ae57459ae709dab318484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76e0c7b428c4ff52adbdfe96a8149686') in 0.004538 seconds
+  Time since last request: 0.000028 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Pipe_01a_10m_Prefab_01.prefab
+  artifactKey: Guid(c4a6b10a2b20deb49aa495d88d2aa8d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Pipe_01a_10m_Prefab_01.prefab using Guid(c4a6b10a2b20deb49aa495d88d2aa8d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b66f15cfce5c7edf13037393443c856f') in 0.039885 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
+Number of asset objects unloaded after import = 24
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/XRI_Examples/Environment/Prefabs/CeilingLight.prefab
-  artifactKey: Guid(e32b4b710b5ec5b42ba84b234d6ae851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XRI_Examples/Environment/Prefabs/CeilingLight.prefab using Guid(e32b4b710b5ec5b42ba84b234d6ae851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37467d0c4a9c80e3e8fd8607b8c88f65') in 0.004978 seconds
+  Time since last request: 0.000043 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Movable Window/Movable Window.prefab
+  artifactKey: Guid(656e81c1467148042962149a5f168b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Prefabs/Movable Window/Movable Window.prefab using Guid(656e81c1467148042962149a5f168b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6de66319d432e3dfa338ee44966607c4') in 0.089235 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Number of asset objects unloaded after import = 62
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Modern UI Pack/Prefabs/Button/Radial - Outline Only Icon/Brown.prefab
-  artifactKey: Guid(ade681caad6cc41419e8469676ab5968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modern UI Pack/Prefabs/Button/Radial - Outline Only Icon/Brown.prefab using Guid(ade681caad6cc41419e8469676ab5968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c3e71761213ef868ab30225baf7a854') in 0.008559 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 40
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Modern UI Pack/Prefabs/Button/Rounded - Gradient/Blue.prefab
-  artifactKey: Guid(db06c671dece811459b090289c22cb65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modern UI Pack/Prefabs/Button/Rounded - Gradient/Blue.prefab using Guid(db06c671dece811459b090289c22cb65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f673b63e4f0f801f171b572ee27c7b28') in 0.046234 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 39
-========================================================================
-Received Import Request.
-  Time since last request: 0.694024 seconds.
-  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Air_Duct_01_2m_Prefab_01.prefab
-  artifactKey: Guid(9f0beeaea1b73af4095c93b67341a366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Air_Duct_01_2m_Prefab_01.prefab using Guid(9f0beeaea1b73af4095c93b67341a366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4daed79a3078f43713f667f951192058') in 0.025877 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Air_Duct_01_Corner_01_Prefab_01.prefab
-  artifactKey: Guid(48d1bb5c795ae1848925fdef96a30bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Air_Duct_01_Corner_01_Prefab_01.prefab using Guid(48d1bb5c795ae1848925fdef96a30bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6806d7d82d4e1f77138cb051349715b') in 0.070040 seconds
+  Time since last request: 0.000061 seconds.
+  path: Assets/CyberneticWalrus/Factory_Props_Vol1/Prefabs/Pallet_02_Prefab_01.prefab
+  artifactKey: Guid(70a3f370ef6e9c54ca677698225c71af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberneticWalrus/Factory_Props_Vol1/Prefabs/Pallet_02_Prefab_01.prefab using Guid(70a3f370ef6e9c54ca677698225c71af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e92fda8eaa52872a791d87ae9df6f154') in 0.065211 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 22
 ========================================================================
 Received Import Request.
   Time since last request: 0.000058 seconds.
-  path: Assets/XRI_Examples/Environment/Prefabs/ArchLower.prefab
-  artifactKey: Guid(6d2ee135bb188a54cbb49d6319074b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XRI_Examples/Environment/Prefabs/ArchLower.prefab using Guid(6d2ee135bb188a54cbb49d6319074b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbc941ecaff8fbc64317bfa71b39a32e') in 0.019506 seconds
+  path: Assets/Modern UI Pack/Prefabs/Button/Basic/Pink.prefab
+  artifactKey: Guid(c6a73aa55ded287468b2cfe91a838a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Prefabs/Button/Basic/Pink.prefab using Guid(c6a73aa55ded287468b2cfe91a838a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d5ae25e4aa3994b5fa0fe5dee20a85e') in 0.056774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Button/Basic - Outline With Icon/Red.prefab
+  artifactKey: Guid(f1eef235aa14c464a8eb29b21beff322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Prefabs/Button/Basic - Outline With Icon/Red.prefab using Guid(f1eef235aa14c464a8eb29b21beff322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88527fc322b6129c934036bfaf52865b') in 0.082730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 67
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Slider/Standard/Slider - Standard (Value).prefab
+  artifactKey: Guid(8cf74ef4b41c8274e9ea7b32b5f45d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Prefabs/Slider/Standard/Slider - Standard (Value).prefab using Guid(8cf74ef4b41c8274e9ea7b32b5f45d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f167c49919233024c7d592c1f2d0ada') in 0.115616 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 64
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Button/Radial - Only Icon/Orange.prefab
+  artifactKey: Guid(bb355337691a48f45b527ddc5109e6fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Prefabs/Button/Radial - Only Icon/Orange.prefab using Guid(bb355337691a48f45b527ddc5109e6fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db94a182501fffeefe7f46ce6c193a50') in 0.007713 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.3.1/Starter Assets/Prefabs/UI_2D/Pallet Option 2.prefab
+  artifactKey: Guid(1d7693911c1c4e241a93c99042017062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.3.1/Starter Assets/Prefabs/UI_2D/Pallet Option 2.prefab using Guid(1d7693911c1c4e241a93c99042017062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '117754c7fb8ec74a38010ce4fb9d9c4c') in 0.014144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/XRI_Examples/UI_3D/Prefabs/ClawMachine/Prize.prefab
+  artifactKey: Guid(6d1b875c79caa944fad02087e1c9402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/UI_3D/Prefabs/ClawMachine/Prize.prefab using Guid(6d1b875c79caa944fad02087e1c9402c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b33cb0122860ad355613fe4df9422e0') in 0.007254 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/XRI_Examples/Setup/Prefabs/LocomotionTable.prefab
+  artifactKey: Guid(a18a9ce135199bf4eb7814a44fc1d6d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/Setup/Prefabs/LocomotionTable.prefab using Guid(a18a9ce135199bf4eb7814a44fc1d6d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1954e7b322b325a6c95ed6ce95bf5c57') in 0.046831 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/XRI_Examples/UI_2D/Prefabs/InputFields/InputField.prefab
+  artifactKey: Guid(48e2cee497f58e349adce509e90fdf2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/UI_2D/Prefabs/InputFields/InputField.prefab using Guid(48e2cee497f58e349adce509e90fdf2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a40240f611033ddc4e9daa151a139fca') in 0.050270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Slider/Outline/Slider - Outline (Popup).prefab
+  artifactKey: Guid(71478d7a814e1464894c850acb75447f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Prefabs/Slider/Outline/Slider - Outline (Popup).prefab using Guid(71478d7a814e1464894c850acb75447f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2694295ecc7be76160e0d26e614793c7') in 0.094755 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 66
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Button/Rounded - Outline/Pink.prefab
+  artifactKey: Guid(bd88f73754290f249a3c05df8937c348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Prefabs/Button/Rounded - Outline/Pink.prefab using Guid(bd88f73754290f249a3c05df8937c348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ff3f9a046fdc51cfddb340ae19b3eb0') in 0.072277 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 57
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Progress Bar/PB - Radial Filled Vertical.prefab
+  artifactKey: Guid(b142da328c0aaed469ada5e8a4189951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Prefabs/Progress Bar/PB - Radial Filled Vertical.prefab using Guid(b142da328c0aaed469ada5e8a4189951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3052a372dce176866321fa870123ad7e') in 0.102891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 58
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CyberneticWalrus/Factory_Props_Vol1/Prefabs/Stack_Box_02_Prefab_02.prefab
+  artifactKey: Guid(92f5bbcffcfa9a24bb1f49da87a70bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberneticWalrus/Factory_Props_Vol1/Prefabs/Stack_Box_02_Prefab_02.prefab using Guid(92f5bbcffcfa9a24bb1f49da87a70bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdedd320d3695644e5e72e18bed1c511') in 0.063808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/XRI_Examples/Props/Prefabs/TargetRing.prefab
+  artifactKey: Guid(06b4ece1c4423ab479d9282189c023c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/Props/Prefabs/TargetRing.prefab using Guid(06b4ece1c4423ab479d9282189c023c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17ce6a16436bbbd889527311442ba465') in 0.059703 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 103
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/XRI_Examples/Global/Prefabs/TeleportAnchor.prefab
+  artifactKey: Guid(69bcbe8a3c723a8459bad61946074109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/Global/Prefabs/TeleportAnchor.prefab using Guid(69bcbe8a3c723a8459bad61946074109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c97a90560016523c7d056b3b1c25e95f') in 0.064378 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/XRI_Examples/Props/Prefabs/StickStand.prefab
+  artifactKey: Guid(e01373e490106ac46b76fba06110850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/Props/Prefabs/StickStand.prefab using Guid(e01373e490106ac46b76fba06110850e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e242b7f30684d7adc7b191083060c028') in 0.041780 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.3.1/Starter Assets/Prefabs/Teleport/Teleport Area.prefab
+  artifactKey: Guid(beb4e2871579447497fe41dfb108e2cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.3.1/Starter Assets/Prefabs/Teleport/Teleport Area.prefab using Guid(beb4e2871579447497fe41dfb108e2cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d43056fc740aac1ac7723c62db64865') in 0.045442 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Modal Window/Style 2.prefab
+  artifactKey: Guid(72b132e96d4c8c74fb223d675142eaf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Prefabs/Modal Window/Style 2.prefab using Guid(72b132e96d4c8c74fb223d675142eaf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a30134bc414bae9663534794d292491e') in 0.102193 seconds
+Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 166
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Button/Rounded - Outline Gradient/Purple.prefab
+  artifactKey: Guid(11b7396831bc0a748b89f8be6b1a722b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Prefabs/Button/Rounded - Outline Gradient/Purple.prefab using Guid(11b7396831bc0a748b89f8be6b1a722b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a8fe652d9975923ddcbce92e1f9330f') in 0.049117 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 59
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Button/Rounded/Orange.prefab
+  artifactKey: Guid(8dcf01b0349b9f14fae8a664bb990467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Prefabs/Button/Rounded/Orange.prefab using Guid(8dcf01b0349b9f14fae8a664bb990467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48dff76c1bcb55bd912e11067b9c79a7') in 0.056416 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.3.1/Starter Assets/Prefabs/Interactables/Interaction Affordance.prefab
+  artifactKey: Guid(eb9104ef66b7305468adb3697fdeed5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.3.1/Starter Assets/Prefabs/Interactables/Interaction Affordance.prefab using Guid(eb9104ef66b7305468adb3697fdeed5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2622b80392a0cdb45b4d3912919dbc5') in 0.011622 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Progress Bar/PB - Radial Filled Horizontal.prefab
+  artifactKey: Guid(20dce959bdba0f74192120c4041ab8bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Prefabs/Progress Bar/PB - Radial Filled Horizontal.prefab using Guid(20dce959bdba0f74192120c4041ab8bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c4cf40dcc69de189b5a0029a38f0a6c') in 0.084194 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 58
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/XRI_Examples/UI_3D/Prefabs/Joystick.prefab
+  artifactKey: Guid(f987e56f5c36e264e888555e47dec1bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/UI_3D/Prefabs/Joystick.prefab using Guid(f987e56f5c36e264e888555e47dec1bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0db8462ab14e97b1a0dce7580c77cfbb') in 0.052708 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 60
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Button/Basic - Outline Only Icon/Red.prefab
+  artifactKey: Guid(df418c229e4c4dc4588f43005dbebc84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Prefabs/Button/Basic - Outline Only Icon/Red.prefab using Guid(df418c229e4c4dc4588f43005dbebc84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '291f33d2bd7f7e0567d5ab01c6a167e9') in 0.011770 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Fire_Extinguisher_01_Prefab_01.prefab
+  artifactKey: Guid(cf81d94c328b77a4494785a27f7166bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Fire_Extinguisher_01_Prefab_01.prefab using Guid(cf81d94c328b77a4494785a27f7166bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f60bbbba5db30595f7a7f66c002c1578') in 0.055564 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Animated Icon/Slider.prefab
+  artifactKey: Guid(8312f800bd5b9d248a9e7f74ef3dea31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Prefabs/Animated Icon/Slider.prefab using Guid(8312f800bd5b9d248a9e7f74ef3dea31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7b7604019f439f2a6dbdb43763fd3bf') in 0.111244 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Slider/Gradient/Slider - Gradient.prefab
+  artifactKey: Guid(c8d7928b1d7483b4b8f5e38ccdd1e1e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Prefabs/Slider/Gradient/Slider - Gradient.prefab using Guid(c8d7928b1d7483b4b8f5e38ccdd1e1e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15cfc9cf1754d96412691cf27cf749fd') in 0.009496 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/XRI_Examples/UI_2D/Prefabs/MainMenu/SpatialPanelBase.prefab
+  artifactKey: Guid(3aa8ee2a47661f1468bab41079948717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/UI_2D/Prefabs/MainMenu/SpatialPanelBase.prefab using Guid(3aa8ee2a47661f1468bab41079948717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0207ce2f641f0641b838fb0ed1b616c0') in 0.009918 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Button/Rounded/Standard.prefab
+  artifactKey: Guid(f99269924fc18d449a9a2caaf53dc5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Prefabs/Button/Rounded/Standard.prefab using Guid(f99269924fc18d449a9a2caaf53dc5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2593355eaf5aa19008acf1ec4cd9b7bc') in 0.116160 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 52
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Toggle/Toggle - Standard (Light).prefab
+  artifactKey: Guid(14d730bc0601c7040932f7e2c5123eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Prefabs/Toggle/Toggle - Standard (Light).prefab using Guid(14d730bc0601c7040932f7e2c5123eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e68bfce75c59e5a14b14ee4d508369df') in 0.091474 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 64
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Switch/Switch - Standard.prefab
+  artifactKey: Guid(61c756c874f5e6f40bc3573de6cb5656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Prefabs/Switch/Switch - Standard.prefab using Guid(61c756c874f5e6f40bc3573de6cb5656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '234c3532b3a8f7e8a172ddb2b6b13c45') in 0.091258 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 64
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/XRI_Examples/Props/Prefabs/PiggyBank_Shattered.prefab
+  artifactKey: Guid(7230c9efc2de1594d98ecf1990671479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/Props/Prefabs/PiggyBank_Shattered.prefab using Guid(7230c9efc2de1594d98ecf1990671479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b16f2aac986f9d73da0f726f695306b8') in 0.216727 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 312
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/XRI_Examples/UI_2D/Prefabs/Buttons/TextButton.prefab
+  artifactKey: Guid(523fb0f2bb5e3aa438d6a146807c37e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/UI_2D/Prefabs/Buttons/TextButton.prefab using Guid(523fb0f2bb5e3aa438d6a146807c37e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c22e1009b224e8271463db798c26838e') in 0.022409 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/XRI_Examples/SocketInteractors/Prefabs/PegBlue.prefab
+  artifactKey: Guid(87caa2bef59abf5468d78b21c454887e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/SocketInteractors/Prefabs/PegBlue.prefab using Guid(87caa2bef59abf5468d78b21c454887e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07112a10d65b868251ecb4ce23692c71') in 0.045361 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Animated Icon/Sand Clock (Reversed).prefab
+  artifactKey: Guid(d2cb7588fdc708c4f9060194f81fe33e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Prefabs/Animated Icon/Sand Clock (Reversed).prefab using Guid(d2cb7588fdc708c4f9060194f81fe33e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c211ecb3b7f24dc568802172ce35b0b') in 0.094572 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 68
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/XRI_Examples/SocketInteractors/Prefabs/PegBlack.prefab
+  artifactKey: Guid(7e5b86f60ba9a1a4d9329940c6d328b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/SocketInteractors/Prefabs/PegBlack.prefab using Guid(7e5b86f60ba9a1a4d9329940c6d328b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb87781f43099e6b2cfbf0f87ccb81fd') in 0.057948 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 60
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Button/Basic - Outline Gradient/Orange.prefab
+  artifactKey: Guid(0f76314b72053c042855b723924fb1c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Prefabs/Button/Basic - Outline Gradient/Orange.prefab using Guid(0f76314b72053c042855b723924fb1c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16fc182baca47e9347a2cc87cb6419bb') in 0.065619 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 60
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.3.1/Starter Assets/Prefabs/Teleport/Teleport Anchor.prefab
+  artifactKey: Guid(fad94b617f0540568dbf4c9c4011248c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.3.1/Starter Assets/Prefabs/Teleport/Teleport Anchor.prefab using Guid(fad94b617f0540568dbf4c9c4011248c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a99191bbbe7e56a3b4802ae3fedd727') in 0.027972 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Button/Radial - Outline Only Icon/Red.prefab
+  artifactKey: Guid(9cdad978c2d999f48a3656b8aca0a752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Prefabs/Button/Radial - Outline Only Icon/Red.prefab using Guid(9cdad978c2d999f48a3656b8aca0a752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58a62799b4f91ff5f57d52dc0d6b7b81') in 0.010705 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Progress Bar/PB - Radial (Bold).prefab
+  artifactKey: Guid(3e86700be571c71468308b117b38eed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Prefabs/Progress Bar/PB - Radial (Bold).prefab using Guid(3e86700be571c71468308b117b38eed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0c69e2bd3476667d68a269640146505') in 0.126531 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 51
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Pipe_02_20m_Prefab_01.prefab
+  artifactKey: Guid(45ef7862e7f75944eb21837180a87342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Pipe_02_20m_Prefab_01.prefab using Guid(45ef7862e7f75944eb21837180a87342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '697858e229b0405f1a1c4d8afeeafb87') in 0.069994 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/XRI_Examples/UI_2D/Prefabs/MainMenu/SpatialPanelNav.prefab
+  artifactKey: Guid(e350a5d09c905114c86d89f4731448bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/UI_2D/Prefabs/MainMenu/SpatialPanelNav.prefab using Guid(e350a5d09c905114c86d89f4731448bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '261520c3a94653ac4be117bdc8f9529a') in 0.026385 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 150
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/XRI_Examples/Global/Prefabs/Pusher.prefab
+  artifactKey: Guid(e06d6c5aaf8de694289ccfd05968ee05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/Global/Prefabs/Pusher.prefab using Guid(e06d6c5aaf8de694289ccfd05968ee05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8001e0f18708ccdf6f97cdaf08b0d82f') in 0.005208 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/XRI_Examples/UI_2D/Prefabs/Modals/ModalSingleButton.prefab
+  artifactKey: Guid(fcac0c3f142ea3742a0565751dec41de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/UI_2D/Prefabs/Modals/ModalSingleButton.prefab using Guid(fcac0c3f142ea3742a0565751dec41de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1bfe919b58f5f427c1df2ed56a8cd62') in 0.012536 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Button/Basic - Outline Only Icon/Orange.prefab
+  artifactKey: Guid(b5945d525fe66854aa1101753cb1be1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Prefabs/Button/Basic - Outline Only Icon/Orange.prefab using Guid(b5945d525fe66854aa1101753cb1be1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '048dfbbc4907bdf099007df72221e83a') in 0.007954 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Pipe_03_Corner_Prefab_01.prefab
+  artifactKey: Guid(7f7cac86ffb7303409fb5606faf2cd2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Pipe_03_Corner_Prefab_01.prefab using Guid(7f7cac86ffb7303409fb5606faf2cd2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0837745fde608749f006d46e5a6bd19c') in 0.044883 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Button/Rounded/Red.prefab
+  artifactKey: Guid(ba237f0b98bfe07488da1cdd8a9716bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Prefabs/Button/Rounded/Red.prefab using Guid(ba237f0b98bfe07488da1cdd8a9716bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1053f51faed8cce12d157e43c4e1016') in 0.070279 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/XRI_Examples/ActivateInteractables/Prefabs/Launcher.prefab
+  artifactKey: Guid(796d4ee7f4cf3ec46877a335d40d6296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/ActivateInteractables/Prefabs/Launcher.prefab using Guid(796d4ee7f4cf3ec46877a335d40d6296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84cff6b455f0874454ccf5a8a3db325d') in 0.056970 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 132
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Button/Radial - Outline Only Icon/Standard.prefab
+  artifactKey: Guid(d6a10f6d3bc98ad40bae623fc0d9366c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Prefabs/Button/Radial - Outline Only Icon/Standard.prefab using Guid(d6a10f6d3bc98ad40bae623fc0d9366c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7f730d4235431e18691819602d9438d') in 0.079044 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 72
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
 AssetImportWorker is now disconnected from the server

@@ -15,7 +15,7 @@ C:/Users/hodex/Desktop/School/SAP/warehouse-simulator
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50272
+50563
 Successfully changed project path to: C:/Users/hodex/Desktop/School/SAP/warehouse-simulator
 C:/Users/hodex/Desktop/School/SAP/warehouse-simulator
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ C:/Users/hodex/Desktop/School/SAP/warehouse-simulator
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [34588] Host "[IP] 172.22.46.34 [Port] 0 [Flags] 2 [Guid] 2885571956 [EditorId] 2885571956 [Version] 1048832 [Id] WindowsEditor(7,Dexter-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [24448] Host "[IP] 172.22.46.34 [Port] 0 [Flags] 2 [Guid] 2118373391 [EditorId] 2118373391 [Version] 1048832 [Id] WindowsEditor(7,Dexter-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [34588] Host "[IP] 172.22.46.34 [Port] 0 [Flags] 2 [Guid] 2885571956 [EditorId] 2885571956 [Version] 1048832 [Id] WindowsEditor(7,Dexter-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [24448] Host "[IP] 172.22.46.34 [Port] 0 [Flags] 2 [Guid] 2118373391 [EditorId] 2118373391 [Version] 1048832 [Id] WindowsEditor(7,Dexter-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 85.77 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 4.00 ms.
+Refreshing native plugins compatible for Editor in 50.31 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 2.77 ms.
 Initialize engine version: 2022.2.15f1 (30d813e1a2a9)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2020.3.20f1/Editor/2022.2.15f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/hodex/Desktop/School/SAP/warehouse-simulator/Assets
@@ -67,41 +67,41 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2020.3.20f1/Editor/2022.2.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2020.3.20f1/Editor/2022.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2020.3.20f1/Editor/2022.2.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56744
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56204
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2020.3.20f1/Editor/2022.2.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.038975 seconds.
-- Loaded All Assemblies, in  0.988 seconds
+Registered in 0.016127 seconds.
+- Loaded All Assemblies, in  0.564 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.620 seconds
+- Finished resetting the current domain, in  0.377 seconds
 Domain Reload Profiling:
-	ReloadAssembly (644ms)
-		BeginReloadAssembly (282ms)
+	ReloadAssembly (312ms)
+		BeginReloadAssembly (165ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
+			CreateAndSetChildDomain (1ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
-			LoadAssemblies (277ms)
+			LoadAssemblies (159ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (302ms)
-				TypeCache.Initialize (300ms)
-					TypeCache.ScanAssembly (295ms)
+			SetupTypeCache (232ms)
+				TypeCache.Initialize (231ms)
+					TypeCache.ScanAssembly (228ms)
 				ResolveRequiredComponents (1ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (492ms)
+			SetupLoadedEditorAssemblies (305ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (27ms)
-				SetLoadedEditorAssemblies (18ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (10ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (331ms)
-				ProcessInitializeOnLoadMethodAttributes (112ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (215ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -111,8 +111,8 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\hodex\Desktop\School\SAP\warehouse-simulator\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\hodex\Desktop\School\SAP\warehouse-simulator\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  2.229 seconds
-Refreshing native plugins compatible for Editor in 54.75 ms, found 13 plugins.
+- Loaded All Assemblies, in  1.162 seconds
+Refreshing native plugins compatible for Editor in 29.29 ms, found 13 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
@@ -140,44 +140,44 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  2.161 seconds
+- Finished resetting the current domain, in  1.083 seconds
 Domain Reload Profiling:
-	ReloadAssembly (604ms)
-		BeginReloadAssembly (350ms)
+	ReloadAssembly (301ms)
+		BeginReloadAssembly (187ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (12ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (52ms)
-		LoadAllAssembliesAndSetupDomain (1611ms)
-			LoadAssemblies (927ms)
+			CreateAndSetChildDomain (30ms)
+		LoadAllAssembliesAndSetupDomain (850ms)
+			LoadAssemblies (538ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (851ms)
-				TypeCache.Initialize (774ms)
-					TypeCache.ScanAssembly (760ms)
-				ResolveRequiredComponents (17ms)
+			SetupTypeCache (404ms)
+				TypeCache.Initialize (358ms)
+					TypeCache.ScanAssembly (353ms)
+				ResolveRequiredComponents (8ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (1750ms)
+			SetupLoadedEditorAssemblies (870ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
-				SetLoadedEditorAssemblies (11ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (6ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (241ms)
-				ProcessInitializeOnLoadAttributes (1306ms)
-				ProcessInitializeOnLoadMethodAttributes (148ms)
-				AfterProcessingInitializeOnLoad (26ms)
+				BeforeProcessingInitializeOnLoad (119ms)
+				ProcessInitializeOnLoadAttributes (664ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (19ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
-Refreshing native plugins compatible for Editor in 55.99 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.25 ms.
-Unloading 4461 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 71 unused Assets / (80.3 KB). Loaded Objects now: 4926.
-Memory consumption went from 143.6 MB to 143.5 MB.
-Total: 10.536300 ms (FindLiveObjects: 0.902400 ms CreateObjectMapping: 0.271200 ms MarkObjects: 8.935100 ms  DeleteObjects: 0.424600 ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 30.46 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 4568 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 71 unused Assets / (79.4 KB). Loaded Objects now: 5014.
+Memory consumption went from 148.3 MB to 148.2 MB.
+Total: 5.952700 ms (FindLiveObjects: 0.388800 ms CreateObjectMapping: 0.153500 ms MarkObjects: 5.094900 ms  DeleteObjects: 0.313900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -193,9 +193,766 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 99461.219444 seconds.
-  path: Assets/Scenes/Dexter.unity
-  artifactKey: Guid(a41146b71eaf43043a2399a568c03e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Dexter.unity using Guid(a41146b71eaf43043a2399a568c03e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99c361041762cd573a99731fad1d0e9a') in 0.008655 seconds
+  Time since last request: 173224.591408 seconds.
+  path: Assets/XRI_Examples/ActivateInteractables/Models/Lighter.fbx
+  artifactKey: Guid(883ee748a21107b48a7f86fe43b7169d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/ActivateInteractables/Models/Lighter.fbx using Guid(883ee748a21107b48a7f86fe43b7169d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31ad5d5e695a39cb40132ece9f4783c9') in 0.213183 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/ammo_box/Materials/Ammo_box.mat
+  artifactKey: Guid(8a61a31da122a454d94aac8c1f8edab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ammo_box/Materials/Ammo_box.mat using Guid(8a61a31da122a454d94aac8c1f8edab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eadbb13816279a5db3fd7f0ada2059f') in 0.193330 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Modern UI Pack/Fonts/OpenSans-BoldItalic.ttf
+  artifactKey: Guid(bede1f0d27b7fe64f97b0e40e3ab76d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Fonts/OpenSans-BoldItalic.ttf using Guid(bede1f0d27b7fe64f97b0e40e3ab76d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd97648972bad01e1b2791e971921d696') in 0.047320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/XRI_Examples/Environment/Materials/DistantTerrain_02.mat
+  artifactKey: Guid(9173cee226a106047bd92c8943277ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/Environment/Materials/DistantTerrain_02.mat using Guid(9173cee226a106047bd92c8943277ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '073ee6d5b41057296dcf6fdcadef22ec') in 0.020315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/XRI_Examples/UI_3D/Materials/MediumGrey.mat
+  artifactKey: Guid(dc1d2c50d7463b847ba30ff50e1959b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/UI_3D/Materials/MediumGrey.mat using Guid(dc1d2c50d7463b847ba30ff50e1959b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f1570032a6ab1f5f15533d9f1fcaff4') in 0.012841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28e1bd2a832c45ac5bb8c680d48990db') in 0.035622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/XRI_Examples/Environment/Materials/Water.mat
+  artifactKey: Guid(fe6536406787aef45befb36c43fe9a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/Environment/Materials/Water.mat using Guid(fe6536406787aef45befb36c43fe9a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c309c4201d246e3f0a0b17a05a6cd3d9') in 0.013225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71ece2a6d997bfbefb10b982618c61b1') in 0.046377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CyberneticWalrus/Factory_Props_Vol1/Models/Materials/Handtruck_02.mat
+  artifactKey: Guid(c0ff016dd3261df4f888a8fa054221da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberneticWalrus/Factory_Props_Vol1/Models/Materials/Handtruck_02.mat using Guid(c0ff016dd3261df4f888a8fa054221da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '585a346acb2beac6a735029c989aa556') in 0.023513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Y Bot@Lifting Object.fbx
+  artifactKey: Guid(f0f301604bcf30848ac2c11890f75444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Y Bot@Lifting Object.fbx using Guid(f0f301604bcf30848ac2c11890f75444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '978c8ef0307030ef698a29e01e8b3c16') in 0.067801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 145
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CyberneticWalrus/Factory_Props_Vol1/Models/Materials/Pallet_03.mat
+  artifactKey: Guid(25e5d2759a78fdc448b9512be752cb8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberneticWalrus/Factory_Props_Vol1/Models/Materials/Pallet_03.mat using Guid(25e5d2759a78fdc448b9512be752cb8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99f281018a9f08efedac981e34d6dc9b') in 0.030099 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/CyberneticWalrus/Factory_Props_Vol1/Models/Materials/Conveyor_Belt_02_Top.mat
+  artifactKey: Guid(5e71db8fa79858f4e91dbb50cb4b759d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberneticWalrus/Factory_Props_Vol1/Models/Materials/Conveyor_Belt_02_Top.mat using Guid(5e71db8fa79858f4e91dbb50cb4b759d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd49581f104c52f3efa546028f08d0a6') in 0.016177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.3.1/Starter Assets/Models/PushButton.fbx
+  artifactKey: Guid(7ab6f3b0fd1a6ba41b2a47766c16613f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.3.1/Starter Assets/Models/PushButton.fbx using Guid(7ab6f3b0fd1a6ba41b2a47766c16613f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9ae5d73806cce929e68bfcc55961282') in 0.066020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/XRI_Examples/ActivateInteractables/Materials/Megaphone_Red.mat
+  artifactKey: Guid(e8b33a9380ca86740ad6652e93848afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/ActivateInteractables/Materials/Megaphone_Red.mat using Guid(e8b33a9380ca86740ad6652e93848afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e63637673c275cb278da8e81f9b4d5a') in 0.011367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba7f49842b221a664511a7a8fb18a3fc') in 0.018457 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Modern UI Pack/Fonts/OpenSans-Bold SDF.asset
+  artifactKey: Guid(fa328c1ae3ffb6b4583cf371153b0be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Fonts/OpenSans-Bold SDF.asset using Guid(fa328c1ae3ffb6b4583cf371153b0be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebf1119e6ca96df650afeed5ffbfe638') in 0.040260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/XRI_Examples/VRWalkthrough/Materials/Blue.mat
+  artifactKey: Guid(2c994d22a9398f64d9292e3849f59f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/VRWalkthrough/Materials/Blue.mat using Guid(2c994d22a9398f64d9292e3849f59f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ca9973e40ffe0434097c565a4e1b8b0') in 0.050994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.3.1/Starter Assets/Models/XRControllerLeft.fbx
+  artifactKey: Guid(be3083a5f26d4e859d594ecbe632f87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.3.1/Starter Assets/Models/XRControllerLeft.fbx using Guid(be3083a5f26d4e859d594ecbe632f87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd84965407bccd1d8950a79c38bd36eba') in 0.133248 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 52
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/XRI_Examples/Props/Materials/TargetRing_OuterLight.mat
+  artifactKey: Guid(bd9c13adf3bf63c4fb1633b24b80fddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/Props/Materials/TargetRing_OuterLight.mat using Guid(bd9c13adf3bf63c4fb1633b24b80fddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5f0222ebc3e83065108c0a7edf68c55') in 0.007842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/XRI_Examples/GrabInteractables/Materials/Plastic_Blue.mat
+  artifactKey: Guid(408f4ac95cdc9654ab73c377378ac907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/GrabInteractables/Materials/Plastic_Blue.mat using Guid(408f4ac95cdc9654ab73c377378ac907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d282004e6531dff266895744cfade6a') in 0.011492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Materials/Skybox.mat
+  artifactKey: Guid(a9ebdbab8901fed42ba7c2b693655eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Materials/Skybox.mat using Guid(a9ebdbab8901fed42ba7c2b693655eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9ed2d6a36dc1bac3741307619d244d0') in 0.045297 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CyberneticWalrus/Factory_Props_Vol1/Models/Materials/Forklift_02_Front.mat
+  artifactKey: Guid(c2345a487afed7543a99600eb2512a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberneticWalrus/Factory_Props_Vol1/Models/Materials/Forklift_02_Front.mat using Guid(c2345a487afed7543a99600eb2512a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd55080143cb116403c769203b6d411c') in 0.019382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/XRI_Examples/Props/Materials/TargetRing_InnerRing_01.mat
+  artifactKey: Guid(f9c4d21f16d5653449a8eda04c948f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/Props/Materials/TargetRing_InnerRing_01.mat using Guid(f9c4d21f16d5653449a8eda04c948f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cedb88e85917e09a1ddbe9b8448dfb0b') in 0.008370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/XRI_Examples/UI_3D/Materials/ClawMachine/UFO_FX_Beam.mat
+  artifactKey: Guid(25750b82b41a76f41ac2722a821b962e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/UI_3D/Materials/ClawMachine/UFO_FX_Beam.mat using Guid(25750b82b41a76f41ac2722a821b962e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4daff5f1b60d245535d2cbaa75b78c68') in 0.009169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/XRI_Examples/ActivateInteractables/Materials/Launcher_Blue.mat
+  artifactKey: Guid(bab658da714c7064491e373a7c860d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/ActivateInteractables/Materials/Launcher_Blue.mat using Guid(bab658da714c7064491e373a7c860d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a9161e3e542bee129ec805eef263296') in 0.017039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/XRI_Examples/ActivateInteractables/Models/Launcher.fbx
+  artifactKey: Guid(a013995b2ae21e544bcc487400f8dbd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/ActivateInteractables/Models/Launcher.fbx using Guid(a013995b2ae21e544bcc487400f8dbd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec244f23f8c36c82f5aab99a5d670b5f') in 0.119020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/XRI_Examples/ActivateInteractables/Materials/Lighter_FlatBlack.mat
+  artifactKey: Guid(1445765c7b38f6e43ab142156ffd2196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/ActivateInteractables/Materials/Lighter_FlatBlack.mat using Guid(1445765c7b38f6e43ab142156ffd2196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a684d0a805e20c3e51979c3dfff3c932') in 0.015049 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/XRI_Examples/Physics/Materials/Brackets.mat
+  artifactKey: Guid(630bbfbe73e3f0b4a9f57d8c8d7b4c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/Physics/Materials/Brackets.mat using Guid(630bbfbe73e3f0b4a9f57d8c8d7b4c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f33d745b4134be2aaa6fe9330d08aa69') in 0.015371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Modern UI Pack/Fonts/OpenSans-ExtraBold SDF.asset
+  artifactKey: Guid(ca60657c190bc8c4e89dfb3e23d76209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Fonts/OpenSans-ExtraBold SDF.asset using Guid(ca60657c190bc8c4e89dfb3e23d76209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e437abc5bce757ea5c7e28d9ad76701e') in 0.030942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Modern UI Pack/Fonts/OpenSans-Bold.ttf
+  artifactKey: Guid(0a0f067e0cc462b4794bffbe99a92dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Fonts/OpenSans-Bold.ttf using Guid(0a0f067e0cc462b4794bffbe99a92dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85afe16cbe60b593b3844c654c61b0e0') in 0.010840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/XRI_Examples/Props/Materials/Candle_Small_Angular_Wax.mat
+  artifactKey: Guid(8deb39ecda61f6b4fa6784c7ac7df3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/Props/Materials/Candle_Small_Angular_Wax.mat using Guid(8deb39ecda61f6b4fa6784c7ac7df3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38fefaeecdcfcf4f1dd48c8535ae0c3c') in 0.029821 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets_Ladders/models/Materials/combined-5.mat
+  artifactKey: Guid(1a21cf5435e28594288a2e60e5fdfdaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets_Ladders/models/Materials/combined-5.mat using Guid(1a21cf5435e28594288a2e60e5fdfdaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '694318d060f1506a0e21c944efa79311') in 0.022119 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CyberneticWalrus/Factory_Props_Vol1/Models/Materials/Forklift_01_Chain.mat
+  artifactKey: Guid(0613fe8b0da39f14e9c568b66db7f5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberneticWalrus/Factory_Props_Vol1/Models/Materials/Forklift_01_Chain.mat using Guid(0613fe8b0da39f14e9c568b66db7f5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ee08a86b4e44173da297a956a6efaee') in 0.013316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Modern UI Pack/Fonts/OpenSans-ExtraBoldItalic SDF.asset
+  artifactKey: Guid(e4041c94a2181b243bd1912946bfbe63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Fonts/OpenSans-ExtraBoldItalic SDF.asset using Guid(e4041c94a2181b243bd1912946bfbe63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd025e7153037ec8d873da31ecf4139e5') in 0.026914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Materials/Fire_Closet_01.mat
+  artifactKey: Guid(796c23c0c4dd99844b45209377be147a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Materials/Fire_Closet_01.mat using Guid(796c23c0c4dd99844b45209377be147a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2ce33e62b9f8807c5f3f5d7348845bc') in 0.015560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/XRI_Examples/UI_2D/Fonts/Inter/Inter-Regular_SDF_Overlay_Material.mat
+  artifactKey: Guid(c5340088affa7b6418a70a596e608408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/UI_2D/Fonts/Inter/Inter-Regular_SDF_Overlay_Material.mat using Guid(c5340088affa7b6418a70a596e608408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '026e9f7dce5f755c35de29f12bd02e13') in 0.018171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/XRI_Examples/SocketInteractors/Materials/Peg_Cyan.mat
+  artifactKey: Guid(594e0f737425d0843a92de8af39b590e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/SocketInteractors/Materials/Peg_Cyan.mat using Guid(594e0f737425d0843a92de8af39b590e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a289b32e473d20d8fe7caf52a32ce46') in 0.018665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.3.1/Tunneling Vignette/TunnelingVignette.mat
+  artifactKey: Guid(68559dda19465234ba3cd4af45b0c1ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.3.1/Tunneling Vignette/TunnelingVignette.mat using Guid(68559dda19465234ba3cd4af45b0c1ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69b7eb7105feb71fb5235edba98fcb83') in 0.016473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/XRI_Examples/Environment/Materials/Adobe.mat
+  artifactKey: Guid(c8950304eea7f334dab6991341a45115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/Environment/Materials/Adobe.mat using Guid(c8950304eea7f334dab6991341a45115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e8e18e4548dadc073ff5dccfde0134d') in 0.015200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/XRI_Examples/ActivateInteractables/Materials/Megaphone_Blue.mat
+  artifactKey: Guid(a34d8aae21894944c9aa59136584c39a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/ActivateInteractables/Materials/Megaphone_Blue.mat using Guid(a34d8aae21894944c9aa59136584c39a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92c44169c10eae56ba0d3a6b61a4d9e8') in 0.017146 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/XRI_Examples/Props/Materials/TargetRing_InnerRing_02.mat
+  artifactKey: Guid(970a54a4b1b5b414c9d6ae625187198f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/Props/Materials/TargetRing_InnerRing_02.mat using Guid(970a54a4b1b5b414c9d6ae625187198f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '926d28e00258e34db149c32866a76bbd') in 0.012324 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/XRI_Examples/VRWalkthrough/Materials/Platform.mat
+  artifactKey: Guid(aa416f95a51dd454fb8010b7a267751e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/VRWalkthrough/Materials/Platform.mat using Guid(aa416f95a51dd454fb8010b7a267751e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ea85f209e4c2ecdb4c693e24194c6d3') in 0.017385 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/CyberneticWalrus/Factory_Props_Vol1/Models/Materials/Pallet_02.mat
+  artifactKey: Guid(22c2da1364574f54f84ea1aff9da0843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberneticWalrus/Factory_Props_Vol1/Models/Materials/Pallet_02.mat using Guid(22c2da1364574f54f84ea1aff9da0843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddbef3038bc43e30c8acb51b8d747408') in 0.024130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CyberneticWalrus/Factory_Props_Vol1/Models/Materials/Forklift_01_Body.mat
+  artifactKey: Guid(f2071a045e1bcf948b130d7adc016074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberneticWalrus/Factory_Props_Vol1/Models/Materials/Forklift_01_Body.mat using Guid(f2071a045e1bcf948b130d7adc016074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de7863be11e93f50c1739c48722fe9db') in 0.045608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/XRI_Examples/ActivateInteractables/Materials/Launcher_Red.mat
+  artifactKey: Guid(a63c5d5aa9c5e464bb100b703d130d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/ActivateInteractables/Materials/Launcher_Red.mat using Guid(a63c5d5aa9c5e464bb100b703d130d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f57ef779f373593a5217c6f171cc7dc') in 0.010325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/CyberneticWalrus/Factory_Props_Vol1/Models/Materials/Wrapped_Boxes_01.mat
+  artifactKey: Guid(410d2d3b2697a684bb1084ec7cbd63df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberneticWalrus/Factory_Props_Vol1/Models/Materials/Wrapped_Boxes_01.mat using Guid(410d2d3b2697a684bb1084ec7cbd63df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa2de6ffd577f60620c6507f5f21ea12') in 0.029936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Exit Sign/Materials/internal_ground_ao_texture.mat
+  artifactKey: Guid(d5581e74c199a1042a325c746a2f3ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Exit Sign/Materials/internal_ground_ao_texture.mat using Guid(d5581e74c199a1042a325c746a2f3ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ab7509b37405b805fec7a4ae788caf2') in 0.011914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/XRI_Examples/UI_3D/Materials/ClawMachine/SheepPrize_Black.mat
+  artifactKey: Guid(f6bede1e1c8c55448b0e10aacd7c6d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/UI_3D/Materials/ClawMachine/SheepPrize_Black.mat using Guid(f6bede1e1c8c55448b0e10aacd7c6d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5cc7c63e9b001f4c39e6ebc959a7e41') in 0.021732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/XRI_Examples/SocketInteractors/Materials/Peg_Green.mat
+  artifactKey: Guid(13fea913cc0bb08458bb75c2ea4b5fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/SocketInteractors/Materials/Peg_Green.mat using Guid(13fea913cc0bb08458bb75c2ea4b5fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c86b24a38b3f839f30b2065b0f105b5b') in 0.019519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Materials/Beam_02.mat
+  artifactKey: Guid(ef9c65f1f57024a4ab8de997056e7cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Materials/Beam_02.mat using Guid(ef9c65f1f57024a4ab8de997056e7cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29828f3c93338647df2a2e6a946c24f1') in 0.016636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Modern UI Pack/Fonts/OpenSans-Light.ttf
+  artifactKey: Guid(9c8fd042b7bad3647aacece9e796fdf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Fonts/OpenSans-Light.ttf using Guid(9c8fd042b7bad3647aacece9e796fdf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c685073a4180fd347207b3c302374eca') in 0.018719 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/XRI_Examples/Props/Materials/Plant_Green_01.mat
+  artifactKey: Guid(6d3d8c2f1a0f27d4fa9ee303292ef682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/Props/Materials/Plant_Green_01.mat using Guid(6d3d8c2f1a0f27d4fa9ee303292ef682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8703dd11712957e1ee82ac3bb373fd66') in 0.009709 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/XRI_Examples/Setup/Models/LocomotionTable.fbx
+  artifactKey: Guid(e036dba5a6004e84c933fea5c510aa33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/Setup/Models/LocomotionTable.fbx using Guid(e036dba5a6004e84c933fea5c510aa33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31b48d4f21ea2f255dba3c164bbc18dd') in 0.039534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Modern UI Pack/Fonts/OpenSans-LightItalic.ttf
+  artifactKey: Guid(9985919b04d78b04ba8451808f2bc34d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Fonts/OpenSans-LightItalic.ttf using Guid(9985919b04d78b04ba8451808f2bc34d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f0a7220c0e591cc584e2770c8f44434') in 0.024293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/XRI_Examples/Props/Materials/GlowingOrange.mat
+  artifactKey: Guid(ee82f60f75c1c924087cbde1d7784440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/Props/Materials/GlowingOrange.mat using Guid(ee82f60f75c1c924087cbde1d7784440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4726b835fb171a8a84b0c3d060ccec5') in 0.013600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/XRI_Examples/ActivateInteractables/Materials/Launcher_White.mat
+  artifactKey: Guid(cc8cb1f8c5901d443b52bb4bbef41e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/ActivateInteractables/Materials/Launcher_White.mat using Guid(cc8cb1f8c5901d443b52bb4bbef41e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a42cac0eb1d0e41ca14c75eba4f9db97') in 0.013450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/XRI_Examples/ActivateInteractables/Materials/Megaphone_White.mat
+  artifactKey: Guid(b78580f7a920800458d5e85c08cd56e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/ActivateInteractables/Materials/Megaphone_White.mat using Guid(b78580f7a920800458d5e85c08cd56e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50e4547eb795126ac4ae982a61d23ded') in 0.014589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/CyberneticWalrus/Factory_Props_Vol1/Models/Materials/Pallet_Jack_01.mat
+  artifactKey: Guid(519697dbdbd9fcc41bd3b469da332338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberneticWalrus/Factory_Props_Vol1/Models/Materials/Pallet_Jack_01.mat using Guid(519697dbdbd9fcc41bd3b469da332338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17e1c7ea1514341de8eeb06455964431') in 0.034365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/XRI_Examples/GrabInteractables/Materials/Plastic_LightBlue.mat
+  artifactKey: Guid(78b038bdf7e50464e93011b8db135324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/GrabInteractables/Materials/Plastic_LightBlue.mat using Guid(78b038bdf7e50464e93011b8db135324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbb96e136120af2ff15eb0e012982a84') in 0.013367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Materials/Air_Duct_01.mat
+  artifactKey: Guid(1233aa1c4c093764b846c1c999b525d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Materials/Air_Duct_01.mat using Guid(1233aa1c4c093764b846c1c999b525d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a7c7bb992d1b6ff9da75ae39d398af8') in 0.017354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/XRI_Examples/Environment/Materials/DistantTerrain_01.mat
+  artifactKey: Guid(ee508fbf0b9437d4283fdae347b66d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/Environment/Materials/DistantTerrain_01.mat using Guid(ee508fbf0b9437d4283fdae347b66d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '198ac97e373c74c28a3a3d9ee899621f') in 0.013307 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/XRI_Examples/UI_3D/Materials/Controls_Black.mat
+  artifactKey: Guid(c3ca319dc8c9a404ebb7c4f883217b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/UI_3D/Materials/Controls_Black.mat using Guid(c3ca319dc8c9a404ebb7c4f883217b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10f470f6d2a30219e7de224f622d9a1d') in 0.011215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/CyberneticWalrus/Factory_Props_Vol1/Models/Materials/Drawer_01.mat
+  artifactKey: Guid(14d15a35d0368b44ab04c6d3833652ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberneticWalrus/Factory_Props_Vol1/Models/Materials/Drawer_01.mat using Guid(14d15a35d0368b44ab04c6d3833652ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08f0bb17600cd0dd2a0d45c22c6988a6') in 0.037728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Materials/Wall_Divider_01.mat
+  artifactKey: Guid(a5ebafa9a8b330f4aad2b9e7bfadbac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Materials/Wall_Divider_01.mat using Guid(a5ebafa9a8b330f4aad2b9e7bfadbac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ffba0a3af86f22958e094f0c446a900') in 0.014998 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/XRI_Examples/UI_3D/Materials/ClawMachine/CowPrize.mat
+  artifactKey: Guid(654da49856624274ab1a5811f4aea112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/UI_3D/Materials/ClawMachine/CowPrize.mat using Guid(654da49856624274ab1a5811f4aea112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ce9271f6d1b155d77c2e76ef3360153') in 0.031545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Materials/Wall_Frame_01.mat
+  artifactKey: Guid(7ff3b8e0009514148be48fd1363da23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Materials/Wall_Frame_01.mat using Guid(7ff3b8e0009514148be48fd1363da23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4436f60f3905b5b54638ecdad2af0ffa') in 0.038279 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Modern UI Pack/Fonts/OpenSans-LightItalic SDF.asset
+  artifactKey: Guid(d10d3fbe67cb68d41930a013bc4e2e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Fonts/OpenSans-LightItalic SDF.asset using Guid(d10d3fbe67cb68d41930a013bc4e2e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e329d726e23e31e361fa85b14b2ee32b') in 0.044131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/XRI_Examples/Props/Models/Primitive_Wedge.fbx
+  artifactKey: Guid(5f9090446b6c3f64cb377e4842aa7f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/Props/Models/Primitive_Wedge.fbx using Guid(5f9090446b6c3f64cb377e4842aa7f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '430890f44c1b1e5fc7525652815dedbf') in 0.051887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/XRI_Examples/VRWalkthrough/Materials/BezierLink.mat
+  artifactKey: Guid(1d51280265623074b8edcf74794b731f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/VRWalkthrough/Materials/BezierLink.mat using Guid(1d51280265623074b8edcf74794b731f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23aa115e4c15b126d24fdd8f11e4bdbc') in 0.013047 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Materials/Concrete_Polished_01.mat
+  artifactKey: Guid(711d8d33c8052854681ae7835fc64024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Materials/Concrete_Polished_01.mat using Guid(711d8d33c8052854681ae7835fc64024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54e46fc0ce7570bea6c3107f75ab81ab') in 0.032336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/CyberneticWalrus/Factory_Props_Vol1/Models/Materials/Conveyor_Belt_01_Roller.mat
+  artifactKey: Guid(63354839b2ee34142b63e3ebf987a9dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberneticWalrus/Factory_Props_Vol1/Models/Materials/Conveyor_Belt_01_Roller.mat using Guid(63354839b2ee34142b63e3ebf987a9dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5b40cc02859b10e01410a8226d903e5') in 0.018939 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Modern UI Pack/Fonts/OpenSans-SemiboldItalic.ttf
+  artifactKey: Guid(26f09da095a9bbe4ab817d57dea6dbea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Fonts/OpenSans-SemiboldItalic.ttf using Guid(26f09da095a9bbe4ab817d57dea6dbea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '701eda85b7b3346879b98abe0a4ea422') in 0.023560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.3.1/Starter Assets/Models/Primitive_Wedge.fbx
+  artifactKey: Guid(ab3a79eba4de4be0ad5fead9fb858190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.3.1/Starter Assets/Models/Primitive_Wedge.fbx using Guid(ab3a79eba4de4be0ad5fead9fb858190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a792db0972a842037363f60bf9f2f925') in 0.028018 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/XRI_Examples/Props/Materials/CandleFlame.mat
+  artifactKey: Guid(0c74f5273cc3e2046b5a910aac12b59f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/Props/Materials/CandleFlame.mat using Guid(0c74f5273cc3e2046b5a910aac12b59f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcc167bb81a7b0f42e8a069d4b8e11cf') in 0.015055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/XRI_Examples/SocketInteractors/Materials/Peg_Orange.mat
+  artifactKey: Guid(cda5ff44748963e4d9bb10715f07dbc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/SocketInteractors/Materials/Peg_Orange.mat using Guid(cda5ff44748963e4d9bb10715f07dbc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fa5cb58722eba693699a5e741640869') in 0.014503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/XRI_Examples/UI_3D/Materials/AccentButton.mat
+  artifactKey: Guid(07c2795a3fc76224f9e44b842ccf3ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/UI_3D/Materials/AccentButton.mat using Guid(07c2795a3fc76224f9e44b842ccf3ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83afcbb251ff7e05a0ee05a8f0354207') in 0.015206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/XRI_Examples/Props/Models/Primitive_Pyramid.fbx
+  artifactKey: Guid(2488f82ef2901504a9a3927396ab5291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/Props/Models/Primitive_Pyramid.fbx using Guid(2488f82ef2901504a9a3927396ab5291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83d540a340a5d681dc975a697d97eb5f') in 0.038660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/XRI_Examples/ActivateInteractables/Materials/Launcher_FlatBlack.mat
+  artifactKey: Guid(b4af429aa09426941a5bf35e1b3fb29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/ActivateInteractables/Materials/Launcher_FlatBlack.mat using Guid(b4af429aa09426941a5bf35e1b3fb29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a57c18811d2dfa6034d8ccc576ac024') in 0.014332 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Button/Basic - Outline Gradient/Yellow Wedge.mat
+  artifactKey: Guid(7af440e551caa164fbe2c1d9a4374420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Prefabs/Button/Basic - Outline Gradient/Yellow Wedge.mat using Guid(7af440e551caa164fbe2c1d9a4374420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9cb115ff88a50464dd3c65ff76d56a7') in 0.014601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/XRI_Examples/SocketInteractors/Materials/Machine_DarkGrey.mat
+  artifactKey: Guid(88b3109a7e7f9674c8f2d5753d6b3b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/SocketInteractors/Materials/Machine_DarkGrey.mat using Guid(88b3109a7e7f9674c8f2d5753d6b3b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7dbb460c54ca7003b36a0a7291d1cc3') in 0.021525 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Materials/Door_01.mat
+  artifactKey: Guid(228161a55c99b2b419e9ae9a0622b801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Materials/Door_01.mat using Guid(228161a55c99b2b419e9ae9a0622b801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa62708947f38d239cfcecce531223dd') in 0.026970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/XRI_Examples/Props/Materials/PiggyBank.mat
+  artifactKey: Guid(25f8d5afd0110f14fb3ee77d34b0c960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/Props/Materials/PiggyBank.mat using Guid(25f8d5afd0110f14fb3ee77d34b0c960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07b18bfd38fd516b53cd90d0495ad6e7') in 0.028475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06fc991d52f00d83b28e647d11baa449') in 0.087795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Materials/Fire_Extinguisher_01.mat
+  artifactKey: Guid(6e17eff64499e9d4c96e69ac74a30931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Materials/Fire_Extinguisher_01.mat using Guid(6e17eff64499e9d4c96e69ac74a30931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cfe0d30fc69c2d48608fb78e85c795b') in 0.016757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/XRI_Examples/Environment/Materials/CloudSphere.mat
+  artifactKey: Guid(d7c6b50ecf0a47546bc8ae61cc2ed0a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/Environment/Materials/CloudSphere.mat using Guid(d7c6b50ecf0a47546bc8ae61cc2ed0a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fcf2395c073d6552a4a950499fcf14b') in 0.016852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/XRI_Examples/Props/Models/Candle_Small_Round.fbx
+  artifactKey: Guid(44bf690a21e07544387a76c04371e784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/Props/Models/Candle_Small_Round.fbx using Guid(44bf690a21e07544387a76c04371e784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c80329806367b81476184c5a718d5754') in 0.071386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Materials/Fire_Alarm_01.mat
+  artifactKey: Guid(3a561c66bdb914748b0d639f7b6bdfd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Materials/Fire_Alarm_01.mat using Guid(3a561c66bdb914748b0d639f7b6bdfd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd14d822060c51155c725e59fc326e082') in 0.027275 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/XRI_Examples/Props/Materials/WaterSprinkles_Streaks.mat
+  artifactKey: Guid(45803aacd4f666d4298ba982e4f08534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/Props/Materials/WaterSprinkles_Streaks.mat using Guid(45803aacd4f666d4298ba982e4f08534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be5aefbd40200f7dae70ca64604c41f2') in 0.013858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Materials/Door_Large_02.mat
+  artifactKey: Guid(21a0598cf84f8874c97ac9002287a1dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Materials/Door_Large_02.mat using Guid(21a0598cf84f8874c97ac9002287a1dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0066e6970b8450e65de5cc5c2da3e102') in 0.043276 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Modern UI Pack/Fonts/OpenSans-ExtraBold.ttf
+  artifactKey: Guid(122834da39c9ff3428f57bd1a15782c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Fonts/OpenSans-ExtraBold.ttf using Guid(122834da39c9ff3428f57bd1a15782c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efff8b0036281ce4d2d6ce69fdf536be') in 0.028396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Modern UI Pack/Fonts/OpenSans-Regular.ttf
+  artifactKey: Guid(5997fe0be3eb5fd40810e50d6cabb652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Fonts/OpenSans-Regular.ttf using Guid(5997fe0be3eb5fd40810e50d6cabb652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78585b2f462687715cce198978b007ad') in 0.019170 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/XRI_Examples/Environment/Materials/Skybox.mat
+  artifactKey: Guid(1e8a716d9f6a33a4d8c6f7ce6b95219d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/Environment/Materials/Skybox.mat using Guid(1e8a716d9f6a33a4d8c6f7ce6b95219d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3858d73d9da1307c2347ae04793af31f') in 0.063252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Materials/Beam_01.mat
+  artifactKey: Guid(5bfa4c32402277541968b2f368ac1c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Materials/Beam_01.mat using Guid(5bfa4c32402277541968b2f368ac1c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '373de4689295d74097bb891c39b806f0') in 0.017605 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/XRI_Examples/HoverHighlight/Materials/InteractablePulse.mat
+  artifactKey: Guid(7300d560c891a2441b8b283147b5bcbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/HoverHighlight/Materials/InteractablePulse.mat using Guid(7300d560c891a2441b8b283147b5bcbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b65cec0b6b676eb8161bac1cfa0c8305') in 0.014986 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/XRI_Examples/UI_3D/Materials/Glass.mat
+  artifactKey: Guid(bbeb9a41899285f4e8879c33791fede2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/UI_3D/Materials/Glass.mat using Guid(bbeb9a41899285f4e8879c33791fede2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f594ed90300a5b7bb66ce318c184f99d') in 0.014005 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
