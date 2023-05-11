@@ -1,0 +1,442 @@
+Using pre-set license
+Built from '2022.2/staging' branch; Version is '2022.2.15f1 (30d813e1a2a9) revision 3201043'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'en' Physical Memory: 15776 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2020.3.20f1\Editor\2022.2.15f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+C:/Users/hodex/Desktop/School/SAP/warehouse-simulator
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+50563
+Successfully changed project path to: C:/Users/hodex/Desktop/School/SAP/warehouse-simulator
+C:/Users/hodex/Desktop/School/SAP/warehouse-simulator
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [1068] Host "[IP] 172.22.46.34 [Port] 0 [Flags] 2 [Guid] 2445644598 [EditorId] 2445644598 [Version] 1048832 [Id] WindowsEditor(7,Dexter-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [1068] Host "[IP] 172.22.46.34 [Port] 0 [Flags] 2 [Guid] 2445644598 [EditorId] 2445644598 [Version] 1048832 [Id] WindowsEditor(7,Dexter-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 59.96 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 3.14 ms.
+Initialize engine version: 2022.2.15f1 (30d813e1a2a9)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2020.3.20f1/Editor/2022.2.15f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/hodex/Desktop/School/SAP/warehouse-simulator/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x1638)
+    Vendor:   ATI
+    VRAM:     7888 MB
+    Driver:   30.0.13002.1001
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2020.3.20f1/Editor/2022.2.15f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2020.3.20f1/Editor/2022.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2020.3.20f1/Editor/2022.2.15f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56992
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2020.3.20f1/Editor/2022.2.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.015203 seconds.
+- Loaded All Assemblies, in  0.493 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.381 seconds
+Domain Reload Profiling:
+	ReloadAssembly (319ms)
+		BeginReloadAssembly (165ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		LoadAllAssembliesAndSetupDomain (0ms)
+			LoadAssemblies (157ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (158ms)
+				TypeCache.Initialize (157ms)
+					TypeCache.ScanAssembly (155ms)
+				ResolveRequiredComponents (1ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (298ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (12ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (201ms)
+				ProcessInitializeOnLoadMethodAttributes (66ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\hodex\Desktop\School\SAP\warehouse-simulator\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\hodex\Desktop\School\SAP\warehouse-simulator\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.904 seconds
+Refreshing native plugins compatible for Editor in 25.86 ms, found 13 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@3.3.0\Runtime\OculusLoader.cs:282 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in .\Library\PackageCache\com.unity.xr.oculus@3.3.0\Runtime\OculusLoader.cs:267 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <cbc72d4a9767498db39486e941a498e3>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <cbc72d4a9767498db39486e941a498e3>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <cbc72d4a9767498db39486e941a498e3>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <a034809d7c214f51bd2d2d89aa481461>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.113 seconds
+Domain Reload Profiling:
+	ReloadAssembly (260ms)
+		BeginReloadAssembly (159ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		LoadAllAssembliesAndSetupDomain (637ms)
+			LoadAssemblies (386ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (325ms)
+				TypeCache.Initialize (292ms)
+					TypeCache.ScanAssembly (288ms)
+				ResolveRequiredComponents (8ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (937ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (109ms)
+				ProcessInitializeOnLoadAttributes (720ms)
+				ProcessInitializeOnLoadMethodAttributes (75ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 30.96 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 4569 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 71 unused Assets / (80.3 KB). Loaded Objects now: 5039.
+Memory consumption went from 148.8 MB to 148.8 MB.
+Total: 7.715400 ms (FindLiveObjects: 0.400100 ms CreateObjectMapping: 0.150200 ms MarkObjects: 6.901100 ms  DeleteObjects: 0.262500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 173725.467949 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Button/Basic - Outline With Icon/Standard.prefab
+  artifactKey: Guid(eb743563919171a4587d60b1da95bf23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Prefabs/Button/Basic - Outline With Icon/Standard.prefab using Guid(eb743563919171a4587d60b1da95bf23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6883afcdd87c270ec716b381376c536') in 0.125400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 81
+========================================================================
+Received Import Request.
+  Time since last request: 11.530482 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Button/Basic - Outline/Standard.prefab
+  artifactKey: Guid(9a60df9613db369469bef8dd75f3f75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Prefabs/Button/Basic - Outline/Standard.prefab using Guid(9a60df9613db369469bef8dd75f3f75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ee3108858ff3979d0c481d1fd96d18f') in 0.183865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 72
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Wall_Frame_01_Prefab_01.prefab
+  artifactKey: Guid(495ad3e16c44152428474279a474fe55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Wall_Frame_01_Prefab_01.prefab using Guid(495ad3e16c44152428474279a474fe55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '419b2cf73969c4effe07b90f889122ff') in 0.148344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.3.1/Starter Assets/Prefabs/UI_2D/TextButton.prefab
+  artifactKey: Guid(56b86ca2237f87d4fb1089a3685789ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.3.1/Starter Assets/Prefabs/UI_2D/TextButton.prefab using Guid(56b86ca2237f87d4fb1089a3685789ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a766ba19a9b6e9b88ad20b26f72bbe2') in 0.010652 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/XRI_Examples/Props/Prefabs/TargetRing.prefab
+  artifactKey: Guid(06b4ece1c4423ab479d9282189c023c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/Props/Prefabs/TargetRing.prefab using Guid(06b4ece1c4423ab479d9282189c023c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17ce6a16436bbbd889527311442ba465') in 0.043001 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 103
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/XRI_Examples/Environment/Prefabs/Water.prefab
+  artifactKey: Guid(e535ee61bd413794291d54425876d9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/Environment/Prefabs/Water.prefab using Guid(e535ee61bd413794291d54425876d9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f37f76fa4554a63107ecfc1f0d5d4ac1') in 0.012370 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.3.1/Tunneling Vignette/TunnelingVignette.prefab
+  artifactKey: Guid(1670dca8ee98f864eb412b51a24c08e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.3.1/Tunneling Vignette/TunnelingVignette.prefab using Guid(1670dca8ee98f864eb412b51a24c08e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e10d413dc98db6bf444c7d2f397beb0') in 0.015946 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/XRI_Examples/GrabInteractables/Prefabs/VelocityTrackedCube.prefab
+  artifactKey: Guid(ed79eaa9dbed71a46b42588537c577a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/GrabInteractables/Prefabs/VelocityTrackedCube.prefab using Guid(ed79eaa9dbed71a46b42588537c577a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '458c1c38aa91a29e59298b70efac640e') in 0.030601 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Toggle/Toggle - Standard (Light).prefab
+  artifactKey: Guid(14d730bc0601c7040932f7e2c5123eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Prefabs/Toggle/Toggle - Standard (Light).prefab using Guid(14d730bc0601c7040932f7e2c5123eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e68bfce75c59e5a14b14ee4d508369df') in 0.062957 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 64
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Button/Basic - Only Icon/White.prefab
+  artifactKey: Guid(8e406d825c1f87d49912e1f33f727778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Prefabs/Button/Basic - Only Icon/White.prefab using Guid(8e406d825c1f87d49912e1f33f727778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d628de0b43c1d2eafc306c6c5e81ebc') in 0.007282 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Button/Radial - Only Icon/White.prefab
+  artifactKey: Guid(dbcd8777a24c10d43b3593c459fadcc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Prefabs/Button/Radial - Only Icon/White.prefab using Guid(dbcd8777a24c10d43b3593c459fadcc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b980e70f6e6b281eacbb0e736e5ce373') in 0.004519 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/XRI_Examples/Global/Prefabs/TeleportAnchor.prefab
+  artifactKey: Guid(69bcbe8a3c723a8459bad61946074109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/Global/Prefabs/TeleportAnchor.prefab using Guid(69bcbe8a3c723a8459bad61946074109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c97a90560016523c7d056b3b1c25e95f') in 0.024031 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/XRI_Examples/Props/Prefabs/WaterSprinkles.prefab
+  artifactKey: Guid(4feb1e5adf6f8ea459a3a810fedf60d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/Props/Prefabs/WaterSprinkles.prefab using Guid(4feb1e5adf6f8ea459a3a810fedf60d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '917b813d219bbb5d875c69193c5ad152') in 0.024065 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/XRI_Examples/VRWalkthrough/Prefabs/WaypointLink.prefab
+  artifactKey: Guid(69c03c22cdfecf248a817d38c7023d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/VRWalkthrough/Prefabs/WaypointLink.prefab using Guid(69c03c22cdfecf248a817d38c7023d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ca7ca73aaac581ff6f74463ec7f8091') in 0.015845 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.3.1/Starter Assets/Prefabs/UI Sample.prefab
+  artifactKey: Guid(fd28f23af44f73f4a95e33435872ad15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.3.1/Starter Assets/Prefabs/UI Sample.prefab using Guid(fd28f23af44f73f4a95e33435872ad15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fb9f183771b00dec7db5b011eee1847') in 0.007693 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 70
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Switch/Switch - Standard.prefab
+  artifactKey: Guid(61c756c874f5e6f40bc3573de6cb5656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Prefabs/Switch/Switch - Standard.prefab using Guid(61c756c874f5e6f40bc3573de6cb5656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '234c3532b3a8f7e8a172ddb2b6b13c45') in 0.065838 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 64
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Wall_03_Door_Large_01_Prefab_01.prefab
+  artifactKey: Guid(1cfd23389e5449140bd6d500397e103e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Wall_03_Door_Large_01_Prefab_01.prefab using Guid(1cfd23389e5449140bd6d500397e103e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c2f33d6f8ef117010b85ff498b94ed0') in 0.036100 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Wall_03_10m_Prefab_01.prefab
+  artifactKey: Guid(c14538a346131214d9ae3a596d3ce3e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Wall_03_10m_Prefab_01.prefab using Guid(c14538a346131214d9ae3a596d3ce3e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d7255e3a625c5e809c28894b98deb00') in 0.029387 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.221389 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Button/Radial - Outline Only Icon/White.prefab
+  artifactKey: Guid(8103067a880c7b7409a24decfafc5617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Prefabs/Button/Radial - Outline Only Icon/White.prefab using Guid(8103067a880c7b7409a24decfafc5617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cc8c6fa96055c78cd787c8429c3c207') in 0.005866 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Animated Icon/Window.prefab
+  artifactKey: Guid(e66e162856f6b884eb406acc50688f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Prefabs/Animated Icon/Window.prefab using Guid(e66e162856f6b884eb406acc50688f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72e8d066bb718043dbcd721e32fc6c33') in 0.067504 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 63
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/XRI_Examples/Global/Prefabs/XRController_Left_Black.prefab
+  artifactKey: Guid(dbc5ffd3fd8daad4abb3c5418005ac32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/Global/Prefabs/XRController_Left_Black.prefab using Guid(dbc5ffd3fd8daad4abb3c5418005ac32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e8605fa654f08fd71b0ae2dd8efd1d3') in 0.018736 seconds
+Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 137
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Button/Rounded - Gradient/White.prefab
+  artifactKey: Guid(c600969e42fcac74fa8f8a51f26ccc0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Prefabs/Button/Rounded - Gradient/White.prefab using Guid(c600969e42fcac74fa8f8a51f26ccc0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3df9a82824aff8fec4a3fb470dcdda42') in 0.060294 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Window Manager/Window Manager.prefab
+  artifactKey: Guid(564de7c2d2a810042a83a7dc2df23971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Prefabs/Window Manager/Window Manager.prefab using Guid(564de7c2d2a810042a83a7dc2df23971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54c1e22c1e93e3b08ce8f723523135e0') in 0.044028 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 172
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Button/Rounded - Outline Gradient/White.prefab
+  artifactKey: Guid(e09df9aec109a58449446ff160f7e779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Prefabs/Button/Rounded - Outline Gradient/White.prefab using Guid(e09df9aec109a58449446ff160f7e779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fb3477f21e4a72305b227ce79b6733f') in 0.060510 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 60
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/XRI_Examples/Global/Prefabs/XRController_Right_Black.prefab
+  artifactKey: Guid(25523c402d9f0384b8989981757bdb5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/Global/Prefabs/XRController_Right_Black.prefab using Guid(25523c402d9f0384b8989981757bdb5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54f75d65e6ed93374be0ebf917b78b56') in 0.017914 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 137
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
