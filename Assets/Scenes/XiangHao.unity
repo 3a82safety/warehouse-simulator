@@ -41889,7 +41889,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1382221549}
   - component: {fileID: 1382221550}
-  - component: {fileID: 1382221551}
   m_Layer: 5
   m_Name: SFX Volume Slider
   m_TagString: Untagged
@@ -41972,7 +41971,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1382221551}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
         m_MethodName: SetBgMuicVolume
         m_Mode: 1
@@ -41984,20 +41983,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &1382221551
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1382221548}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1458fde6e93e8854681381da1c619d69, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  voiceSlider: {fileID: 1382221550}
-  bgMusic: {fileID: 0}
 --- !u!1001 &1384322616
 PrefabInstance:
   m_ObjectHideFlags: 0
