@@ -15,7 +15,7 @@ C:/Users/User/OneDrive/Desktop/SAP/Unity/warehouse-simulator
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52764
+54136
 Successfully changed project path to: C:/Users/User/OneDrive/Desktop/SAP/Unity/warehouse-simulator
 C:/Users/User/OneDrive/Desktop/SAP/Unity/warehouse-simulator
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ C:/Users/User/OneDrive/Desktop/SAP/Unity/warehouse-simulator
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [20632] Host "[IP] 169.254.205.38 [Port] 0 [Flags] 2 [Guid] 423984385 [EditorId] 423984385 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-626PU1I1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [6288] Host "[IP] 169.254.205.38 [Port] 0 [Flags] 2 [Guid] 1644034320 [EditorId] 1644034320 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-626PU1I1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [20632] Host "[IP] 169.254.205.38 [Port] 0 [Flags] 2 [Guid] 423984385 [EditorId] 423984385 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-626PU1I1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [6288] Host "[IP] 169.254.205.38 [Port] 0 [Flags] 2 [Guid] 1644034320 [EditorId] 1644034320 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-626PU1I1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 329.10 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 3.86 ms.
+Refreshing native plugins compatible for Editor in 247.47 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 9.61 ms.
 Initialize engine version: 2022.2.15f1 (30d813e1a2a9)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/User/OneDrive/Desktop/SAP/Unity/warehouse-simulator/Assets
@@ -67,44 +67,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56304
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56788
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.127677 seconds.
-- Loaded All Assemblies, in  2.922 seconds
+Registered in 0.044511 seconds.
+- Loaded All Assemblies, in  2.547 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 2541 ms
+Android Extension - Scanning For ADB Devices 2414 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  5.292 seconds
+- Finished resetting the current domain, in  4.310 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1998ms)
-		BeginReloadAssembly (1095ms)
+	ReloadAssembly (1484ms)
+		BeginReloadAssembly (800ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
+			CreateAndSetChildDomain (3ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
-			LoadAssemblies (1090ms)
+			LoadAssemblies (790ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (878ms)
-				TypeCache.Initialize (872ms)
-					TypeCache.ScanAssembly (865ms)
-				ResolveRequiredComponents (2ms)
+			SetupTypeCache (1008ms)
+				TypeCache.Initialize (1002ms)
+					TypeCache.ScanAssembly (995ms)
+				ResolveRequiredComponents (4ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (4951ms)
+			SetupLoadedEditorAssemblies (3858ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4335ms)
-				SetLoadedEditorAssemblies (16ms)
+				InitializePlatformSupportModulesInManaged (3023ms)
+				SetLoadedEditorAssemblies (38ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (5ms)
-				ProcessInitializeOnLoadAttributes (402ms)
-				ProcessInitializeOnLoadMethodAttributes (193ms)
+				BeforeProcessingInitializeOnLoad (8ms)
+				ProcessInitializeOnLoadAttributes (623ms)
+				ProcessInitializeOnLoadMethodAttributes (167ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -114,8 +114,8 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\User\OneDrive\Desktop\SAP\Unity\warehouse-simulator\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\User\OneDrive\Desktop\SAP\Unity\warehouse-simulator\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  3.751 seconds
-Refreshing native plugins compatible for Editor in 32.89 ms, found 13 plugins.
+- Loaded All Assemblies, in  9.259 seconds
+Refreshing native plugins compatible for Editor in 95.40 ms, found 13 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Package Manager log level set to [2]
@@ -144,44 +144,44 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  3.453 seconds
+- Finished resetting the current domain, in  5.524 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1047ms)
-		BeginReloadAssembly (491ms)
+	ReloadAssembly (1176ms)
+		BeginReloadAssembly (630ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (20ms)
+			DisableScriptedObjects (30ms)
 			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (68ms)
-		LoadAllAssembliesAndSetupDomain (2690ms)
-			LoadAssemblies (1531ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (119ms)
+		LoadAllAssembliesAndSetupDomain (8075ms)
+			LoadAssemblies (5456ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1364ms)
-				TypeCache.Initialize (1233ms)
-					TypeCache.ScanAssembly (1223ms)
-				ResolveRequiredComponents (29ms)
+			SetupTypeCache (2765ms)
+				TypeCache.Initialize (2402ms)
+					TypeCache.ScanAssembly (2373ms)
+				ResolveRequiredComponents (93ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (2662ms)
+			SetupLoadedEditorAssemblies (4117ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (115ms)
-				SetLoadedEditorAssemblies (20ms)
+				InitializePlatformSupportModulesInManaged (109ms)
+				SetLoadedEditorAssemblies (15ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (389ms)
-				ProcessInitializeOnLoadAttributes (1943ms)
-				ProcessInitializeOnLoadMethodAttributes (175ms)
-				AfterProcessingInitializeOnLoad (19ms)
-				EditorAssembliesLoaded (0ms)
+				BeforeProcessingInitializeOnLoad (313ms)
+				ProcessInitializeOnLoadAttributes (3229ms)
+				ProcessInitializeOnLoadMethodAttributes (383ms)
+				AfterProcessingInitializeOnLoad (66ms)
+				EditorAssembliesLoaded (2ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
-Refreshing native plugins compatible for Editor in 28.88 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.14 ms.
+			AwakeInstancesAfterBackupRestoration (53ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.53 seconds
+Refreshing native plugins compatible for Editor in 207.30 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.75 ms.
 Unloading 4754 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 83 unused Assets / (1.3 MB). Loaded Objects now: 5210.
-Memory consumption went from 167.7 MB to 166.4 MB.
-Total: 12.614400 ms (FindLiveObjects: 0.599500 ms CreateObjectMapping: 0.363100 ms MarkObjects: 10.245600 ms  DeleteObjects: 1.403000 ms)
+Memory consumption went from 167.3 MB to 166.0 MB.
+Total: 31.703100 ms (FindLiveObjects: 3.089600 ms CreateObjectMapping: 1.209600 ms MarkObjects: 25.913000 ms  DeleteObjects: 1.482900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -196,111 +196,126 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 83086.583156 seconds.
-  path: Assets/SpillageAndCautionSign/Assets/Models
-  artifactKey: Guid(c268906e24a52b348b9ef2a1f54f267e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SpillageAndCautionSign/Assets/Models using Guid(c268906e24a52b348b9ef2a1f54f267e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac71997640ba72e9d41774862b1c37df') in 0.006266 seconds
+  Time since last request: 161717.170935 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/Scenes
+  artifactKey: Guid(6e2175e19ead3b341ad1be4afbe9075a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/Scenes using Guid(6e2175e19ead3b341ad1be4afbe9075a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ce6a19fefc382209263074bf7b741b6') in 0.016851 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.222285 seconds.
-  path: Assets/SpillageAndCautionSign/Assets/Models/Demo_Floor.FBX
-  artifactKey: Guid(9024ec110d5cc6b4eb5d7634f528b687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SpillageAndCautionSign/Assets/Models/Demo_Floor.FBX using Guid(9024ec110d5cc6b4eb5d7634f528b687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06094a1d3615ea055a03165876667e2c') in 1.719616 seconds
+  Time since last request: 0.000172 seconds.
+  path: Assets/Scenes/Zen.unity
+  artifactKey: Guid(0112b86a09871b14d8e0a056f293d0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Zen.unity using Guid(0112b86a09871b14d8e0a056f293d0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '442c79f4f7efffeece4c72ff1f61d729') in 0.006116 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000137 seconds.
-  path: Assets/SpillageAndCautionSign/Assets/Models/SpillageSignBoard.FBX
-  artifactKey: Guid(66ecc99aff92fd64d9eaab3c774ceb32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SpillageAndCautionSign/Assets/Models/SpillageSignBoard.FBX using Guid(66ecc99aff92fd64d9eaab3c774ceb32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78e8ddeb71bc7cc2bbb5c76761d61576') in 0.289827 seconds
+  Time since last request: 0.000520 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/Readme.asset
+  artifactKey: Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/Readme.asset using Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47279e7d4a3b1237a2c0f9495e8bb83f') in 0.110950 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000306 seconds.
+  Time since last request: 18.238397 seconds.
+  path: Assets/SpillageAndCautionSign/Assets
+  artifactKey: Guid(2a6ae5d06dcda0841a48ee9b09b1b88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpillageAndCautionSign/Assets using Guid(2a6ae5d06dcda0841a48ee9b09b1b88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd19f8ec241320f8c5d38478b978d0fe8') in 0.001676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.739936 seconds.
+  path: Assets/SpillageAndCautionSign/Assets/Prefabs
+  artifactKey: Guid(3b12b5474e85c4447957682db246308d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpillageAndCautionSign/Assets/Prefabs using Guid(3b12b5474e85c4447957682db246308d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd0c7572c3e58047d93dad0a5eaaff4e') in 0.001290 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.066811 seconds.
   path: Assets/SpillageAndCautionSign/Assets/Prefabs/SpillageSignBoardType1.prefab
   artifactKey: Guid(4f21f2813e5cd4044a59159788006675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SpillageAndCautionSign/Assets/Prefabs/SpillageSignBoardType1.prefab using Guid(4f21f2813e5cd4044a59159788006675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '248d727241f5d45ca6a3828c74d3ff05') in 1.101795 seconds
+Start importing Assets/SpillageAndCautionSign/Assets/Prefabs/SpillageSignBoardType1.prefab using Guid(4f21f2813e5cd4044a59159788006675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '248d727241f5d45ca6a3828c74d3ff05') in 1.297344 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 24
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001478 seconds.
+  Time since last request: 0.000080 seconds.
+  path: Assets/SpillageAndCautionSign/Assets/Prefabs/SpillageType3 .prefab
+  artifactKey: Guid(8dbb7c68074351241811bca05d75a5cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpillageAndCautionSign/Assets/Prefabs/SpillageType3 .prefab using Guid(8dbb7c68074351241811bca05d75a5cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86f32aaa644e54d8bd2a3b54f231b207') in 0.917233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/SpillageAndCautionSign/Assets/Prefabs/SpillageType2.prefab
+  artifactKey: Guid(ae167953d2cd3cb48b256ac5d1589335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpillageAndCautionSign/Assets/Prefabs/SpillageType2.prefab using Guid(ae167953d2cd3cb48b256ac5d1589335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '584d250ea986ea2e0dc3340cec6480f2') in 0.099175 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 44.269545 seconds.
   path: Assets/SpillageAndCautionSign/Assets/Materials/Spillage_Type1.mat
   artifactKey: Guid(795f487ff34e9d640a1e9ea8ad407153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SpillageAndCautionSign/Assets/Materials/Spillage_Type1.mat using Guid(795f487ff34e9d640a1e9ea8ad407153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c5a7229d8ee09bf5eb7839b5060921f') in 1.109253 seconds
+Start importing Assets/SpillageAndCautionSign/Assets/Materials/Spillage_Type1.mat using Guid(795f487ff34e9d640a1e9ea8ad407153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c5a7229d8ee09bf5eb7839b5060921f') in 0.935254 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 4
 ========================================================================
 Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/SpillageAndCautionSign/Assets/Models/SpillageSignBoard.FBX
+  artifactKey: Guid(66ecc99aff92fd64d9eaab3c774ceb32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpillageAndCautionSign/Assets/Models/SpillageSignBoard.FBX using Guid(66ecc99aff92fd64d9eaab3c774ceb32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78e8ddeb71bc7cc2bbb5c76761d61576') in 0.707466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 31.511565 seconds.
+  path: Assets/SpillageAndCautionSign/Assets/Textures/SpillageSignBoard_M.png
+  artifactKey: Guid(324b5b1ab54701948a321293440c2a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpillageAndCautionSign/Assets/Textures/SpillageSignBoard_M.png using Guid(324b5b1ab54701948a321293440c2a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ed303a47e7ee81d6c8e85431746969d') in 0.067974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
   Time since last request: 0.000136 seconds.
-  path: Assets/SpillageAndCautionSign/Assets/Textures/SpillageSignBoard_AO.png
-  artifactKey: Guid(19bd5ccfcef70b743bc414d073e322d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SpillageAndCautionSign/Assets/Textures/SpillageSignBoard_AO.png using Guid(19bd5ccfcef70b743bc414d073e322d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65acac75b475c13ef89255a916fbb3f6') in 0.122918 seconds
+  path: Assets/SpillageAndCautionSign/Assets/Textures/SpillageType1_N.png
+  artifactKey: Guid(89c8a1597e94813439430dcbcc2b1c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpillageAndCautionSign/Assets/Textures/SpillageType1_N.png using Guid(89c8a1597e94813439430dcbcc2b1c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d774db2cb735fb4d89264c82c23f188') in 0.065146 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000134 seconds.
-  path: Assets/SpillageAndCautionSign/Assets/Materials/SpillageSignBoard_Type2.mat
-  artifactKey: Guid(77e34ea206b609c40b1250217914aaeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SpillageAndCautionSign/Assets/Materials/SpillageSignBoard_Type2.mat using Guid(77e34ea206b609c40b1250217914aaeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e0ca3e6416d1261e73dca131484d5be') in 0.091178 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 0.000081 seconds.
-  path: Assets/SpillageAndCautionSign/Assets/Textures/SpillageType2_N.png
-  artifactKey: Guid(8f634a97cc21d3346a1e9f329b1603bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SpillageAndCautionSign/Assets/Textures/SpillageType2_N.png using Guid(8f634a97cc21d3346a1e9f329b1603bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d5e68bc78c24a5821264f254600df70') in 0.073004 seconds
+  Time since last request: 0.000093 seconds.
+  path: Assets/SpillageAndCautionSign/Assets/Textures/SpillageType3_M.png
+  artifactKey: Guid(9481eedae7b90f8408c3238a91d5be9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpillageAndCautionSign/Assets/Textures/SpillageType3_M.png using Guid(9481eedae7b90f8408c3238a91d5be9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5572d658c6403b4b610246f113f5674') in 0.034846 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000088 seconds.
+  Time since last request: 0.001496 seconds.
   path: Assets/SpillageAndCautionSign/Assets/Textures/SpillageType1_A.png
   artifactKey: Guid(fdc296a6b69fc944a9a495033c04a6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SpillageAndCautionSign/Assets/Textures/SpillageType1_A.png using Guid(fdc296a6b69fc944a9a495033c04a6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b12cea9e5448b52f1b38b945d1b309') in 0.109761 seconds
+Start importing Assets/SpillageAndCautionSign/Assets/Textures/SpillageType1_A.png using Guid(fdc296a6b69fc944a9a495033c04a6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b12cea9e5448b52f1b38b945d1b309') in 0.086932 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000208 seconds.
+  Time since last request: 0.000426 seconds.
   path: Assets/SpillageAndCautionSign/Assets/Textures/SpillageType2_M.png
   artifactKey: Guid(ba4dd187f61dfa24fafb1b4068d3e4ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SpillageAndCautionSign/Assets/Textures/SpillageType2_M.png using Guid(ba4dd187f61dfa24fafb1b4068d3e4ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a93ad0333f92cdf55373fcc7790f011c') in 0.050442 seconds
+Start importing Assets/SpillageAndCautionSign/Assets/Textures/SpillageType2_M.png using Guid(ba4dd187f61dfa24fafb1b4068d3e4ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a93ad0333f92cdf55373fcc7790f011c') in 0.059926 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000096 seconds.
-  path: Assets/SpillageAndCautionSign/Assets/Textures/SpillageSignBoard_Type1_A.png
-  artifactKey: Guid(f9e76a4582de05149a46315c8637d259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SpillageAndCautionSign/Assets/Textures/SpillageSignBoard_Type1_A.png using Guid(f9e76a4582de05149a46315c8637d259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da198e80f7561c11cdb09a237d7a02d1') in 0.104982 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000121 seconds.
-  path: Assets/SpillageAndCautionSign/Assets/Prefabs/SpillageSignBoardType2.prefab
-  artifactKey: Guid(12307e2a7aee93b42a45a4d0d5f907ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SpillageAndCautionSign/Assets/Prefabs/SpillageSignBoardType2.prefab using Guid(12307e2a7aee93b42a45a4d0d5f907ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e45fd1b4e2f125ce86c1eb49bf123a6d') in 0.168390 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 24
-========================================================================
-Received Import Request.
-  Time since last request: 0.000096 seconds.
-  path: Assets/SpillageAndCautionSign/Assets/Prefabs/SpillageType1.prefab
-  artifactKey: Guid(1dcdeb1201de0e7458be03e3571ae973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SpillageAndCautionSign/Assets/Prefabs/SpillageType1.prefab using Guid(1dcdeb1201de0e7458be03e3571ae973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73f5aa150996337ff842febd8479766b') in 0.161294 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0
