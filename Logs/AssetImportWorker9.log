@@ -1,0 +1,498 @@
+Using pre-set license
+Built from '2022.2/staging' branch; Version is '2022.2.15f1 (30d813e1a2a9) revision 3201043'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 16062 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.2.15f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker9
+-projectPath
+C:/Users/User/OneDrive/Desktop/SAP/Unity/warehouse-simulator
+-logFile
+Logs/AssetImportWorker9.log
+-srvPort
+59332
+Successfully changed project path to: C:/Users/User/OneDrive/Desktop/SAP/Unity/warehouse-simulator
+C:/Users/User/OneDrive/Desktop/SAP/Unity/warehouse-simulator
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [20124] Host "[IP] 169.254.205.38 [Port] 0 [Flags] 2 [Guid] 2418751586 [EditorId] 2418751586 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-626PU1I1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [20124] Host "[IP] 169.254.205.38 [Port] 0 [Flags] 2 [Guid] 2418751586 [EditorId] 2418751586 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-626PU1I1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 368.35 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 7.72 ms.
+Initialize engine version: 2022.2.15f1 (30d813e1a2a9)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/User/OneDrive/Desktop/SAP/Unity/warehouse-simulator/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce MX350 (ID=0x1c94)
+    Vendor:   NVIDIA
+    VRAM:     1979 MB
+    Driver:   30.0.15.1169
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56808
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.168094 seconds.
+- Loaded All Assemblies, in  5.341 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 4276 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  7.856 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3499ms)
+		BeginReloadAssembly (1623ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (9ms)
+		LoadAllAssembliesAndSetupDomain (0ms)
+			LoadAssemblies (1601ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1704ms)
+				TypeCache.Initialize (1699ms)
+					TypeCache.ScanAssembly (1689ms)
+				ResolveRequiredComponents (3ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (7436ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5440ms)
+				SetLoadedEditorAssemblies (60ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (10ms)
+				ProcessInitializeOnLoadAttributes (1336ms)
+				ProcessInitializeOnLoadMethodAttributes (589ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\OneDrive\Desktop\SAP\Unity\warehouse-simulator\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\OneDrive\Desktop\SAP\Unity\warehouse-simulator\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in 59.871 seconds
+Refreshing native plugins compatible for Editor in 91.80 ms, found 13 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@3.3.0\Runtime\OculusLoader.cs:282 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in .\Library\PackageCache\com.unity.xr.oculus@3.3.0\Runtime\OculusLoader.cs:267 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <cbc72d4a9767498db39486e941a498e3>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <cbc72d4a9767498db39486e941a498e3>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <cbc72d4a9767498db39486e941a498e3>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <a034809d7c214f51bd2d2d89aa481461>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  6.371 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1374ms)
+		BeginReloadAssembly (711ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (38ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (80ms)
+		LoadAllAssembliesAndSetupDomain (58438ms)
+			LoadAssemblies (56539ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (2242ms)
+				TypeCache.Initialize (1981ms)
+					TypeCache.ScanAssembly (1954ms)
+				ResolveRequiredComponents (67ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (5359ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (113ms)
+				SetLoadedEditorAssemblies (17ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (402ms)
+				ProcessInitializeOnLoadAttributes (4371ms)
+				ProcessInitializeOnLoadMethodAttributes (419ms)
+				AfterProcessingInitializeOnLoad (36ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (32ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.46 seconds
+Refreshing native plugins compatible for Editor in 103.19 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.30 ms.
+Unloading 4744 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 83 unused Assets / (1.3 MB). Loaded Objects now: 5213.
+Memory consumption went from 166.3 MB to 165.0 MB.
+Total: 14.402000 ms (FindLiveObjects: 0.921200 ms CreateObjectMapping: 0.508600 ms MarkObjects: 12.294200 ms  DeleteObjects: 0.674900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 346625.399765 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Models/Container.FBX
+  artifactKey: Guid(0463104826d11ae4f8cdd9e8fa1e0ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Models/Container.FBX using Guid(0463104826d11ae4f8cdd9e8fa1e0ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aaf15ec882bfb4597f154911e205d58') in 2.531059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Prefabs/BigShelves
+  artifactKey: Guid(30d8d7566b669dc4c9bbbd9641103146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Prefabs/BigShelves using Guid(30d8d7566b669dc4c9bbbd9641103146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dfba50ce77e78ca620c03cc3c08546d') in 0.003044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Prefabs/BigShelves/BigShelves01Group4.prefab
+  artifactKey: Guid(245be08a51c17524e97be2b0d7dc657d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Prefabs/BigShelves/BigShelves01Group4.prefab using Guid(245be08a51c17524e97be2b0d7dc657d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24294bb8da84c1ef049ed37035733e52') in 1.708185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Models/Cardboard_boxGroup03.FBX
+  artifactKey: Guid(2db71a964effdf1479e9e474a4c0bcc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Models/Cardboard_boxGroup03.FBX using Guid(2db71a964effdf1479e9e474a4c0bcc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ce88a1fa947216999400c9316f23586') in 0.529684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Models/BigShelves04.FBX
+  artifactKey: Guid(799658ff27b545c438f47278144d16e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Models/BigShelves04.FBX using Guid(799658ff27b545c438f47278144d16e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74625b30252973ee894e7d0533967ef6') in 0.295684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Models/Cardbox_closed02.FBX
+  artifactKey: Guid(20cd4817678bc30458c5218aafc747d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Models/Cardbox_closed02.FBX using Guid(20cd4817678bc30458c5218aafc747d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0085d2ce7a1f24220be52257d89184b8') in 0.246628 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Prefabs/BigShelves/BigShelves03Group4.prefab
+  artifactKey: Guid(1ee31e7792182e94c8ecbc176cd79256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Prefabs/BigShelves/BigShelves03Group4.prefab using Guid(1ee31e7792182e94c8ecbc176cd79256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3252823dd5de1a34c2e6ae309f8a991') in 0.919817 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 56
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Models/Cardbox_open02.FBX
+  artifactKey: Guid(aecf51a5d1ba0b84bbf4c1f9f29c65cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Models/Cardbox_open02.FBX using Guid(aecf51a5d1ba0b84bbf4c1f9f29c65cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e7fee9194ddad31d7a4716b4856f278') in 0.355802 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Models/Crate01.FBX
+  artifactKey: Guid(7bcfc5bf7ec92aa46b1a564149f49d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Models/Crate01.FBX using Guid(7bcfc5bf7ec92aa46b1a564149f49d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99a9506ec2a97224070bdb4a53517d98') in 0.237221 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Models/Crate_wood01.FBX
+  artifactKey: Guid(2ac5b2138d3026c4c8bc475109bfc97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Models/Crate_wood01.FBX using Guid(2ac5b2138d3026c4c8bc475109bfc97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f7286e23592c5bb222fbdd2722dcbf2') in 0.822839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Scenes/Zen.unity
+  artifactKey: Guid(0112b86a09871b14d8e0a056f293d0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Zen.unity using Guid(0112b86a09871b14d8e0a056f293d0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abab45c112cc7ca8b8ea66492f307749') in 0.032393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001403 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Models/Cardboard_boxGroup01b.FBX
+  artifactKey: Guid(bf442e0082ce491428939c25eed991f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Models/Cardboard_boxGroup01b.FBX using Guid(bf442e0082ce491428939c25eed991f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b3a64882cc3bc0dfa38218151bf2225') in 0.932448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000634 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Prefabs/BigShelves/BigShelves02Group5.prefab
+  artifactKey: Guid(ce82a9060ee2f7c49a67f6e40d0ff34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Prefabs/BigShelves/BigShelves02Group5.prefab using Guid(ce82a9060ee2f7c49a67f6e40d0ff34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ecdf1351c7d3fc8d6c75e03c29777d8') in 0.617713 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Models/Crate_wood04.FBX
+  artifactKey: Guid(1fab5c4730bb1e8459aa09c06f1205f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Models/Crate_wood04.FBX using Guid(1fab5c4730bb1e8459aa09c06f1205f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b73ea8c5e9e9c0c117dbe8287c1b724') in 0.406490 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Models/Cardboard_boxGroup02b.FBX
+  artifactKey: Guid(26cbd63e38d737d41bab2fa72dafa916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Models/Cardboard_boxGroup02b.FBX using Guid(26cbd63e38d737d41bab2fa72dafa916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '216cb9a3c388b5404c1c8b0b36d3873d') in 0.659371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Prefabs/BigShelves/Shelves_big02.prefab
+  artifactKey: Guid(56c914dbcf93bc244b71832ea29e7271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Prefabs/BigShelves/Shelves_big02.prefab using Guid(56c914dbcf93bc244b71832ea29e7271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1681f51b4385ebf46edb6cb26412806') in 3.537862 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/IGBlocks/IG_Warehouse
+  artifactKey: Guid(f9306e7735ae19044adc5d3ee9cc5437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse using Guid(f9306e7735ae19044adc5d3ee9cc5437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cce19029c60aec48e776d345c58e7d09') in 0.011782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001140 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Models/BigShelves01.FBX
+  artifactKey: Guid(0fa25e80317f1be4fbc9019573ec95d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Models/BigShelves01.FBX using Guid(0fa25e80317f1be4fbc9019573ec95d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2fda0bf1203b8f7870747782e2984a8') in 0.440268 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Prefabs/BigShelves/BigShelves01Group1.prefab
+  artifactKey: Guid(febf349bdb701e84aba2dcefbe583632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Prefabs/BigShelves/BigShelves01Group1.prefab using Guid(febf349bdb701e84aba2dcefbe583632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd92691b0f6f889c06411474e91bd6e4') in 0.465726 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/UI Sample.prefab
+  artifactKey: Guid(9dd44431f705a12488cb5ee494d22069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Sample.prefab using Guid(9dd44431f705a12488cb5ee494d22069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02a890175751bb7f6d1fc41892dd6b3e') in 0.303441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 70
+========================================================================
+Received Import Request.
+  Time since last request: 0.012426 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Models/Crate_Box.FBX
+  artifactKey: Guid(2130e12cf0800de4bb530f2f78e88ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Models/Crate_Box.FBX using Guid(2130e12cf0800de4bb530f2f78e88ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db4f04006215767297b5bda9bcd8aa84') in 0.504151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001123 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Prefabs/BigShelves/BigShelves04.prefab
+  artifactKey: Guid(3dfc88540f521914da9088a584aba34a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Prefabs/BigShelves/BigShelves04.prefab using Guid(3dfc88540f521914da9088a584aba34a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43d56f3c2e5adb3f388ce53d12a43177') in 0.300484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.001924 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Models
+  artifactKey: Guid(6d844f08ad0d9bc47b89c9eb845d4037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Models using Guid(6d844f08ad0d9bc47b89c9eb845d4037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '963663d0e6f933af3ba556cfe1d8cd61') in 0.003744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Prefabs/BigShelves/Shelves_big03_broken.prefab
+  artifactKey: Guid(f2db4538dbc66fc499986c7c343385e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Prefabs/BigShelves/Shelves_big03_broken.prefab using Guid(f2db4538dbc66fc499986c7c343385e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25ba958693d64ad609fb6dc4067e9175') in 0.565813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/rain-cafe-lo-fi-120915.mp3
+  artifactKey: Guid(e6927fab946bd394f8322286c843bcb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/rain-cafe-lo-fi-120915.mp3 using Guid(e6927fab946bd394f8322286c843bcb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2214a074d83cfab232a4e3743233a5ce') in 0.267693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Models/BigShelves03Group1.FBX
+  artifactKey: Guid(74f0798cab6909a448f57c26a6a63851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Models/BigShelves03Group1.FBX using Guid(74f0798cab6909a448f57c26a6a63851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3e4e03b86585ae7eec8f49ee7dd3564') in 0.708183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Models/BigShelves02.FBX
+  artifactKey: Guid(03a76f10056abd4409ea1c287941097b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Models/BigShelves02.FBX using Guid(03a76f10056abd4409ea1c287941097b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cb56d3313ed56b99820ecc3f58fb085') in 0.209234 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000742 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Models/BigShelves01Group3.FBX
+  artifactKey: Guid(a6b5b2ac0602b284f960524e24583d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Models/BigShelves01Group3.FBX using Guid(a6b5b2ac0602b284f960524e24583d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fc7f4c2e89f4d6dcc64068fff2a8c58') in 0.780771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 44
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Models/Cardboard_boxGroup02a.FBX
+  artifactKey: Guid(8b61040aa9b01ba4992c13b52aaf1bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Models/Cardboard_boxGroup02a.FBX using Guid(8b61040aa9b01ba4992c13b52aaf1bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd89dbf11ab0dea2da47d558c5ec2e3d1') in 1.057129 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Models/BigShelves01Group5.FBX
+  artifactKey: Guid(8a16261af37260e4e9175220517a71b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Models/BigShelves01Group5.FBX using Guid(8a16261af37260e4e9175220517a71b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '470914c2657d36e54ef4c1781555ae07') in 1.279422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Models/BigShelves04Group3.FBX
+  artifactKey: Guid(c6a7ffb814d81ef47a094af09c44de88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Models/BigShelves04Group3.FBX using Guid(c6a7ffb814d81ef47a094af09c44de88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78ee285c5e58e845d9a1f5b63111513a') in 1.094671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Models/Crate_tarp01big.FBX
+  artifactKey: Guid(25d38ecaa1660344e8c9a4967111e385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Models/Crate_tarp01big.FBX using Guid(25d38ecaa1660344e8c9a4967111e385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a14039dbbe45792d746f13bac04d94c3') in 1.473127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Prefabs/BigShelves/BigShelves01Group5.prefab
+  artifactKey: Guid(8530ad2b16fb0b64e84d14f1b5c8dc47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Prefabs/BigShelves/BigShelves01Group5.prefab using Guid(8530ad2b16fb0b64e84d14f1b5c8dc47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0d1f6d0b592eaa300544cf98b3bcaa6') in 0.814315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Models/Box_PalletGroup.FBX
+  artifactKey: Guid(6195a0fe45cde724bb8be64455f39eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Models/Box_PalletGroup.FBX using Guid(6195a0fe45cde724bb8be64455f39eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '303094b005a6ae09a60490c401e25054') in 0.705055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001302 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Models/Cardbox_open01.FBX
+  artifactKey: Guid(986ead2450566f94fb5f735954f73973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Models/Cardbox_open01.FBX using Guid(986ead2450566f94fb5f735954f73973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e8f5273b9682516028b92087b6f1f2') in 0.536541 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Prefabs/BigShelves/BigShelves01.prefab
+  artifactKey: Guid(52ff0345236fa6344ae827b0bae20c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Prefabs/BigShelves/BigShelves01.prefab using Guid(52ff0345236fa6344ae827b0bae20c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '956ff5fa8bc8d1bbc8638570414811b0') in 0.493949 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Models/BigShelves04Group2.FBX
+  artifactKey: Guid(d43c24ae1a4064348ab8658833149426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Models/BigShelves04Group2.FBX using Guid(d43c24ae1a4064348ab8658833149426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8a7694b4a16405ed85f9171c3839808') in 1.758943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
