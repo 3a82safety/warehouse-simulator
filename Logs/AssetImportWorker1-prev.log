@@ -15,7 +15,7 @@ C:/Users/hodex/Desktop/School/SAP/warehouse-simulator
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-59820
+53166
 Successfully changed project path to: C:/Users/hodex/Desktop/School/SAP/warehouse-simulator
 C:/Users/hodex/Desktop/School/SAP/warehouse-simulator
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ C:/Users/hodex/Desktop/School/SAP/warehouse-simulator
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [6472] Host "[IP] 172.22.42.230 [Port] 0 [Flags] 2 [Guid] 53532097 [EditorId] 53532097 [Version] 1048832 [Id] WindowsEditor(7,Dexter-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [30136] Host "[IP] 172.22.43.20 [Port] 0 [Flags] 2 [Guid] 407670041 [EditorId] 407670041 [Version] 1048832 [Id] WindowsEditor(7,Dexter-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [6472] Host "[IP] 172.22.42.230 [Port] 0 [Flags] 2 [Guid] 53532097 [EditorId] 53532097 [Version] 1048832 [Id] WindowsEditor(7,Dexter-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [30136] Host "[IP] 172.22.43.20 [Port] 0 [Flags] 2 [Guid] 407670041 [EditorId] 407670041 [Version] 1048832 [Id] WindowsEditor(7,Dexter-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 32.62 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.52 ms.
+Refreshing native plugins compatible for Editor in 25.01 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.58 ms.
 Initialize engine version: 2022.2.15f1 (30d813e1a2a9)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2020.3.20f1/Editor/2022.2.15f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/hodex/Desktop/School/SAP/warehouse-simulator/Assets
@@ -67,25 +67,25 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2020.3.20f1/Editor/2022.2.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2020.3.20f1/Editor/2022.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2020.3.20f1/Editor/2022.2.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56504
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56584
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2020.3.20f1/Editor/2022.2.15f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity 2020.3.20f1/Editor/2022.2.15f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity 2020.3.20f1/Editor/2022.2.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity 2020.3.20f1/Editor/2022.2.15f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.013206 seconds.
-- Loaded All Assemblies, in  0.359 seconds
+Registered in 0.014918 seconds.
+- Loaded All Assemblies, in  0.351 seconds
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 2313 ms
+Android Extension - Scanning For ADB Devices 637 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.603 seconds
+- Finished resetting the current domain, in  0.928 seconds
 Domain Reload Profiling:
 	ReloadAssembly (200ms)
-		BeginReloadAssembly (86ms)
+		BeginReloadAssembly (85ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
@@ -94,20 +94,20 @@ Domain Reload Profiling:
 		LoadAllAssembliesAndSetupDomain (0ms)
 			LoadAssemblies (83ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (146ms)
-				TypeCache.Initialize (145ms)
-					TypeCache.ScanAssembly (144ms)
-				ResolveRequiredComponents (1ms)
+			SetupTypeCache (139ms)
+				TypeCache.Initialize (138ms)
+					TypeCache.ScanAssembly (136ms)
+				ResolveRequiredComponents (0ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (2550ms)
+			SetupLoadedEditorAssemblies (873ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (2410ms)
+				InitializePlatformSupportModulesInManaged (730ms)
 				SetLoadedEditorAssemblies (4ms)
 				RefreshPlugins (0ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (94ms)
+				ProcessInitializeOnLoadAttributes (96ms)
 				ProcessInitializeOnLoadMethodAttributes (41ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -118,8 +118,8 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\hodex\Desktop\School\SAP\warehouse-simulator\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\hodex\Desktop\School\SAP\warehouse-simulator\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.940 seconds
-Refreshing native plugins compatible for Editor in 17.05 ms, found 13 plugins.
+- Loaded All Assemblies, in  1.095 seconds
+Refreshing native plugins compatible for Editor in 18.04 ms, found 13 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
@@ -150,44 +150,44 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.825 seconds
+- Finished resetting the current domain, in  0.995 seconds
 Domain Reload Profiling:
-	ReloadAssembly (242ms)
-		BeginReloadAssembly (154ms)
+	ReloadAssembly (244ms)
+		BeginReloadAssembly (153ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		LoadAllAssembliesAndSetupDomain (692ms)
-			LoadAssemblies (416ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (30ms)
+		LoadAllAssembliesAndSetupDomain (845ms)
+			LoadAssemblies (500ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (332ms)
-				TypeCache.Initialize (296ms)
-					TypeCache.ScanAssembly (291ms)
-				ResolveRequiredComponents (8ms)
+			SetupTypeCache (415ms)
+				TypeCache.Initialize (378ms)
+					TypeCache.ScanAssembly (370ms)
+				ResolveRequiredComponents (6ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (667ms)
+			SetupLoadedEditorAssemblies (811ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (24ms)
+				InitializePlatformSupportModulesInManaged (27ms)
 				SetLoadedEditorAssemblies (3ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (80ms)
-				ProcessInitializeOnLoadAttributes (503ms)
-				ProcessInitializeOnLoadMethodAttributes (47ms)
-				AfterProcessingInitializeOnLoad (10ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (635ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (11ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 17.58 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.12 ms.
+			AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 21.55 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
 Unloading 4744 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 83 unused Assets / (1.3 MB). Loaded Objects now: 5212.
-Memory consumption went from 166.5 MB to 165.2 MB.
-Total: 4.419000 ms (FindLiveObjects: 0.355400 ms CreateObjectMapping: 0.130600 ms MarkObjects: 3.377000 ms  DeleteObjects: 0.555200 ms)
+Unloading 83 unused Assets / (1.3 MB). Loaded Objects now: 5215.
+Memory consumption went from 167.1 MB to 165.8 MB.
+Total: 7.273800 ms (FindLiveObjects: 0.632700 ms CreateObjectMapping: 0.403800 ms MarkObjects: 5.534000 ms  DeleteObjects: 0.701300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -203,327 +203,198 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 79742.218631 seconds.
-  path: Assets/SkySeries Freebie/UnderTheSea4k.mat
-  artifactKey: Guid(119ec07f1c7ed204db46bd8465fd5a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/UnderTheSea4k.mat using Guid(119ec07f1c7ed204db46bd8465fd5a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2592c9ad4198b707a49e9df1d565ee72') in 0.171735 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Water Effects/Materials/WaterDropSmall.mat
-  artifactKey: Guid(c4d4365c3eeb8a54183f5af15699021d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Water Effects/Materials/WaterDropSmall.mat using Guid(c4d4365c3eeb8a54183f5af15699021d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d06ac34aa603fc4350388539dd82609') in 6.229993 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/XRI_Examples/Environment/Materials/Water.mat
-  artifactKey: Guid(fe6536406787aef45befb36c43fe9a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XRI_Examples/Environment/Materials/Water.mat using Guid(fe6536406787aef45befb36c43fe9a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef0a3c838922e70b34bfcb92429e040d') in 0.471445 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/XRI_Examples/Environment/Materials/Waterfall_Rings.mat
-  artifactKey: Guid(c8957b06587cb8a48b3992b74ef201b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XRI_Examples/Environment/Materials/Waterfall_Rings.mat using Guid(c8957b06587cb8a48b3992b74ef201b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3232932af6b1c64ca5c25316c1ea39c7') in 0.063004 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/XRI_Examples/Props/Materials/WaterSprinkles_Drops.mat
-  artifactKey: Guid(61dae1cd54b2c3d4eacb50ea7e720da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XRI_Examples/Props/Materials/WaterSprinkles_Drops.mat using Guid(61dae1cd54b2c3d4eacb50ea7e720da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0db4aa9e23cc983d4ed5df77d2b885da') in 0.133619 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/XRI_Examples/UI_3D/Models/ClawMachine/BarnMachine.fbx
-  artifactKey: Guid(44f3430c585c6514985b591c28e05a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XRI_Examples/UI_3D/Models/ClawMachine/BarnMachine.fbx using Guid(44f3430c585c6514985b591c28e05a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5433e4133225408c1ab00521543e69e') in 0.275252 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 39
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Smoke & Steam Effects/Materials/Twinkle.mat
-  artifactKey: Guid(8765829b4c1b820409385ae53384fb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Smoke & Steam Effects/Materials/Twinkle.mat using Guid(8765829b4c1b820409385ae53384fb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abf01c5f923821b99233653af69815b9') in 0.077833 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/XRI_Examples/UI_3D/Materials/ClawMachine/UFO_FX_Sparkles.mat
-  artifactKey: Guid(c22c7e3ed62071d4da75f4627d1aba1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XRI_Examples/UI_3D/Materials/ClawMachine/UFO_FX_Sparkles.mat using Guid(c22c7e3ed62071d4da75f4627d1aba1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30804f9f5d3643091f12848cd730e5af') in 0.007865 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Water Effects/Materials/WaterDropBig.mat
-  artifactKey: Guid(88129a2e1a1e0f741a42376e2475028d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Water Effects/Materials/WaterDropBig.mat using Guid(88129a2e1a1e0f741a42376e2475028d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2def0ff7b404656cb16553cf7626762') in 4.382359 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 35.333882 seconds.
-  path: Assets/SkySeries Freebie/6SidedMegaSun.mat
-  artifactKey: Guid(c52c5d7968fa6c9499b0b5752f899bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/6SidedMegaSun.mat using Guid(c52c5d7968fa6c9499b0b5752f899bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f26e5269a53cd7169e315e6ef411720') in 0.422221 seconds
+  Time since last request: 249939.280587 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Misc Effects/Models/Candle.fbx
+  artifactKey: Guid(47422950376b0d8458d22d6185bcdcb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Misc Effects/Models/Candle.fbx using Guid(47422950376b0d8458d22d6185bcdcb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '672b00d6b6b98904799624bcfb804e23') in 0.121534 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/SkySeries Freebie/CosmicCoolCloud_Eq.mat
-  artifactKey: Guid(369b9ebe3a62b904dbc19bd332b44086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/CosmicCoolCloud_Eq.mat using Guid(369b9ebe3a62b904dbc19bd332b44086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '511f3323a2da6ab1ab289af2756e11b2') in 0.066879 seconds
+  Time since last request: 0.000035 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Cabletray_01_2m.fbx
+  artifactKey: Guid(107d237ba9941ff448a8234aa9a414a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Cabletray_01_2m.fbx using Guid(107d237ba9941ff448a8234aa9a414a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db9e6262ccf70b5afc1ff82bd614cf55') in 0.073262 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 20
 ========================================================================
 Received Import Request.
   Time since last request: 0.000031 seconds.
-  path: Assets/SkySeries Freebie/FluffballDay.mat
-  artifactKey: Guid(20d4f77b9022eab48b4d94599ed4bf82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/FluffballDay.mat using Guid(20d4f77b9022eab48b4d94599ed4bf82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d3a9816b362dec832693e49aa1d2428') in 0.064063 seconds
+  path: Assets/IGBlocks/IG_Warehouse/Models/BigShelves03.FBX
+  artifactKey: Guid(4ae3ad641f1b25f42afd53964b4c1c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Models/BigShelves03.FBX using Guid(4ae3ad641f1b25f42afd53964b4c1c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3388cc8b53bb882976bc6cdeb09f6349') in 0.048955 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 16
 ========================================================================
 Received Import Request.
-  Time since last request: 59.360521 seconds.
-  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/CFXR _BOOM_.prefab
-  artifactKey: Guid(26e1cb216e3635e4a820f58a1118d6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/CFXR _BOOM_.prefab using Guid(26e1cb216e3635e4a820f58a1118d6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c675d53e744911e754d4787f1cdfaec') in 0.103214 seconds
+  Time since last request: 0.000017 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Cabletray_01_Corner_01_2m.fbx
+  artifactKey: Guid(99eacb8606f254e4f9316aa85c86b336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Cabletray_01_Corner_01_2m.fbx using Guid(99eacb8606f254e4f9316aa85c86b336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96c039c39a215f1a5de02332e9a3852c') in 0.046399 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 98
+Number of asset objects unloaded after import = 20
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr debris wood 3x3.png
-  artifactKey: Guid(87ce40d5900abcf4e8019548afbdffe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr debris wood 3x3.png using Guid(87ce40d5900abcf4e8019548afbdffe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d8941908829768dd4843b966bca2ad2') in 0.012147 seconds
+  Time since last request: 0.000047 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Air_Duct_01_5m.fbx
+  artifactKey: Guid(5155f238442d3e047ac9e760d5bf83d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Air_Duct_01_5m.fbx using Guid(5155f238442d3e047ac9e760d5bf83d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a55fb99f30e117ec18325d6120837c3') in 0.042516 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 12
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr debris flat unlit 3x3 ab.mat
-  artifactKey: Guid(8e4bb08e9ff5d134fa0d5b0bfe6a2eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr debris flat unlit 3x3 ab.mat using Guid(8e4bb08e9ff5d134fa0d5b0bfe6a2eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61d403bb7679306d6a0a6283409347c3') in 0.068121 seconds
+  Time since last request: 0.000046 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Models/BigShelves03Group4.FBX
+  artifactKey: Guid(e7dbb7be70386fc48a17e136db4ec280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Models/BigShelves03Group4.FBX using Guid(e7dbb7be70386fc48a17e136db4ec280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91caa20b6ce4550734ef5017af2d6df7') in 0.228554 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr blood dissolve.png
-  artifactKey: Guid(0611efd272757c345a8ded5f38dd3f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr blood dissolve.png using Guid(0611efd272757c345a8ded5f38dd3f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30f2c9d5b19822b81e23ab1791916d87') in 0.007231 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 56
 ========================================================================
 Received Import Request.
   Time since last request: 0.000027 seconds.
-  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr debris wood 3x3 ab.mat
-  artifactKey: Guid(7e65055c579688c4d8037b12e2dcd7a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr debris wood 3x3 ab.mat using Guid(7e65055c579688c4d8037b12e2dcd7a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efe040f5c70eaf49b9c373be1f9f619e') in 0.094706 seconds
+  path: Assets/IGBlocks/IG_Warehouse/Models/BigShelves03Group2.FBX
+  artifactKey: Guid(e1f8a210731e51147ae1a1f2eafdd40b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Models/BigShelves03Group2.FBX using Guid(e1f8a210731e51147ae1a1f2eafdd40b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ccc5c0417a48ec9395e64d8c45299ae') in 0.117059 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 42
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr card club ab.mat
-  artifactKey: Guid(6a36ba77acbf3644f855c8700b01c682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr card club ab.mat using Guid(6a36ba77acbf3644f855c8700b01c682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec86647240b6700b53e7490a78d333fb') in 0.091037 seconds
+  Time since last request: 0.000027 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Colliders/Air_Duct_01_Corner_01_Collider.fbx
+  artifactKey: Guid(376d62be479578645a172d2930a7c677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Colliders/Air_Duct_01_Corner_01_Collider.fbx using Guid(376d62be479578645a172d2930a7c677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86f74c52b51e5bbc45d3337e08aa666a') in 0.023740 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr debris wood unlit 3x3 ab.mat
-  artifactKey: Guid(b312598f1eedcea46af6f9284bb88a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr debris wood unlit 3x3 ab.mat using Guid(b312598f1eedcea46af6f9284bb88a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcccdb0ce3e98ffa7ba09ccbb4fe8ec9') in 0.007775 seconds
+  Time since last request: 0.000032 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Colliders/Cabletray_01_5m_Collider.fbx
+  artifactKey: Guid(69cc99390083f7d40bec1da92bbbd326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Colliders/Cabletray_01_5m_Collider.fbx using Guid(69cc99390083f7d40bec1da92bbbd326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '195d115aeae848f5b88dbcede60c9b5b') in 0.018980 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr debris 3x3 normal.png
-  artifactKey: Guid(89e84656724ca9045bb4f742113d74be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr debris 3x3 normal.png using Guid(89e84656724ca9045bb4f742113d74be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deddac812197098dc8d84e3cc5f00d90') in 0.009966 seconds
+  Time since last request: 0.000027 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Models/BigShelves04Group3.FBX
+  artifactKey: Guid(c6a7ffb814d81ef47a094af09c44de88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Models/BigShelves04Group3.FBX using Guid(c6a7ffb814d81ef47a094af09c44de88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97e6b55dcb380ec4d3285953c55bf91f') in 0.101460 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 42
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr card heart.png
-  artifactKey: Guid(38af1cf4cdd0bb047a178879cbb9bf1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr card heart.png using Guid(38af1cf4cdd0bb047a178879cbb9bf1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5446f594fb170644e38ebd6f47b3b5b') in 0.005770 seconds
+  Time since last request: 0.000029 seconds.
+  path: Assets/XRI_Examples/Props/Models/Candle_Small_Round.fbx
+  artifactKey: Guid(44bf690a21e07544387a76c04371e784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/Props/Models/Candle_Small_Round.fbx using Guid(44bf690a21e07544387a76c04371e784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cda8edaab9c1d170a8ad1755a12d779') in 0.052830 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 10
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr debris wood unlit 3x3.png
-  artifactKey: Guid(ba5c573490b77f942a086e98994192a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr debris wood unlit 3x3.png using Guid(ba5c573490b77f942a086e98994192a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee9a78d415babba2ddd7949428808c33') in 0.006299 seconds
+  Time since last request: 0.000052 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Models/BigShelves02Group1.FBX
+  artifactKey: Guid(e220985f0cb6c9547ade74d2c0c2e63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Models/BigShelves02Group1.FBX using Guid(e220985f0cb6c9547ade74d2c0c2e63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'decf8fc4f294e8ce0d0ebb49cd2082ed') in 0.091106 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr aura runic hdr ab nosp.mat
-  artifactKey: Guid(cbb6f419bbe7c6e4d9ce7e0322aa267d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr aura runic hdr ab nosp.mat using Guid(cbb6f419bbe7c6e4d9ce7e0322aa267d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1716152a8df2ef1b76bc2ee4f52f0b06') in 0.068575 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr debris flat unlit 3x3 ab hdr.mat
-  artifactKey: Guid(a6b83a8798dc3f748822ba3b239a8728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr debris flat unlit 3x3 ab hdr.mat using Guid(a6b83a8798dc3f748822ba3b239a8728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f80b806089ebb49de9abddd772a1b92') in 0.036275 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr aura runic.png
-  artifactKey: Guid(ccb58def4933d4e46b7a1fc023bf6259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr aura runic.png using Guid(ccb58def4933d4e46b7a1fc023bf6259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d219fab577b098cc86dc525545b7351') in 0.006257 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr blood.png
-  artifactKey: Guid(a29f55dbea218ca4fbd94deb36027aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr blood.png using Guid(a29f55dbea218ca4fbd94deb36027aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d3b5abc988f6e4bbdbf3db2aaeccefc') in 0.006378 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef
-  artifactKey: Guid(eb5cb7c323a395242a81960087292f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR Editor.asmdef using Guid(eb5cb7c323a395242a81960087292f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af96ddab1892bdcbaefdfbda5face9df') in 0.000619 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 42
 ========================================================================
 Received Import Request.
   Time since last request: 0.000024 seconds.
-  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr card diamond ab.mat
-  artifactKey: Guid(f4814d2dd466a574d8746a53e0ab0443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr card diamond ab.mat using Guid(f4814d2dd466a574d8746a53e0ab0443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'debd070864a6d4d01fc7f43e6f043864') in 0.007914 seconds
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Colliders/Cabletray_01_Corner_02_Collider.fbx
+  artifactKey: Guid(cb327a156bb948245b4c4450118152cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Colliders/Cabletray_01_Corner_02_Collider.fbx using Guid(cb327a156bb948245b4c4450118152cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b98f4e4f73a75622d24656348280353a') in 0.013673 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time since last request: 1.362004 seconds.
-  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire blur fade hdr ab.mat
-  artifactKey: Guid(8b86a91b570220b49a878c53343f2c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire blur fade hdr ab.mat using Guid(8b86a91b570220b49a878c53343f2c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfea656c0890f31b02adeba77c792284') in 0.078573 seconds
+  Time since last request: 0.000031 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Colliders/Air_Duct_01_Corner_02_Collider.fbx
+  artifactKey: Guid(87fc0c5faa2e656479cbec5c138d6d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Colliders/Air_Duct_01_Corner_02_Collider.fbx using Guid(87fc0c5faa2e656479cbec5c138d6d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf3abdb7bb36894efcb6336fc9930a23') in 0.016339 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/2.3.1/XR Device Simulator/XR Device Simulator.prefab
-  artifactKey: Guid(18ddb545287c546e19cc77dc9fbb2189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/2.3.1/XR Device Simulator/XR Device Simulator.prefab using Guid(18ddb545287c546e19cc77dc9fbb2189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34719b469c456f3b972d4dada44e126a') in 0.029430 seconds
+  Time since last request: 0.000035 seconds.
+  path: Assets/XRI_Examples/Physics/Models/Cabinet.fbx
+  artifactKey: Guid(e46350e886be81a49b057f4514cd582b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/Physics/Models/Cabinet.fbx using Guid(e46350e886be81a49b057f4514cd582b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e9e3757ba5135cd8b63ea74fdd4a658') in 0.050851 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 518
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Colliders/Cabletray_01_Corner_03_Collider.fbx
+  artifactKey: Guid(747ebf2fe81b3bc4a83e77f8ff270c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Colliders/Cabletray_01_Corner_03_Collider.fbx using Guid(747ebf2fe81b3bc4a83e77f8ff270c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '319df9a03342ee46e6f1168a50498733') in 0.012074 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
   Time since last request: 0.000015 seconds.
-  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 second color underlit ab.mat
-  artifactKey: Guid(5005ee354c9f83748aaf746cea1880d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr smoke cloud x4 second color underlit ab.mat using Guid(5005ee354c9f83748aaf746cea1880d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6ff7446e3681a637ca5e4174c6c4b0b') in 0.079875 seconds
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Air_Duct_01_Corner_02.fbx
+  artifactKey: Guid(807318f8038d0404fa04bc8be17e95ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Air_Duct_01_Corner_02.fbx using Guid(807318f8038d0404fa04bc8be17e95ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c458617fd6811decbd9460249b923fc') in 0.054284 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
+Number of asset objects unloaded after import = 20
 ========================================================================
 Received Import Request.
   Time since last request: 0.000024 seconds.
-  path: Assets/XR/Loaders/OpenXRLoader.asset
-  artifactKey: Guid(afde28eea658d2341b4447efeffe19bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XR/Loaders/OpenXRLoader.asset using Guid(afde28eea658d2341b4447efeffe19bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c20e6654ea891f8fe43aa07f9e78e14') in 0.002904 seconds
+  path: Assets/IGBlocks/IG_Warehouse/Models/Cardboard_box.FBX
+  artifactKey: Guid(cadab7b0224c9064bb863f93909ec2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Models/Cardboard_box.FBX using Guid(cadab7b0224c9064bb863f93909ec2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b53935f83bbb35d3e0bcb2b89ffa11a') in 0.018951 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 10
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/2.3.1/XR Device Simulator/XR Device Simulator Controls.inputactions
-  artifactKey: Guid(da2b439d1a2de5c46a4f428f8cf4fe19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/2.3.1/XR Device Simulator/XR Device Simulator Controls.inputactions using Guid(da2b439d1a2de5c46a4f428f8cf4fe19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a7e623508ca309df309473419d45974') in 0.006410 seconds
+  Time since last request: 0.000026 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Air_Duct_01_2m.fbx
+  artifactKey: Guid(6d77dc9d335af0d42aed7806b03aad79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Air_Duct_01_2m.fbx using Guid(6d77dc9d335af0d42aed7806b03aad79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '655cd37546e3bed46b7388471d1dc0cd') in 0.042870 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 25
+Number of asset objects unloaded after import = 12
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch spike fade add.mat
-  artifactKey: Guid(b9815bbe84bbafb469825c25a64c229a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch spike fade add.mat using Guid(b9815bbe84bbafb469825c25a64c229a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91edaa0913a2f62bc783df6c4ef2dfd7') in 0.061419 seconds
+  Time since last request: 0.000030 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Colliders/Beam_01_10m_Collider.fbx
+  artifactKey: Guid(2cbc8f21f6bccc5449a929bb21df713c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Colliders/Beam_01_10m_Collider.fbx using Guid(2cbc8f21f6bccc5449a929bb21df713c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '541fbb231d3d04422d952e8bb0777be1') in 0.018262 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/2.3.1/XR Device Simulator/Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.asmdef
-  artifactKey: Guid(a0c6cb4ff4b70b44e933543a342fb2b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/2.3.1/XR Device Simulator/Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.asmdef using Guid(a0c6cb4ff4b70b44e933543a342fb2b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13a6e55081d443d22212f194c3a07059') in 0.000536 seconds
+  Time since last request: 0.000046 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Models/BigShelves01.FBX
+  artifactKey: Guid(0fa25e80317f1be4fbc9019573ec95d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Models/BigShelves01.FBX using Guid(0fa25e80317f1be4fbc9019573ec95d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ffe120e0b6a4d29ec6beb3d980d74af') in 0.042378 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 16
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire plain fade hdr ab.mat
-  artifactKey: Guid(c3b36b67920c18a4a8df7edba245e809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire plain fade hdr ab.mat using Guid(c3b36b67920c18a4a8df7edba245e809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7683ecea8170664f9e37c0b3a9ec74d3') in 0.037987 seconds
+  Time since last request: 0.000067 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Models/Cabletray_01_Corner_03.fbx
+  artifactKey: Guid(0a733531535001b4dba0a2e348840a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Models/Cabletray_01_Corner_03.fbx using Guid(0a733531535001b4dba0a2e348840a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17a54f76d084df655e304893e1b702c8') in 0.046540 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 20
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/2.3.1/XR Device Simulator/XR Device Controller Controls.inputactions
-  artifactKey: Guid(0be0028c24f2a4c14a96b6aa39055933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/2.3.1/XR Device Simulator/XR Device Controller Controls.inputactions using Guid(0be0028c24f2a4c14a96b6aa39055933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e5b585f4902a1ec292287b27cdecb34') in 0.005301 seconds
+  Time since last request: 0.000030 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Models/BigShelves04Group2.FBX
+  artifactKey: Guid(d43c24ae1a4064348ab8658833149426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Models/BigShelves04Group2.FBX using Guid(d43c24ae1a4064348ab8658833149426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecdb69e597448b923f9df501dd0f2166') in 0.077857 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
+Number of asset objects unloaded after import = 42
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch inv spike fade ab.mat
-  artifactKey: Guid(546ab889d8c044b49b7fc3dc12ea2a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch inv spike fade ab.mat using Guid(546ab889d8c044b49b7fc3dc12ea2a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93f57fc959176f021362b0211944e596') in 0.065944 seconds
+  Time since last request: 0.000018 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Models/BigShelvesWoodBox.FBX
+  artifactKey: Guid(b5214239cfe16594daba235354c42c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Models/BigShelvesWoodBox.FBX using Guid(b5214239cfe16594daba235354c42c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11a11a340c4b05ed0fdff83bc8bb10d5') in 0.017757 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 61.34 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 14 unused Assets / (1.3 MB). Loaded Objects now: 5269.
-Memory consumption went from 158.2 MB to 156.9 MB.
-Total: 7.319600 ms (FindLiveObjects: 0.730600 ms CreateObjectMapping: 0.202000 ms MarkObjects: 6.017600 ms  DeleteObjects: 0.367900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Number of asset objects unloaded after import = 10
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
