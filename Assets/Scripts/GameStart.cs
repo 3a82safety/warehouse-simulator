@@ -10,10 +10,10 @@ public class GameStart : MonoBehaviour
     public GameObject mainMenu;
     public GameObject modeScreen;
 
-    public void OpenModeScreen()
+    public void ControlModeScreen()
     {
-        mainMenu.SetActive(false);
-        modeScreen.SetActive(true);
+        mainMenu.SetActive(!mainMenu.activeSelf);
+        modeScreen.SetActive(!modeScreen.activeSelf);
     }
 
     public void StartGame(Button button)
