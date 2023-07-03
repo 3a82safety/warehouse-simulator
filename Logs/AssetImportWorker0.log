@@ -15,7 +15,7 @@ C:/Users/hodex/Desktop/School/SAP/warehouse-simulator
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58229
+57720
 Successfully changed project path to: C:/Users/hodex/Desktop/School/SAP/warehouse-simulator
 C:/Users/hodex/Desktop/School/SAP/warehouse-simulator
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ C:/Users/hodex/Desktop/School/SAP/warehouse-simulator
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [30464] Host "[IP] 172.22.43.108 [Port] 0 [Flags] 2 [Guid] 1187103683 [EditorId] 1187103683 [Version] 1048832 [Id] WindowsEditor(7,Dexter-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [29956] Host "[IP] 172.22.43.108 [Port] 0 [Flags] 2 [Guid] 3364566208 [EditorId] 3364566208 [Version] 1048832 [Id] WindowsEditor(7,Dexter-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [30464] Host "[IP] 172.22.43.108 [Port] 0 [Flags] 2 [Guid] 1187103683 [EditorId] 1187103683 [Version] 1048832 [Id] WindowsEditor(7,Dexter-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [29956] Host "[IP] 172.22.43.108 [Port] 0 [Flags] 2 [Guid] 3364566208 [EditorId] 3364566208 [Version] 1048832 [Id] WindowsEditor(7,Dexter-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 28.57 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.91 ms.
+Refreshing native plugins compatible for Editor in 25.33 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.52 ms.
 Initialize engine version: 2022.2.15f1 (30d813e1a2a9)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2020.3.20f1/Editor/2022.2.15f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/hodex/Desktop/School/SAP/warehouse-simulator/Assets
@@ -67,48 +67,48 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2020.3.20f1/Editor/2022.2.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2020.3.20f1/Editor/2022.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2020.3.20f1/Editor/2022.2.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56276
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56984
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2020.3.20f1/Editor/2022.2.15f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity 2020.3.20f1/Editor/2022.2.15f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity 2020.3.20f1/Editor/2022.2.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity 2020.3.20f1/Editor/2022.2.15f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.020005 seconds.
-- Loaded All Assemblies, in  0.472 seconds
+Registered in 0.021177 seconds.
+- Loaded All Assemblies, in  0.409 seconds
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 764 ms
+Android Extension - Scanning For ADB Devices 2846 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.088 seconds
+- Finished resetting the current domain, in  3.275 seconds
 Domain Reload Profiling:
-	ReloadAssembly (294ms)
-		BeginReloadAssembly (140ms)
+	ReloadAssembly (252ms)
+		BeginReloadAssembly (98ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
-			LoadAssemblies (137ms)
+			LoadAssemblies (97ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (163ms)
-				TypeCache.Initialize (162ms)
-					TypeCache.ScanAssembly (159ms)
+			SetupTypeCache (141ms)
+				TypeCache.Initialize (140ms)
+					TypeCache.ScanAssembly (137ms)
 				ResolveRequiredComponents (1ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (1025ms)
+			SetupLoadedEditorAssemblies (3205ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (866ms)
-				SetLoadedEditorAssemblies (4ms)
+				InitializePlatformSupportModulesInManaged (2943ms)
+				SetLoadedEditorAssemblies (6ms)
 				RefreshPlugins (0ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (104ms)
-				ProcessInitializeOnLoadMethodAttributes (49ms)
+				ProcessInitializeOnLoadAttributes (172ms)
+				ProcessInitializeOnLoadMethodAttributes (83ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -118,8 +118,8 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\hodex\Desktop\School\SAP\warehouse-simulator\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\hodex\Desktop\School\SAP\warehouse-simulator\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.000 seconds
-Refreshing native plugins compatible for Editor in 16.71 ms, found 13 plugins.
+- Loaded All Assemblies, in  1.345 seconds
+Refreshing native plugins compatible for Editor in 21.74 ms, found 13 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
@@ -150,44 +150,44 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.779 seconds
+- Finished resetting the current domain, in  1.061 seconds
 Domain Reload Profiling:
-	ReloadAssembly (226ms)
-		BeginReloadAssembly (141ms)
+	ReloadAssembly (315ms)
+		BeginReloadAssembly (196ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (26ms)
-		LoadAllAssembliesAndSetupDomain (758ms)
-			LoadAssemblies (503ms)
+			CreateAndSetChildDomain (39ms)
+		LoadAllAssembliesAndSetupDomain (1020ms)
+			LoadAssemblies (699ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (313ms)
-				TypeCache.Initialize (283ms)
-					TypeCache.ScanAssembly (275ms)
-				ResolveRequiredComponents (7ms)
+			SetupTypeCache (407ms)
+				TypeCache.Initialize (362ms)
+					TypeCache.ScanAssembly (351ms)
+				ResolveRequiredComponents (9ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (623ms)
+			SetupLoadedEditorAssemblies (860ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (25ms)
-				SetLoadedEditorAssemblies (5ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (3ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (81ms)
-				ProcessInitializeOnLoadAttributes (453ms)
-				ProcessInitializeOnLoadMethodAttributes (48ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (659ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
 				AfterProcessingInitializeOnLoad (11ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 18.19 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Unloading 4744 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 83 unused Assets / (1.3 MB). Loaded Objects now: 5212.
+Refreshing native plugins compatible for Editor in 32.65 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
+Unloading 4746 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 83 unused Assets / (1.3 MB). Loaded Objects now: 5213.
 Memory consumption went from 166.5 MB to 165.2 MB.
-Total: 5.699900 ms (FindLiveObjects: 0.357300 ms CreateObjectMapping: 0.306900 ms MarkObjects: 4.677800 ms  DeleteObjects: 0.356800 ms)
+Total: 16.882500 ms (FindLiveObjects: 1.546200 ms CreateObjectMapping: 0.681600 ms MarkObjects: 12.726600 ms  DeleteObjects: 1.924300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -203,25 +203,73 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 259492.173923 seconds.
-  path: Assets/Scenes/Assessment.unity
-  artifactKey: Guid(fd4e03f88de95a74ebfce45e192ea7de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Assessment.unity using Guid(fd4e03f88de95a74ebfce45e192ea7de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aefbec0d348ecdc48554127166a47e5') in 0.002398 seconds
+  Time since last request: 258705.894739 seconds.
+  path: Assets/CyberneticWalrus/Factory_Props_Vol1/Textures/Stack_Box_03/Stack_Box_03_N.png
+  artifactKey: Guid(f82d0b709e735f74dad8996d64b8fb55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberneticWalrus/Factory_Props_Vol1/Textures/Stack_Box_03/Stack_Box_03_N.png using Guid(f82d0b709e735f74dad8996d64b8fb55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a68a58e73c6d9e03e728276cfe17206') in 0.183769 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.737766 seconds.
-  path: Assets/Scenes/Dexter.unity
-  artifactKey: Guid(3d7e3b9102482b549b45889dbb0134f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Dexter.unity using Guid(3d7e3b9102482b549b45889dbb0134f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c95433f315fd57da1a0bbf1bd9c469bb') in 0.000553 seconds
+  Time since last request: 0.000092 seconds.
+  path: Assets/CyberneticWalrus/Factory_Props_Vol1/Textures/Stack_Box_02/Stack_Box_02_MS.png
+  artifactKey: Guid(1ce1a0e4bdf8124448855845a51c0988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberneticWalrus/Factory_Props_Vol1/Textures/Stack_Box_02/Stack_Box_02_MS.png using Guid(1ce1a0e4bdf8124448855845a51c0988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98bc045d834c5ab06cc11205c86e8b5c') in 0.037142 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 276.405618 seconds.
-  path: Assets/Scenes/Assessment.unity
-  artifactKey: Guid(fd4e03f88de95a74ebfce45e192ea7de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Assessment.unity using Guid(fd4e03f88de95a74ebfce45e192ea7de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12f3e83472762f43948d7f0b37d1722a') in 0.001515 seconds
+  Time since last request: 0.000051 seconds.
+  path: Assets/CyberneticWalrus/Factory_Props_Vol1/Textures/Stack_Box_03/Stack_Box_03_C.png
+  artifactKey: Guid(c7858e787b9eb634bbf2afe76e3efec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberneticWalrus/Factory_Props_Vol1/Textures/Stack_Box_03/Stack_Box_03_C.png using Guid(c7858e787b9eb634bbf2afe76e3efec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5698642ad1bb95ad57936f3d1bfa3e3') in 0.036306 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/CyberneticWalrus/Factory_Props_Vol1/Prefabs/Stack_Box_02_Prefab_01.prefab
+  artifactKey: Guid(48de226cbe4c0bf4ba6ed7df34147433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberneticWalrus/Factory_Props_Vol1/Prefabs/Stack_Box_02_Prefab_01.prefab using Guid(48de226cbe4c0bf4ba6ed7df34147433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eab084f79d9e179966c809fe52b6c268') in 0.438664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/CyberneticWalrus/Factory_Props_Vol1/Textures/Stack_Box_01/Stack_Box_01_MS.png
+  artifactKey: Guid(2198bf9877d3c67419d3eb5f59e221a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberneticWalrus/Factory_Props_Vol1/Textures/Stack_Box_01/Stack_Box_01_MS.png using Guid(2198bf9877d3c67419d3eb5f59e221a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c43e65f6f723a06796d1b58346251b01') in 0.127332 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/CyberneticWalrus/Factory_Props_Vol1/Textures/Stack_Box_03/Stack_Box_03_AO.png
+  artifactKey: Guid(3d70a50f0c268a34786995a8e126f996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberneticWalrus/Factory_Props_Vol1/Textures/Stack_Box_03/Stack_Box_03_AO.png using Guid(3d70a50f0c268a34786995a8e126f996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b346231c51ca20f7322b09198fd63ff') in 0.041030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/CyberneticWalrus/Factory_Props_Vol1/Models/Materials/Wrapped_Boxes_01.mat
+  artifactKey: Guid(410d2d3b2697a684bb1084ec7cbd63df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberneticWalrus/Factory_Props_Vol1/Models/Materials/Wrapped_Boxes_01.mat using Guid(410d2d3b2697a684bb1084ec7cbd63df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbcf71048ff9daa338a1134da9f410b4') in 0.470050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/CyberneticWalrus/Factory_Props_Vol1/Textures/Stack_Box_03/Stack_Box_03_MS.png
+  artifactKey: Guid(f476ca10ebc259549ac3772b1b35cc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberneticWalrus/Factory_Props_Vol1/Textures/Stack_Box_03/Stack_Box_03_MS.png using Guid(f476ca10ebc259549ac3772b1b35cc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13cdca8062af388e0d6923293d2aeb66') in 0.014544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/CyberneticWalrus/Factory_Props_Vol1/Models/Stack_Box_01.fbx
+  artifactKey: Guid(5e8e0468739e8ff4ba2af7622bf977d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberneticWalrus/Factory_Props_Vol1/Models/Stack_Box_01.fbx using Guid(5e8e0468739e8ff4ba2af7622bf977d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96deb7b9dd03291175b8ebaedbf9db54') in 0.376613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
