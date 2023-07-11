@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2022.2/staging' branch; Version is '2022.2.15f1 (30d813e1a2a9) revision 3201043'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'ja' Physical Memory: 16303 MB
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 15776 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2022.2.15f1\Editor\Unity.exe
+C:\Program Files\Unity 2020.3.20f1\Editor\2022.2.15f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/IT Course/Immersive/Unity Project/warehouse-simulator
+C:/Users/hodex/Desktop/School/SAP/warehouse-simulator
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61505
-Successfully changed project path to: D:/IT Course/Immersive/Unity Project/warehouse-simulator
-D:/IT Course/Immersive/Unity Project/warehouse-simulator
+55791
+Successfully changed project path to: C:/Users/hodex/Desktop/School/SAP/warehouse-simulator
+C:/Users/hodex/Desktop/School/SAP/warehouse-simulator
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,64 +47,68 @@ D:/IT Course/Immersive/Unity Project/warehouse-simulator
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [4672] Host "[IP] 192.168.10.111 [Port] 0 [Flags] 2 [Guid] 2244522585 [EditorId] 2244522585 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-MOS4EU6H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [25680] Host "[IP] 172.22.43.48 [Port] 0 [Flags] 2 [Guid] 1838677103 [EditorId] 1838677103 [Version] 1048832 [Id] WindowsEditor(7,Dexter-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [4672] Host "[IP] 192.168.10.111 [Port] 0 [Flags] 2 [Guid] 2244522585 [EditorId] 2244522585 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-MOS4EU6H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [25680] Host "[IP] 172.22.43.48 [Port] 0 [Flags] 2 [Guid] 1838677103 [EditorId] 1838677103 [Version] 1048832 [Id] WindowsEditor(7,Dexter-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 19.69 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.51 ms.
+Refreshing native plugins compatible for Editor in 47.12 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 1.07 ms.
 Initialize engine version: 2022.2.15f1 (30d813e1a2a9)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/IT Course/Immersive/Unity Project/warehouse-simulator/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2020.3.20f1/Editor/2022.2.15f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/hodex/Desktop/School/SAP/warehouse-simulator/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f91)
+    Renderer: NVIDIA GeForce RTX 3070 Laptop GPU (ID=0x249d)
     Vendor:   NVIDIA
-    VRAM:     3949 MB
-    Driver:   31.0.15.3623
+    VRAM:     8044 MB
+    Driver:   30.0.15.1278
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56960
+Mono path[0] = 'C:/Program Files/Unity 2020.3.20f1/Editor/2022.2.15f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2020.3.20f1/Editor/2022.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2020.3.20f1/Editor/2022.2.15f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56888
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.010826 seconds.
-- Loaded All Assemblies, in  0.466 seconds
+Register platform support module: C:/Program Files/Unity 2020.3.20f1/Editor/2022.2.15f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity 2020.3.20f1/Editor/2022.2.15f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity 2020.3.20f1/Editor/2022.2.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity 2020.3.20f1/Editor/2022.2.15f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.018530 seconds.
+- Loaded All Assemblies, in  0.561 seconds
+Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 325 ms
+Android Extension - Scanning For ADB Devices 610 ms
+Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.662 seconds
+- Finished resetting the current domain, in  1.074 seconds
 Domain Reload Profiling:
-	ReloadAssembly (250ms)
-		BeginReloadAssembly (106ms)
+	ReloadAssembly (352ms)
+		BeginReloadAssembly (175ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
-			LoadAssemblies (104ms)
+			LoadAssemblies (174ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (203ms)
-				TypeCache.Initialize (201ms)
-					TypeCache.ScanAssembly (199ms)
+			SetupTypeCache (186ms)
+				TypeCache.Initialize (184ms)
+					TypeCache.ScanAssembly (179ms)
 				ResolveRequiredComponents (1ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (592ms)
+			SetupLoadedEditorAssemblies (906ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (416ms)
+				InitializePlatformSupportModulesInManaged (736ms)
 				SetLoadedEditorAssemblies (5ms)
 				RefreshPlugins (0ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (121ms)
-				ProcessInitializeOnLoadMethodAttributes (49ms)
+				ProcessInitializeOnLoadAttributes (112ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -112,12 +116,14 @@ Domain Reload Profiling:
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\IT Course\Immersive\Unity Project\warehouse-simulator\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\IT Course\Immersive\Unity Project\warehouse-simulator\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.923 seconds
-Refreshing native plugins compatible for Editor in 12.33 ms, found 13 plugins.
+Symbol file LoadedFromMemory doesn't match image C:\Users\hodex\Desktop\School\SAP\warehouse-simulator\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\hodex\Desktop\School\SAP\warehouse-simulator\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.984 seconds
+Refreshing native plugins compatible for Editor in 17.18 ms, found 13 plugins.
+Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
+Native extension for WebGL target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
@@ -144,284 +150,48 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.867 seconds
+- Finished resetting the current domain, in  0.742 seconds
 Domain Reload Profiling:
-	ReloadAssembly (247ms)
-		BeginReloadAssembly (143ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (26ms)
-		LoadAllAssembliesAndSetupDomain (673ms)
-			LoadAssemblies (288ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (451ms)
-				TypeCache.Initialize (379ms)
-					TypeCache.ScanAssembly (374ms)
-				ResolveRequiredComponents (43ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (574ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (21ms)
-				SetLoadedEditorAssemblies (4ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (83ms)
-				ProcessInitializeOnLoadAttributes (387ms)
-				ProcessInitializeOnLoadMethodAttributes (70ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 9.18 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.04 ms.
-Unloading 4744 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 83 unused Assets / (1.3 MB). Loaded Objects now: 5214.
-Memory consumption went from 166.7 MB to 165.4 MB.
-Total: 4.234600 ms (FindLiveObjects: 0.465000 ms CreateObjectMapping: 0.328200 ms MarkObjects: 3.115200 ms  DeleteObjects: 0.325200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1401793.965092 seconds.
-  path: Assets/Scripts/SettngsManager.cs
-  artifactKey: Guid(ad02739d3bb8eb44c94b0f26ed008ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SettngsManager.cs using Guid(ad02739d3bb8eb44c94b0f26ed008ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08e2421479e8252ba2e204d148b479ba') in 0.058655 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 2.988659 seconds.
-  path: Assets/Scripts/UIManager.cs
-  artifactKey: Guid(1458fde6e93e8854681381da1c619d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UIManager.cs using Guid(1458fde6e93e8854681381da1c619d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ce41e4e3fc1b675ccf46661d4f80fe4') in 0.001031 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 3.661640 seconds.
-  path: Assets/Scripts/GameStart.cs
-  artifactKey: Guid(9f77bad7e2cdb05428e84a423383007d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GameStart.cs using Guid(9f77bad7e2cdb05428e84a423383007d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5df4352c2a947138dc479669bab7b07a') in 0.001104 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 809.819812 seconds.
-  path: Assets/Scripts/GameStart.cs
-  artifactKey: Guid(9f77bad7e2cdb05428e84a423383007d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GameStart.cs using Guid(9f77bad7e2cdb05428e84a423383007d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebeeec446f4b434be2545144249aa339') in 0.000911 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\IT Course\Immersive\Unity Project\warehouse-simulator\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\IT Course\Immersive\Unity Project\warehouse-simulator\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.303 seconds
-Refreshing native plugins compatible for Editor in 9.25 ms, found 13 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@3.3.0\Runtime\OculusLoader.cs:282 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in .\Library\PackageCache\com.unity.xr.oculus@3.3.0\Runtime\OculusLoader.cs:267 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <cbc72d4a9767498db39486e941a498e3>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <cbc72d4a9767498db39486e941a498e3>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <cbc72d4a9767498db39486e941a498e3>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <a034809d7c214f51bd2d2d89aa481461>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in 15.471 seconds
-Domain Reload Profiling:
-	ReloadAssembly (523ms)
-		BeginReloadAssembly (417ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (20ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (1ms)
-			CreateAndSetChildDomain (196ms)
-		LoadAllAssembliesAndSetupDomain (777ms)
-			LoadAssemblies (496ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (382ms)
-				TypeCache.Initialize (364ms)
-					TypeCache.ScanAssembly (352ms)
-				ResolveRequiredComponents (9ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (428ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (21ms)
-				SetLoadedEditorAssemblies (4ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (80ms)
-				ProcessInitializeOnLoadAttributes (273ms)
-				ProcessInitializeOnLoadMethodAttributes (42ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Refreshing native plugins compatible for Editor in 12.63 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Unloading 4654 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 60 unused Assets / (1.3 MB). Loaded Objects now: 5218.
-Memory consumption went from 150.4 MB to 149.1 MB.
-Total: 5.572300 ms (FindLiveObjects: 0.355300 ms CreateObjectMapping: 0.420200 ms MarkObjects: 4.194900 ms  DeleteObjects: 0.601000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 53.903818 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/2.3.1/Starter Assets/Prefabs/UI_2D/ModalSingleButton.prefab
-  artifactKey: Guid(c24a7635b5761984d81cf6c4aac26e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/2.3.1/Starter Assets/Prefabs/UI_2D/ModalSingleButton.prefab using Guid(c24a7635b5761984d81cf6c4aac26e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44e3c217d7d4cdec83d5f8ba98ddd449') in 0.117790 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/2.3.1/Starter Assets/Prefabs/UI_2D/Forklift Option 3.prefab
-  artifactKey: Guid(78ed75a3b174fa94a972e70627e31ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/2.3.1/Starter Assets/Prefabs/UI_2D/Forklift Option 3.prefab using Guid(78ed75a3b174fa94a972e70627e31ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f9aa76eb205bbf7cc42242adf088eb') in 0.030195 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/2.3.1/Starter Assets/Prefabs/UI_2D/Pallet Option 4.prefab
-  artifactKey: Guid(7c02a4a54507102489fd048d0b5f38f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/2.3.1/Starter Assets/Prefabs/UI_2D/Pallet Option 4.prefab using Guid(7c02a4a54507102489fd048d0b5f38f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '075506b277d74d95843d238538eee361') in 0.012383 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/2.3.1/Starter Assets/Prefabs/UI_2D/Pallet Option 3.prefab
-  artifactKey: Guid(88663cf6cdd5eb440ba88cfdcaeb3354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/2.3.1/Starter Assets/Prefabs/UI_2D/Pallet Option 3.prefab using Guid(88663cf6cdd5eb440ba88cfdcaeb3354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbd9e9a50588238086c2bf1879ca0bfc') in 0.020819 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/2.3.1/Starter Assets/Prefabs/UI_2D/Conveyor Option 3.prefab
-  artifactKey: Guid(f890f57b74fe30c47ad244960fea4013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/2.3.1/Starter Assets/Prefabs/UI_2D/Conveyor Option 3.prefab using Guid(f890f57b74fe30c47ad244960fea4013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8fcd6574f09b87fbbdaedf83670ea82') in 0.045078 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\IT Course\Immersive\Unity Project\warehouse-simulator\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\IT Course\Immersive\Unity Project\warehouse-simulator\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.102 seconds
-Refreshing native plugins compatible for Editor in 11.66 ms, found 13 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@3.3.0\Runtime\OculusLoader.cs:282 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in .\Library\PackageCache\com.unity.xr.oculus@3.3.0\Runtime\OculusLoader.cs:267 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <cbc72d4a9767498db39486e941a498e3>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <cbc72d4a9767498db39486e941a498e3>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <cbc72d4a9767498db39486e941a498e3>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <a034809d7c214f51bd2d2d89aa481461>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.137 seconds
-Domain Reload Profiling:
-	ReloadAssembly (320ms)
-		BeginReloadAssembly (204ms)
+	ReloadAssembly (213ms)
+		BeginReloadAssembly (132ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (56ms)
-		LoadAllAssembliesAndSetupDomain (778ms)
-			LoadAssemblies (375ms)
+			CreateAndSetChildDomain (24ms)
+		LoadAllAssembliesAndSetupDomain (755ms)
+			LoadAssemblies (506ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (498ms)
-				TypeCache.Initialize (480ms)
-					TypeCache.ScanAssembly (471ms)
-				ResolveRequiredComponents (12ms)
+			SetupTypeCache (308ms)
+				TypeCache.Initialize (278ms)
+					TypeCache.ScanAssembly (272ms)
+				ResolveRequiredComponents (6ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (543ms)
+			SetupLoadedEditorAssemblies (591ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (24ms)
-				SetLoadedEditorAssemblies (5ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (3ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (99ms)
-				ProcessInitializeOnLoadAttributes (352ms)
-				ProcessInitializeOnLoadMethodAttributes (51ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (431ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
 				AfterProcessingInitializeOnLoad (11ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
-Refreshing native plugins compatible for Editor in 9.23 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.04 ms.
-Unloading 4654 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 62 unused Assets / (1.3 MB). Loaded Objects now: 5225.
-Memory consumption went from 150.7 MB to 149.4 MB.
-Total: 3.539600 ms (FindLiveObjects: 0.314900 ms CreateObjectMapping: 0.283600 ms MarkObjects: 2.702800 ms  DeleteObjects: 0.237500 ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 17.31 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 4746 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 83 unused Assets / (1.3 MB). Loaded Objects now: 5214.
+Memory consumption went from 166.6 MB to 165.2 MB.
+Total: 5.644400 ms (FindLiveObjects: 0.519600 ms CreateObjectMapping: 0.155300 ms MarkObjects: 4.549500 ms  DeleteObjects: 0.418300 ms)
 
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
@@ -431,8 +201,827 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: ?????終了????????????要求????、I/O ?理?中止?????。
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+========================================================================
+Received Import Request.
+  Time since last request: 157288.335441 seconds.
+  path: Assets/Scenes/Assessment.unity
+  artifactKey: Guid(fd4e03f88de95a74ebfce45e192ea7de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Assessment.unity using Guid(fd4e03f88de95a74ebfce45e192ea7de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ac3ff764247c91ef7d4f21cdd35e0c4') in 0.001964 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 88.063338 seconds.
+  path: Assets/XRI_Examples/ActivateInteractables/Prefabs/ActivateInteractableWithTrigger.prefab
+  artifactKey: Guid(f49dc5cd64a1e004c988509fc919b348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/ActivateInteractables/Prefabs/ActivateInteractableWithTrigger.prefab using Guid(f49dc5cd64a1e004c988509fc919b348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62936c1e9079bfe109b550e58a30b7c8') in 0.024858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.645020 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Air_Duct_01_10m_Prefab_01.prefab
+  artifactKey: Guid(d36f3217ea810ab4ea3efa7e16c71aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Air_Duct_01_10m_Prefab_01.prefab using Guid(d36f3217ea810ab4ea3efa7e16c71aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bdc970402f5d8053724f5bc8624b4c8') in 0.232771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.422818 seconds.
+  path: Assets/XRI_Examples/Environment/Prefabs/ArchLower.prefab
+  artifactKey: Guid(6d2ee135bb188a54cbb49d6319074b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/Environment/Prefabs/ArchLower.prefab using Guid(6d2ee135bb188a54cbb49d6319074b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec24824078b3567b90ecb47654a4d737') in 0.126915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Button/Basic - Outline Only Icon/Blue.prefab
+  artifactKey: Guid(3d726bfa6e6285e448a8804e1c226337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Prefabs/Button/Basic - Outline Only Icon/Blue.prefab using Guid(3d726bfa6e6285e448a8804e1c226337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b584f09b4ea0c7f240f33f083d94a5c4') in 0.014264 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Prefabs/BigShelves/BigShelves04Group3.prefab
+  artifactKey: Guid(33b0ccce357f31747b62ba0577c83d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Prefabs/BigShelves/BigShelves04Group3.prefab using Guid(33b0ccce357f31747b62ba0577c83d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd99f2d30ca372c28c5671b5a7f1d96d7') in 0.148224 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Prefabs/BigShelves/BigShelves01Group4.prefab
+  artifactKey: Guid(245be08a51c17524e97be2b0d7dc657d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Prefabs/BigShelves/BigShelves01Group4.prefab using Guid(245be08a51c17524e97be2b0d7dc657d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6efa11e3a57757bb9355cdd615a61230') in 0.166225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Prefabs/BigShelves/BigShelvesWoodBox.prefab
+  artifactKey: Guid(00637ebf95730f74dbf9c7ca6e807039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Prefabs/BigShelves/BigShelvesWoodBox.prefab using Guid(00637ebf95730f74dbf9c7ca6e807039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1debcce2a3399b2f836110539b2be1af') in 0.020253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Air_Duct_01_2m_Prefab_01.prefab
+  artifactKey: Guid(9f0beeaea1b73af4095c93b67341a366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Air_Duct_01_2m_Prefab_01.prefab using Guid(9f0beeaea1b73af4095c93b67341a366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c740642f13fc837d21534c27d79cf938') in 0.037100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Prefabs/BigShelves/BigShelves03Group2.prefab
+  artifactKey: Guid(29a5ff804c830e245a45dec0b19cf535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Prefabs/BigShelves/BigShelves03Group2.prefab using Guid(29a5ff804c830e245a45dec0b19cf535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '367933dbc77e5fe95d3865e696731301') in 0.066719 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Beam_02_5m_Prefab_01.prefab
+  artifactKey: Guid(a845902fedb478d45b532c9e318713e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Beam_02_5m_Prefab_01.prefab using Guid(a845902fedb478d45b532c9e318713e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '453693bd708b401a23a21f5c1d7380f6') in 0.041582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Prefabs/BigShelves/BigShelves02Group3.prefab
+  artifactKey: Guid(aab64bbd5413eab4fb22df6c7da2f78c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Prefabs/BigShelves/BigShelves02Group3.prefab using Guid(aab64bbd5413eab4fb22df6c7da2f78c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d1fb0b29bdc6666db154ccbc8f01b79') in 0.248172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Button/Basic - With Icon/Blue.prefab
+  artifactKey: Guid(f63e7af37cc635a48a0de550afaf79c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Prefabs/Button/Basic - With Icon/Blue.prefab using Guid(f63e7af37cc635a48a0de550afaf79c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb7d442e60a0e653fda755dfb1749b41') in 0.068402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/XRI_Examples/Environment/Prefabs/ArchUpper.prefab
+  artifactKey: Guid(f51f6d45a56fb3c43931d54874ea9042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/Environment/Prefabs/ArchUpper.prefab using Guid(f51f6d45a56fb3c43931d54874ea9042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4153c17fc950bde01eba741a44e65a4') in 0.010740 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Prefabs/BigShelves/BigShelves02.prefab
+  artifactKey: Guid(44fe7fe72743ff14ba7bce1407d3b7e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Prefabs/BigShelves/BigShelves02.prefab using Guid(44fe7fe72743ff14ba7bce1407d3b7e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65f2ef6aa02d20ae38cc7c13a6c6950f') in 0.030549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Prefabs/BigShelves/BigShelves04Group1.prefab
+  artifactKey: Guid(6a70907ae9566224e9be12f3b2edc0ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Prefabs/BigShelves/BigShelves04Group1.prefab using Guid(6a70907ae9566224e9be12f3b2edc0ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d7aa6022c3598e8c582f457b2097a2d') in 0.038919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Button/Rounded/Blue.prefab
+  artifactKey: Guid(47c26c0ae6fda4a4396e496d4510e6a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Prefabs/Button/Rounded/Blue.prefab using Guid(47c26c0ae6fda4a4396e496d4510e6a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ffaeace4f8135a9ea22e1cdae6de657') in 0.035349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Prefabs/BigShelves/BigShelves03Group4.prefab
+  artifactKey: Guid(1ee31e7792182e94c8ecbc176cd79256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Prefabs/BigShelves/BigShelves03Group4.prefab using Guid(1ee31e7792182e94c8ecbc176cd79256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26df39a4886678160931b1b23e757ec6') in 0.113490 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 56
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Button/Basic - Outline With Icon/Blue.prefab
+  artifactKey: Guid(def12f27a97a60a43a7467901ebc5dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Prefabs/Button/Basic - Outline With Icon/Blue.prefab using Guid(def12f27a97a60a43a7467901ebc5dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4493fc468a5436d092da800efa7b718d') in 0.032153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 67
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Air_Duct_01_Corner_01_Prefab_01.prefab
+  artifactKey: Guid(48d1bb5c795ae1848925fdef96a30bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Air_Duct_01_Corner_01_Prefab_01.prefab using Guid(48d1bb5c795ae1848925fdef96a30bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c68541c262ac4488b8c6ba11da56351') in 0.034580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Prefabs/BigShelves/BigShelves02Group1.prefab
+  artifactKey: Guid(11adf4e818f241843bb14a96d16e4f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Prefabs/BigShelves/BigShelves02Group1.prefab using Guid(11adf4e818f241843bb14a96d16e4f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c57a3a2dbab1feda0eca086bad8aaea9') in 0.046942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Button/Rounded - Outline/Blue.prefab
+  artifactKey: Guid(4d478a439c81e6843ba3a9f7f2eb3d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Prefabs/Button/Rounded - Outline/Blue.prefab using Guid(4d478a439c81e6843ba3a9f7f2eb3d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6945b79ffa3f622035c6ae4ab5c9d013') in 0.042148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 57
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Prefabs/BigShelves/BigShelves01Group3.prefab
+  artifactKey: Guid(0298c1c3d51493d4d8c72960c0e4c835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Prefabs/BigShelves/BigShelves01Group3.prefab using Guid(0298c1c3d51493d4d8c72960c0e4c835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9ff229d939dc89fab24e624d3f14592') in 0.050984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 44
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.3.1/Starter Assets/Prefabs/Teleport/Blocking Teleport Reticle.prefab
+  artifactKey: Guid(a3fde713df4d99042a0403c4be9eea32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.3.1/Starter Assets/Prefabs/Teleport/Blocking Teleport Reticle.prefab using Guid(a3fde713df4d99042a0403c4be9eea32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '373eb672df76b63e96f18ac0790caf19') in 0.013015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Prefabs/BigShelves/BigShelves01Group2.prefab
+  artifactKey: Guid(10b8b370ea3b41644a7907d6854d9719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Prefabs/BigShelves/BigShelves01Group2.prefab using Guid(10b8b370ea3b41644a7907d6854d9719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec28fbc3bc74cfe847c28f70c8f323bb') in 0.167720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Water Effects/Prefabs/BigSplash.prefab
+  artifactKey: Guid(c1c88308ebb5d2541a282905b854ee4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Water Effects/Prefabs/BigSplash.prefab using Guid(c1c88308ebb5d2541a282905b854ee4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b1293cc4a48c17026e23741705b358c') in 0.183447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Prefabs/BigShelves/BigShelves03.prefab
+  artifactKey: Guid(b9f96ac780290b446b58e00abe0514ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Prefabs/BigShelves/BigShelves03.prefab using Guid(b9f96ac780290b446b58e00abe0514ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60449224556e1a8e87796970bbb9d703') in 0.026655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Prefabs/BigShelves/BigShelves04Group4.prefab
+  artifactKey: Guid(76cdcaaf23c740a4d994bfffe43a472c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Prefabs/BigShelves/BigShelves04Group4.prefab using Guid(76cdcaaf23c740a4d994bfffe43a472c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5054ce5657e41a11801ebe5b52181ea') in 0.080856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Prefabs/BigShelves/BigShelves01Group5.prefab
+  artifactKey: Guid(8530ad2b16fb0b64e84d14f1b5c8dc47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Prefabs/BigShelves/BigShelves01Group5.prefab using Guid(8530ad2b16fb0b64e84d14f1b5c8dc47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbab1fcb5134011002971a96646c772b') in 0.128483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Prefabs/BigShelves/BigShelves02Group5.prefab
+  artifactKey: Guid(ce82a9060ee2f7c49a67f6e40d0ff34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Prefabs/BigShelves/BigShelves02Group5.prefab using Guid(ce82a9060ee2f7c49a67f6e40d0ff34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '766bd3384427687294ddb4e760069663') in 0.148970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Prefabs/BigShelves/BigShelves03Group1.prefab
+  artifactKey: Guid(72c69a732c66f1f49b6590fae0e0dc25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Prefabs/BigShelves/BigShelves03Group1.prefab using Guid(72c69a732c66f1f49b6590fae0e0dc25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10896d7e53a0ea7857fa8f173de5a7b4') in 0.070687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Button/Radial - Outline Only Icon/Blue.prefab
+  artifactKey: Guid(be94f42f578668e4eae16f9204baf5fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Prefabs/Button/Radial - Outline Only Icon/Blue.prefab using Guid(be94f42f578668e4eae16f9204baf5fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e2920e9ef1ccefe710ed05ec2ee442d') in 0.008792 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Modern UI Pack/Prefabs/Button/Basic - Outline Gradient/Blue.prefab
+  artifactKey: Guid(c83b828b4cbce32478ca503b50614a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern UI Pack/Prefabs/Button/Basic - Outline Gradient/Blue.prefab using Guid(c83b828b4cbce32478ca503b50614a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25d5be0c9aea0e746260da59c100f6e7') in 0.039499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 60
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Prefabs/BigShelves/BigShelves02Group2.prefab
+  artifactKey: Guid(1a3188bed36b5594c99ca26525dc4da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Prefabs/BigShelves/BigShelves02Group2.prefab using Guid(1a3188bed36b5594c99ca26525dc4da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d6bf0413e30c2fad5557c2cd542739a') in 0.078214 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 44
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Textures/Forklift03.png
+  artifactKey: Guid(7953bca35694bd0478785ca6e7e314d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Textures/Forklift03.png using Guid(7953bca35694bd0478785ca6e7e314d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08fa2fa65920ce30d6d6e7ab0293638a') in 0.028585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/CyberneticWalrus/Factory_Props_Vol1/Models/Colliders/Forklift_01_Collider.fbx
+  artifactKey: Guid(939b96f09ef3a364a93cba85d13e37e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberneticWalrus/Factory_Props_Vol1/Models/Colliders/Forklift_01_Collider.fbx using Guid(939b96f09ef3a364a93cba85d13e37e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c16971f6f4659edc8fc47a88c7929f81') in 0.043318 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Models/Materials/Forklift01_cables.mat
+  artifactKey: Guid(b268d905e2e6c3749b04a133e6c55bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Models/Materials/Forklift01_cables.mat using Guid(b268d905e2e6c3749b04a133e6c55bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2312f0f16424765659b79c419aed632d') in 0.045498 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Prefabs/Forklifts/Forklift03.prefab
+  artifactKey: Guid(ed7d3b4c9e8852c4a979eef3bef31a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Prefabs/Forklifts/Forklift03.prefab using Guid(ed7d3b4c9e8852c4a979eef3bef31a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba8074ba699236b110562c5a57bfbf33') in 0.277638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/CyberneticWalrus/Factory_Props_Vol1/Models/Colliders/Forklift_01_Front_01_Collider.fbx
+  artifactKey: Guid(bbcb050b0c7ffd14a87be16532563d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberneticWalrus/Factory_Props_Vol1/Models/Colliders/Forklift_01_Front_01_Collider.fbx using Guid(bbcb050b0c7ffd14a87be16532563d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c73c40a9a165e039c1d617bb482e778f') in 0.015839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/CyberneticWalrus/Factory_Props_Vol1/Models/Forklift_01_Front_01.fbx
+  artifactKey: Guid(977768ed7ca4be24b9fb5d37faf1ef72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberneticWalrus/Factory_Props_Vol1/Models/Forklift_01_Front_01.fbx using Guid(977768ed7ca4be24b9fb5d37faf1ef72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a6373a76f19fbd8355a689473cdb79d') in 0.212865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/CyberneticWalrus/Factory_Props_Vol1/Textures/Forklift_01/Forklift_01_Chain_C.png
+  artifactKey: Guid(0198f07a084fce74fb93f209ca958532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberneticWalrus/Factory_Props_Vol1/Textures/Forklift_01/Forklift_01_Chain_C.png using Guid(0198f07a084fce74fb93f209ca958532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02343d4842564fc021470d2c92e44851') in 0.011718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/CyberneticWalrus/Factory_Props_Vol1/Models/Forklift_01.fbx
+  artifactKey: Guid(d327e8e9c1a452b48a5cfed639f7ad5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberneticWalrus/Factory_Props_Vol1/Models/Forklift_01.fbx using Guid(d327e8e9c1a452b48a5cfed639f7ad5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51f3d7a17077f58148e200e50d5583b7') in 0.292696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/CyberneticWalrus/Factory_Props_Vol1/Models/Materials/Forklift_01_Front.mat
+  artifactKey: Guid(6a27f8f5dc0d54540a8139e7cb9039bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberneticWalrus/Factory_Props_Vol1/Models/Materials/Forklift_01_Front.mat using Guid(6a27f8f5dc0d54540a8139e7cb9039bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a5b172a379604e9f4ea0f1cddb8db52') in 0.131183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.3.1/Starter Assets/Prefabs/UI_2D/Forklift Option 1.prefab
+  artifactKey: Guid(70efc45f96cf5a64abfaf0ba07edd608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.3.1/Starter Assets/Prefabs/UI_2D/Forklift Option 1.prefab using Guid(70efc45f96cf5a64abfaf0ba07edd608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9ef45d8725750597444fbec94dbc664') in 0.013348 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Models/Materials/Forklift03.mat
+  artifactKey: Guid(474fff65b1f63f24ead8e7e105dac59f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Models/Materials/Forklift03.mat using Guid(474fff65b1f63f24ead8e7e105dac59f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d99053441b6beabdfa352b1cd5c68d9') in 0.019830 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.3.1/Starter Assets/Prefabs/UI_2D/Forklift Option 2.prefab
+  artifactKey: Guid(4eabca1230032f84ab75eb431df7b507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.3.1/Starter Assets/Prefabs/UI_2D/Forklift Option 2.prefab using Guid(4eabca1230032f84ab75eb431df7b507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '656f7e77d9b1fca370b2bc4024597ae5') in 0.003768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Textures/Forklift01.png
+  artifactKey: Guid(11c9255717cef344087c913b6ece15b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Textures/Forklift01.png using Guid(11c9255717cef344087c913b6ece15b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74d045cae591ca95fde795c78004124c') in 0.049205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/CyberneticWalrus/Factory_Props_Vol1/Models/Materials/Forklift_01_Chain.mat
+  artifactKey: Guid(0613fe8b0da39f14e9c568b66db7f5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberneticWalrus/Factory_Props_Vol1/Models/Materials/Forklift_01_Chain.mat using Guid(0613fe8b0da39f14e9c568b66db7f5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '670d2b9c9fd2e0f902c7d1a5ce5820f4') in 0.011812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CyberneticWalrus/Factory_Props_Vol1/Models/Forklift_01_Front_02.fbx
+  artifactKey: Guid(724cf69bd4d2f874fbf55ae562c68533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberneticWalrus/Factory_Props_Vol1/Models/Forklift_01_Front_02.fbx using Guid(724cf69bd4d2f874fbf55ae562c68533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c357be60bfe9c16694774964c4d4bb81') in 0.127841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CyberneticWalrus/Factory_Props_Vol1/Textures/Forklift_01/Forklift_01_Chain_N.png
+  artifactKey: Guid(5af13f9cbe9855a4e92599ec684a2c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberneticWalrus/Factory_Props_Vol1/Textures/Forklift_01/Forklift_01_Chain_N.png using Guid(5af13f9cbe9855a4e92599ec684a2c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2b2d42fe2004b15567584f2760e7f04') in 0.009779 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Models/Forklift03.FBX
+  artifactKey: Guid(0c463d6661317184289f107b9211a248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Models/Forklift03.FBX using Guid(0c463d6661317184289f107b9211a248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ce9fcbb4b265b309aa6da23ffc8107d') in 0.094368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Models/Forklift02.FBX
+  artifactKey: Guid(4c269d1c86dffcc4c8ec7c731d471b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Models/Forklift02.FBX using Guid(4c269d1c86dffcc4c8ec7c731d471b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '338a7d6935f4e2f393765c43409ecd29') in 0.345072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/CyberneticWalrus/Factory_Props_Vol1/Textures/Forklift_01/Forklift_01_Body_N.png
+  artifactKey: Guid(c6b61f411b7da8f4c9e769c67b769dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberneticWalrus/Factory_Props_Vol1/Textures/Forklift_01/Forklift_01_Body_N.png using Guid(c6b61f411b7da8f4c9e769c67b769dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '656f138697b934e9e4e6a28e5a7a3901') in 0.034407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/CyberneticWalrus/Factory_Props_Vol1/Models/Colliders/Forklift_01_Front_02_Collider.fbx
+  artifactKey: Guid(2d5ca0c422ea0324c9bfe6eb743e2a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberneticWalrus/Factory_Props_Vol1/Models/Colliders/Forklift_01_Front_02_Collider.fbx using Guid(2d5ca0c422ea0324c9bfe6eb743e2a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39d75716d202f4fe2e800439140bd954') in 0.011032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Prefabs/Forklifts/Forklift02.prefab
+  artifactKey: Guid(ca617418dc671f44b8bcd7662087ad32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Prefabs/Forklifts/Forklift02.prefab using Guid(ca617418dc671f44b8bcd7662087ad32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83624a6e4bd3ffa8557b6f1c3bcc6dac') in 0.071483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Textures/Forklift02.png
+  artifactKey: Guid(d71e3f520d869ec4d9a8681a04b1c5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Textures/Forklift02.png using Guid(d71e3f520d869ec4d9a8681a04b1c5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b073d2e572009cd617103a2dec4d29b1') in 0.029345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Models/Forklift01.FBX
+  artifactKey: Guid(10ff205f5d416e641beeebccf0d48506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Models/Forklift01.FBX using Guid(10ff205f5d416e641beeebccf0d48506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83f70a4bb15a2424fac1f856b0ae9411') in 0.133411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.3.1/Starter Assets/Prefabs/UI_2D/Forklift Option 4.prefab
+  artifactKey: Guid(313a4a472581dd14ba5282aee55d5abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.3.1/Starter Assets/Prefabs/UI_2D/Forklift Option 4.prefab using Guid(313a4a472581dd14ba5282aee55d5abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9256933f50e9873c0119ead512580438') in 0.003736 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.3.1/Starter Assets/Prefabs/UI_2D/Forklift Option 3.prefab
+  artifactKey: Guid(78ed75a3b174fa94a972e70627e31ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.3.1/Starter Assets/Prefabs/UI_2D/Forklift Option 3.prefab using Guid(78ed75a3b174fa94a972e70627e31ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f9aa76eb205bbf7cc42242adf088eb') in 0.002902 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Models/Materials/Forklift02.mat
+  artifactKey: Guid(ea84333a40aa7c04aa036b47fd031556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Models/Materials/Forklift02.mat using Guid(ea84333a40aa7c04aa036b47fd031556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f539aa0d2e667a600d9caa0c8392785') in 0.029788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Models/Materials/Forklift01.mat
+  artifactKey: Guid(22fc517b5b0abe24888ca1cf523ff6e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Models/Materials/Forklift01.mat using Guid(22fc517b5b0abe24888ca1cf523ff6e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ead75b0c23e23de2f6f48213af08bf14') in 0.027079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CyberneticWalrus/Factory_Props_Vol1/Textures/Forklift_01/Forklift_01_Body_AO.png
+  artifactKey: Guid(227ed894948b04c4dbd589e287168fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberneticWalrus/Factory_Props_Vol1/Textures/Forklift_01/Forklift_01_Body_AO.png using Guid(227ed894948b04c4dbd589e287168fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '909d80ff5c6b5cf2d3f1c2a56961b8b1') in 0.029294 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CyberneticWalrus/Factory_Props_Vol1/Textures/Forklift_01/Forklift_01_Body_C.png
+  artifactKey: Guid(c2ba6d61d19a6c34bb67eab13ea56fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberneticWalrus/Factory_Props_Vol1/Textures/Forklift_01/Forklift_01_Body_C.png using Guid(c2ba6d61d19a6c34bb67eab13ea56fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c7a731587b0ccea4a5d0abfd8168912') in 0.036761 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/CyberneticWalrus/Factory_Props_Vol1/Models/Materials/Forklift_01_Body.mat
+  artifactKey: Guid(f2071a045e1bcf948b130d7adc016074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberneticWalrus/Factory_Props_Vol1/Models/Materials/Forklift_01_Body.mat using Guid(f2071a045e1bcf948b130d7adc016074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9eb06c9b2fc27319b4b2b2d98acae12') in 0.223848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/CyberneticWalrus/Factory_Props_Vol1/Textures/Forklift_01/Forklift_01_Chain_AO.png
+  artifactKey: Guid(10d7c7abc0c8985478cb2506641f7676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberneticWalrus/Factory_Props_Vol1/Textures/Forklift_01/Forklift_01_Chain_AO.png using Guid(10d7c7abc0c8985478cb2506641f7676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed18f67035c0e4c3e475678b69d7711f') in 0.013345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/XRI_Examples/SocketInteractors/Prefabs/Battery.prefab
+  artifactKey: Guid(b1b1dbeb4f4711945b5b2d72116081bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI_Examples/SocketInteractors/Prefabs/Battery.prefab using Guid(b1b1dbeb4f4711945b5b2d72116081bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5d47739dc2124e24c36654d689abbb4') in 0.094958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 51
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Air_Duct_01_Corner_02_Prefab_01.prefab
+  artifactKey: Guid(531634be2d8a84442b4e63ba4e8f9b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Air_Duct_01_Corner_02_Prefab_01.prefab using Guid(531634be2d8a84442b4e63ba4e8f9b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '763af5a58966f5619f0b938e5b17c2e4') in 0.044509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Prefabs/BigShelves/BigShelves02Group4.prefab
+  artifactKey: Guid(c322aaac81839b34180ac68967fefe07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Prefabs/BigShelves/BigShelves02Group4.prefab using Guid(c322aaac81839b34180ac68967fefe07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a5e6ab91f256c95dae766063c28a96c') in 0.150911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Prefabs/Forklifts/Forklift01.prefab
+  artifactKey: Guid(8a2dea2d1eaf52746b10b26175bed577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Prefabs/Forklifts/Forklift01.prefab using Guid(8a2dea2d1eaf52746b10b26175bed577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c24a9a5c0e79596c95c044fb035c4f78') in 0.103477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Prefabs/BigShelves/BigShelves01.prefab
+  artifactKey: Guid(52ff0345236fa6344ae827b0bae20c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Prefabs/BigShelves/BigShelves01.prefab using Guid(52ff0345236fa6344ae827b0bae20c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6b06aa2509a790fcfad690c13e8c08b') in 0.037363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Cybernetic Walrus/Factory Interior/Prefabs/Beam_01_10m_Prefab_01.prefab
+  artifactKey: Guid(d14be1a56b99bf544873c5036097bd21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cybernetic Walrus/Factory Interior/Prefabs/Beam_01_10m_Prefab_01.prefab using Guid(d14be1a56b99bf544873c5036097bd21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37d15248772f85a9878cb7b9661cd7b9') in 0.069416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/CyberneticWalrus/Factory_Props_Vol1/Textures/Forklift_01/Forklift_01_Chain_MS.png
+  artifactKey: Guid(61e134006fc35ae419cc23f80013aab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberneticWalrus/Factory_Props_Vol1/Textures/Forklift_01/Forklift_01_Chain_MS.png using Guid(61e134006fc35ae419cc23f80013aab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49bd87398cc79f96b4b31b1321f9fdb6') in 0.014861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Prefabs/BigShelves/BigShelves01Group1.prefab
+  artifactKey: Guid(febf349bdb701e84aba2dcefbe583632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Prefabs/BigShelves/BigShelves01Group1.prefab using Guid(febf349bdb701e84aba2dcefbe583632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2719719fc60d1470b56fd0355406b5d8') in 0.089645 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Textures/Forklift01_cables.png
+  artifactKey: Guid(08ff9e01775c5974fbee2ff80482b932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Textures/Forklift01_cables.png using Guid(08ff9e01775c5974fbee2ff80482b932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '368f2a12ed87228487991a9149f424b4') in 0.014755 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/CyberneticWalrus/Factory_Props_Vol1/Textures/Forklift_01/Forklift_01_Body_MS.png
+  artifactKey: Guid(962a23f87374a6c46b146ac5db0f90f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberneticWalrus/Factory_Props_Vol1/Textures/Forklift_01/Forklift_01_Body_MS.png using Guid(962a23f87374a6c46b146ac5db0f90f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5b3cb709fb9c7780d08caaaf6e4f485') in 0.053361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 15.274219 seconds.
+  path: Assets/CyberneticWalrus/Factory_Props_Vol1/Textures/Forklift_01/Forklift_01_Front_C.png
+  artifactKey: Guid(ce6a87ba5f61f27428fc6baab0a16efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberneticWalrus/Factory_Props_Vol1/Textures/Forklift_01/Forklift_01_Front_C.png using Guid(ce6a87ba5f61f27428fc6baab0a16efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee15b01d50405826f5e384f58cba7562') in 0.079196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/CyberneticWalrus/Factory_Props_Vol1/Prefabs/Forklift_01_Prefab_01.prefab
+  artifactKey: Guid(4d4304bee6e012e4fb2471ff85663c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberneticWalrus/Factory_Props_Vol1/Prefabs/Forklift_01_Prefab_01.prefab using Guid(4d4304bee6e012e4fb2471ff85663c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d3bc884c0055e2f8e9ea2235c86c90b') in 0.291746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 103
+========================================================================
+Received Import Request.
+  Time since last request: 0.356819 seconds.
+  path: Assets/CyberneticWalrus/Factory_Props_Vol1/Models/Materials/Forklift_02_Body.mat
+  artifactKey: Guid(b0b39ddd6def95842897ac49561cb3e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberneticWalrus/Factory_Props_Vol1/Models/Materials/Forklift_02_Body.mat using Guid(b0b39ddd6def95842897ac49561cb3e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77844f0ad2772c3856f2356650a75e11') in 0.222364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/CyberneticWalrus/Factory_Props_Vol1/Models/Materials/Forklift_02_Front.mat
+  artifactKey: Guid(c2345a487afed7543a99600eb2512a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberneticWalrus/Factory_Props_Vol1/Models/Materials/Forklift_02_Front.mat using Guid(c2345a487afed7543a99600eb2512a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4c0924b2229dac58b9dbb4304c57da7') in 0.121226 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.212731 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Models/Materials/Forklift_sit01.mat
+  artifactKey: Guid(513c35fd535c85848ac3de4dc996bd54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Models/Materials/Forklift_sit01.mat using Guid(513c35fd535c85848ac3de4dc996bd54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad96e2373bebbbf631645040ce55a220') in 0.076888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Textures/Forklift_wheel01.png
+  artifactKey: Guid(16e0eb23d8b670e4791a8edd6d81bbc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Textures/Forklift_wheel01.png using Guid(16e0eb23d8b670e4791a8edd6d81bbc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a912f74cdd05c1cdcfc2500d9fbbe11d') in 0.019171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 6.073889 seconds.
+  path: Assets/IGBlocks/IG_Warehouse/Textures/Forklift_wheel02.png
+  artifactKey: Guid(6567fe5fefdefb44a88dfc50283bb9fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IGBlocks/IG_Warehouse/Textures/Forklift_wheel02.png using Guid(6567fe5fefdefb44a88dfc50283bb9fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acf4627efb43a1025628433dde530538') in 0.021798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\hodex\Desktop\School\SAP\warehouse-simulator\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\hodex\Desktop\School\SAP\warehouse-simulator\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.766 seconds
+Refreshing native plugins compatible for Editor in 16.73 ms, found 13 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@3.3.0\Runtime\OculusLoader.cs:282 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in .\Library\PackageCache\com.unity.xr.oculus@3.3.0\Runtime\OculusLoader.cs:267 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <cbc72d4a9767498db39486e941a498e3>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <cbc72d4a9767498db39486e941a498e3>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <cbc72d4a9767498db39486e941a498e3>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <a034809d7c214f51bd2d2d89aa481461>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.485 seconds
+Domain Reload Profiling:
+	ReloadAssembly (264ms)
+		BeginReloadAssembly (191ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (72ms)
+		LoadAllAssembliesAndSetupDomain (497ms)
+			LoadAssemblies (303ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (257ms)
+				TypeCache.Initialize (250ms)
+					TypeCache.ScanAssembly (241ms)
+				ResolveRequiredComponents (7ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (595ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (438ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 17.10 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 4656 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (1.3 MB). Loaded Objects now: 5274.
+Memory consumption went from 229.0 MB to 227.7 MB.
+Total: 4.676400 ms (FindLiveObjects: 0.518800 ms CreateObjectMapping: 0.433700 ms MarkObjects: 3.305900 ms  DeleteObjects: 0.416800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\hodex\Desktop\School\SAP\warehouse-simulator\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\hodex\Desktop\School\SAP\warehouse-simulator\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.725 seconds
+Refreshing native plugins compatible for Editor in 16.30 ms, found 13 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@3.3.0\Runtime\OculusLoader.cs:282 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in .\Library\PackageCache\com.unity.xr.oculus@3.3.0\Runtime\OculusLoader.cs:267 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <cbc72d4a9767498db39486e941a498e3>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <cbc72d4a9767498db39486e941a498e3>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <cbc72d4a9767498db39486e941a498e3>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <a034809d7c214f51bd2d2d89aa481461>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.046 seconds
+Domain Reload Profiling:
+	ReloadAssembly (210ms)
+		BeginReloadAssembly (145ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		LoadAllAssembliesAndSetupDomain (508ms)
+			LoadAssemblies (302ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (255ms)
+				TypeCache.Initialize (248ms)
+					TypeCache.ScanAssembly (241ms)
+				ResolveRequiredComponents (7ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (523ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (375ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 18.08 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 4656 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 59 unused Assets / (1.3 MB). Loaded Objects now: 5278.
+Memory consumption went from 229.0 MB to 227.7 MB.
+Total: 5.110600 ms (FindLiveObjects: 0.459600 ms CreateObjectMapping: 0.156500 ms MarkObjects: 4.171600 ms  DeleteObjects: 0.321400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
