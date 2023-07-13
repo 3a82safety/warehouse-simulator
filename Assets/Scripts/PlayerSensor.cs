@@ -6,8 +6,9 @@ using UnityEngine.UI;
 public class PlayerSensor : MonoBehaviour
 {
     public GameObject UI;
+    public Collider UITrigger;
     
-    void OnTriggerEnter(Collider PlayerEnters)
+    void OnTriggerEnter(Collider UITrigger)
     {
         Debug.Log("Working!");
         UI.SetActive(true);
