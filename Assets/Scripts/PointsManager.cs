@@ -1,12 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class PointsManager : MonoBehaviour
 {
     public int points;
-    public Text pointText;
+    public TMP_Text pointText;
 
     void Start()
     {
@@ -15,7 +16,7 @@ public class PointsManager : MonoBehaviour
 
     public void Update()
     {
-        pointText.text = points.ToString() + " points!";
+        pointText.text = "You've gotten " + points.ToString() + " point(s)";
     }
 
     public void AddPoints()
