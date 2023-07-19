@@ -742,35 +742,29 @@
     <Reference Include="System.Xml.XPath.XDocument">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.2.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XPath.XDocument.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.XR.Management.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.Management.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.Management">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.Management.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TestRunner">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.TestRunner.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Unity.XR.Management.Editor.csproj">
-      <Project>{5965936E-4A78-9199-D8DA-FA91FDFE5857}</Project>
-      <Name>Unity.XR.Management.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.Samples.csproj">
       <Project>{78F2F3D8-AEDB-DC28-CAE4-2B506C02FB92}</Project>
       <Name>Unity.XR.Management.Samples</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.Management.csproj">
-      <Project>{7FD28C8D-5ED4-A7E6-4E9B-0B3E41DB1CE0}</Project>
-      <Name>Unity.XR.Management</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{19FDD549-4839-AC15-C6E0-1ADD7E40C39E}</Project>
-      <Name>UnityEditor.UI</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{CF842BBC-5032-1A91-2F3C-6EA25FA18DAE}</Project>
-      <Name>UnityEngine.UI</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{5BCD5D6B-A622-D481-3D4B-24999782804D}</Project>
-      <Name>UnityEditor.TestRunner</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{44B96E45-3752-4FA6-B319-D3D5760F94B0}</Project>
-      <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
