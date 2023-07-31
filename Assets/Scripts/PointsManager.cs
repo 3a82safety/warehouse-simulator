@@ -8,6 +8,12 @@ public class PointsManager : MonoBehaviour
 {
     public int points;
     public TMP_Text pointText;
+    public static PointsManager instance;
+
+    private void Awake()
+    {
+        instance = this;
+    }
 
     void Start()
     {
@@ -16,7 +22,7 @@ public class PointsManager : MonoBehaviour
 
     public void Update()
     {
-        pointText.text = "You've gotten " + points.ToString() + " point(s)";
+        pointText.text = points.ToString() + " Points";
     }
 
     public void AddPoints()
