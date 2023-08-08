@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 7480377493461452502}
   - component: {fileID: 732831058515351624}
   - component: {fileID: 3027956757251946692}
-  - component: {fileID: 1816861985005299791}
   - component: {fileID: 4796719890061946931}
+  - component: {fileID: 1816861985005299791}
   m_Layer: 0
   m_Name: WorkingSpill
   m_TagString: Untagged
@@ -85,6 +85,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &4796719890061946931
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1125419252669865034}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2, y: 2.0000005, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1816861985005299791
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -98,7 +119,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 0}
-  m_Colliders: []
+  m_Colliders:
+  - {fileID: 4796719890061946931}
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -186,24 +208,3 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
---- !u!65 &4796719890061946931
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1125419252669865034}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 2, y: 2.0000005, z: 0}
-  m_Center: {x: 0, y: 0, z: 0}
