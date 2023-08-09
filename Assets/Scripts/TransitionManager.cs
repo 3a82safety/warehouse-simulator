@@ -16,4 +16,9 @@ public class TransitionManager : MonoBehaviour
             SceneManager.LoadScene("MenuScene");
         }
     }
+
+    public void LoadZen()
+    {
+        SceneManager.LoadScene("Backup");
+    }
 }
