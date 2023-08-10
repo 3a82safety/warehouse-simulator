@@ -1,4 +1,0 @@
-Hello.. Thank you so much for buying this package. Spillage And Caution Sign, In this asset pack you will get two types of caution sing board one 'Caution wet floor' and other one is 'Caution Spillage'. Not only the sign boards you will get three types of spillage decal or wet floor decal.It has PBR texture maps and all the maps are in 2k resulution, you can reduce the size in Unity it self according to your project pipeline.This model has 1350 polys and created with multiple sub objects so that you can arrange in it your scene easily.Use the prefab so that you will not miss any shaders and you will not need to use any pluging or script for running this and it will work in all versions of Unity until that version support PBR maps
-
-Thank you
-SanuRenuArt

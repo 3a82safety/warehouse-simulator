@@ -19,6 +19,11 @@ public class TransitionManager : MonoBehaviour
 
     public void LoadZen()
     {
-        SceneManager.LoadScene("Backup");
+        SceneManager.LoadScene("ZenBad");
+    }
+
+    public void LoadXH()
+    {
+        SceneManager.LoadScene("XHBad");
     }
 }
