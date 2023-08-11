@@ -16,4 +16,14 @@ public class TransitionManager : MonoBehaviour
             SceneManager.LoadScene("MenuScene");
         }
     }
+
+    public void LoadZen()
+    {
+        SceneManager.LoadScene("ZenBad");
+    }
+
+    public void LoadXH()
+    {
+        SceneManager.LoadScene("XHBad");
+    }
 }
