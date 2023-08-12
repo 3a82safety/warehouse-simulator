@@ -13,17 +13,17 @@ public class TransitionManager : MonoBehaviour
         }
         else
         {
-            SceneManager.LoadScene("MenuScene");
+            SceneManager.LoadScene("Menu");
         }
     }
 
     public void LoadZen()
     {
-        SceneManager.LoadScene("ZenBad");
+        SceneManager.LoadScene("Zen");
     }
 
     public void LoadXH()
     {
-        SceneManager.LoadScene("XHBad");
+        SceneManager.LoadScene("XiangHao");
     }
 }
