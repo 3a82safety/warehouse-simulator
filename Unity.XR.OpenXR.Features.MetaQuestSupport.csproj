@@ -9,10 +9,10 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{79D922ED-BA36-A59B-34CD-A19D95CEB1FB}</ProjectGuid>
+    <ProjectGuid>{CDB708BC-FA0F-915F-BD9D-E5A80589B002}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>Unity.XR.Interaction.Toolkit.Samples.StarterAssets</AssemblyName>
+    <AssemblyName>Unity.XR.OpenXR.Features.MetaQuestSupport</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -58,14 +58,10 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.2.15f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Samples\XR Interaction Toolkit\2.3.1\Starter Assets\Scripts\ActionBasedControllerManager.cs" />
-    <Compile Include="Assets\Samples\XR Interaction Toolkit\2.3.1\Starter Assets\Scripts\DynamicMoveProvider.cs" />
-    <Compile Include="Assets\Samples\XR Interaction Toolkit\2.3.1\Starter Assets\Scripts\XRPokeFollowAffordance.cs" />
-    <Compile Include="Assets\Samples\XR Interaction Toolkit\2.3.1\Starter Assets\Scripts\GazeInputManager.cs" />
-    <Compile Include="Assets\Samples\XR Interaction Toolkit\2.3.1\Starter Assets\Scripts\PokeStation\IncrementUIText.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.openxr@1.7.0\MetaQuest\Runtime\MetaQuestFeature.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Samples\XR Interaction Toolkit\2.3.1\Starter Assets\Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef" />
+    <None Include="Library\PackageCache\com.unity.xr.openxr@1.7.0\MetaQuest\Runtime\Unity.XR.OpenXR.Features.MetaQuestSupport.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -730,21 +726,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Unity.InputSystem.csproj">
-      <Project>{34CD8B7D-B152-FA2F-A5D5-A8EAD201D1FC}</Project>
-      <Name>Unity.InputSystem</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.CoreUtils.csproj">
-      <Project>{D2D4821F-B776-2505-890A-7040C0D91E2E}</Project>
-      <Name>Unity.XR.CoreUtils</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.Interaction.Toolkit.csproj">
-      <Project>{F8A7ECFB-3407-8D27-EACC-C9B91CAA0F57}</Project>
-      <Name>Unity.XR.Interaction.Toolkit</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Mathematics.csproj">
-      <Project>{60EB6EF1-FCF6-AE0F-36F7-E0CC4ECF1D0B}</Project>
-      <Name>Unity.Mathematics</Name>
+    <ProjectReference Include="Unity.XR.OpenXR.csproj">
+      <Project>{41882C8A-7019-D24E-46CA-20111C24F9FB}</Project>
+      <Name>Unity.XR.OpenXR</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
       <Project>{19FDD549-4839-AC15-C6E0-1ADD7E40C39E}</Project>
