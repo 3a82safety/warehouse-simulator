@@ -24,7 +24,7 @@ public class GameStart : MonoBehaviour
         }
         else
         {
-            SceneManager.LoadScene("DexBad");
+            SceneManager.LoadScene("Dexter");
         }
     }
 }

@@ -74,7 +74,7 @@ public class TimerManager : MonoBehaviour
             secondsText = seconds.ToString();
         }
 
-        timeText.text = "Time: " + minutes + ":" + secondsText;
+        timeText.text = "Time Left : " + minutes + ":" + secondsText;
     }
 
     void ChangeScene()
