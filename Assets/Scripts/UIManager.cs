@@ -30,7 +30,7 @@ public class UIManager : MonoBehaviour
 
     public void openSettingsScreen()
     {
-        if (Input.GetKeyDown(KeyCode.G))
+        if (Input.GetKeyDown(KeyCode.N))
         {
             if (soundSettingsScreen.activeSelf)
             {

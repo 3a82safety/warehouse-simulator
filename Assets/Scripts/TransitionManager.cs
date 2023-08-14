@@ -26,4 +26,9 @@ public class TransitionManager : MonoBehaviour
     {
         SceneManager.LoadScene("XiangHao");
     }
+
+    public void LoadDex()
+    {
+        SceneManager.LoadScene("Dexter");
+    }
 }

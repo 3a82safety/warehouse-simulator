@@ -15,7 +15,7 @@ public class GameEvent : ScriptableObject
 		}
 		PointsManager.instance.AddPoints();
 		//Objects.instance.ObjectState();
-		Debug.Log("Working");
+		Debug.Log("GameEvent Working !");
 	}
 
 	public void RegisterListener(GameEventListener listener)

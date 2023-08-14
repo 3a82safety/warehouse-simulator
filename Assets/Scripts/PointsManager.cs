@@ -20,14 +20,24 @@ public class PointsManager : MonoBehaviour
         points = 0;
     }
 
-    public void Update()
+    public void UpdatePointsDisplay()
+{
+    if (pointText != null)
     {
         pointText.text = points.ToString() + " Points";
+        Debug.Log("1 Point Added");
     }
+    else
+    {
+        Debug.LogError("pointText is not assigned!");
+    }
+}
+
+
 
     public void AddPoints()
     {
         points++;
-        Debug.Log(points);
+        Debug.Log("AddPoints Function Executed");
     }
 }
